@@ -1,0 +1,30 @@
+<header role="banner">
+	<div class="navbar navbar-fixed-top navbar-default cl-effect-3">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ site.base_url }}/"><img src="{{ site.base_url }}/assets/img/box-fort-logo.png" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-nav-right">
+           <li{% if page.slug == "maletes" %} class="active"{% endif %}>
+				      <a href="{{ site.base_url }}/maletes">Maletes</a>
+		       </li>
+           <li{% if page.slug == "fundes-textil" %} class="active"{% endif %}>
+              <a href="{{ site.base_url }}/fundes-textil">Fundes tèxtil</a>
+           </li>
+           <li{% if page.slug == "altres" %} class="active"{% endif %}>
+              <a href="{{ site.base_url }}/altres">Altres</a>
+           </li>
+           <li{% if page.slug == "contacte" %} class="active"{% endif %}>
+              <a href="{{ site.base_url }}/contacte">Contacte</a>
+           </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+ </header>

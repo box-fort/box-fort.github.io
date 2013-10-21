@@ -1,0 +1,44 @@
+---
+layout: default
+class: blog-index
+slug: blog
+---
+
+<main class="ox-masthead" id="content" role="main">
+
+  <div class="container">
+
+    <div class="body-content blog">        
+
+      <ul class="breadcrumb">
+        <li><a href="{{ site.base_url }}/">Home</a></li>
+        <li class="active">News</li>
+      </ul>
+
+      <div class="page-header">
+        <h1>News</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-12 blog-list">
+          {% assign cardCount = 0 %}
+
+            {% for post in site.categories.no-cita %}      
+              {% include blog-card.html %}
+              {% assign cardCount = cardCount | plus: 1 %}      
+            {% endfor %}
+
+            {% if cardCount > 3 %}
+              {% assign firstThree = true %}
+              {% include next-ten.html %}
+            {% endif %}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>

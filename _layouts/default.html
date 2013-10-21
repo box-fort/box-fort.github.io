@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include header.html %}
+    <!-- Place anything custom after this. -->
+  </head>
+  <body class="vx-{{ page.slug }} {{ page.class }}">
+    <a class="sr-only" href="#content">Skip navigation</a>
+
+    
+    {% include nav-main.html %}
+
+    
+    {{ content }}
+
+    <footer role="contentinfo">
+      <div class="footer-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1 col-lg-1">
+              <p><img src="{{ site.base_url }}/assets/img/vortex-logo-footer.png" /></p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p>
+                <small><a href="/"><strong>Home</strong></a></small>
+              </p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p>
+                <small><a href="{{ site.base_url }}/markets/"><strong>Markets</strong></a>
+                  <br/><a href="{{ site.base_url }}/markets/wind-and-site.html">Wind & site</a>
+                  <br/><a href="{{ site.base_url }}/markets/forecast.html">Forecast</a>
+                  <br/><a href="{{ site.base_url }}/markets/solar.html">Solar</a>
+                  <br/><a href="{{ site.base_url }}/markets/offshore.html">Offshore</a>
+                  <br/><a href="{{ site.base_url }}/markets/references.html">References</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p>
+                <small><a href="{{ site.base_url }}/solutions/"><strong>Solutions</strong></a>
+                  <br/><a href="{{ site.base_url }}/solutions/maps.html">MAPS</a>
+                  <br/><a href="{{ site.base_url }}/solutions/mast.html">MAST</a>
+                  <br/><a href="{{ site.base_url }}/solutions/farm.html">FARM</a>
+                  <br/><a href="{{ site.base_url }}/solutions/series.html">SERIES</a>
+                  <br/><a href="{{ site.base_url }}/solutions/icing.html">ICING</a>
+                  <br/>WAWES
+                  <br/>FUTURE
+                  <br/>Pricing
+                </small>
+              </p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p>
+                <small><strong>Why Vortex?</strong>
+                  <br/><a href="{{ site.base_url }}/about-us/">Abaout Us</a>
+                  <br/>Accuracy
+                  <br/>Ask Gil
+                </small>
+              </p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p><small><strong>Get Started</strong></small></p>
+            </div>
+            <div class="col-sm-1 col-lg-1">
+              <p><small><a href="{{ site.base_url }}/blog/"><strong>News</strong></a></small></p>
+            </div>
+            <div class="col-sm-2 col-lg-2 col-sm-offset-1 col-lg-offset-1">
+              <p><small>&copy; Vortex 2013<br/>Terms of Use Privacy Policy</small></p>
+            </div>
+            <div class="col-sm-2 col-lg-2">
+              <p class="text-right"><a href="#" title="Twitter" rel="external"><i class="icon-twitter icon-large"></i></a> <a href="#" title="Facebook" rel="external"><i class="icon-linkedin icon-large"></i></a> <a href="mailto:info@oxygen.cat" title="Correu-e" rel="external"><i class="icon-envelope icon-large"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    {% include footer.html %}
+
+  </body>
+</html>

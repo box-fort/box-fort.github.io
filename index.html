@@ -1,0 +1,124 @@
+---
+layout: home
+slug: home
+title: Boxfort, maletes i contenidors professionals
+keywords: online, wind, modeling, forecast, solar, offshore
+---
+
+<main class="vx-masthead" id="content" role="main">
+
+	<!-- Carousel
+	================================================== -->
+	<div id="myCarouselHomeVortex" class="carousel slide carousel-vortex-home">
+	<!-- Indicators -->
+		<ol class="carousel-indicators">
+		{% assign count = '-1' %}
+			{% for post in site.tags.slideshow limit:5 %}
+				{% if post.tags contains 'slideshow' %}
+					{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+					{% if count == '0' %}
+					<li data-target="#myCarouselHomeVortex" data-slide-to="{{ count }}" class="active">
+					{% else if %}
+					<li data-target="#myCarouselHomeVortex" data-slide-to="{{ count }}">
+					{% endif %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ol>
+		<div class="carousel-inner">
+			{% assign count = '0' %}
+			{% for post in site.tags.slideshow limit:5 %}
+			{% if post.tags contains 'slideshow' %}
+				{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+				{% if count == '1' %}
+				<div class="item active">
+				{% else if %}
+				<div class="item">
+				{% endif %}
+					{% if post.featured-img-url %}
+					<div class="container">
+						<img src="{{site.baseurl}}/assets/img/{{post.featured-img-url}}">
+			            <div class="carousel-caption">
+			              	<h1>
+			              	{% if post.title == 'Vortex' %}
+				              	<strong>{{ post.title }}</strong>, {{ post.subtitle }}
+				             {% else if %}
+				             	<a href="{{site.baseurl}}/markets/{{ post.url }}.html"><strong>{{ post.title }}</strong></a>, {{ post.subtitle }}
+				             {% endif %}
+			              	</h1>
+			              	<h4>{{ post.excerpt }}</h4>
+			            </div>
+			         </div>	
+					
+					{% else if %}
+					<div class="container">
+			            <div class="carousel-caption">
+			              	<h1>
+				              	<a href="{{site.baseurl}}/markets/{{ post.url }}.html"><strong>{{ post.title }}</strong>, {{ post.subtitle }}</a>
+		              		</h1>
+			              	<h4>{{ post.excerpt }}</h4>
+			            </div>
+					
+					{% endif %}
+				</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+	<a class="left carousel-control" href="#myCarouselHomeVortex" data-slide="prev"></a>
+	<a class="right carousel-control" href="#myCarouselHomeVortex" data-slide="next"></a>
+	</div><!-- /.carousel -->
+
+	<!-- iconMarkets
+	================================================== -->
+
+	<div id="marketsIconHome" class="jumbotron jumbotron-white jumbotron-no-margin full-width cl-effect-3">
+
+		<div class="container">
+
+	  		<div class="row">
+	  			<div class="col-md-3 col-sm-6">
+			    	<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/wind-and-site.html">Wind & Site</a></h2>
+				</div>
+				<div class="col-md-3 col-sm-6">
+				    <h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/forecast.html">Forecast</a></h2>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/solar.html">Solar</a></h2>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/offshore.html">Offshore</a></h2>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="body-content">
+
+			<section id="thoughts">
+				<div class="row">
+				{% for post in site.categories.general limit:3 %}
+					<div class="col-sm-4 col-md-4">
+						<div class="recent-news">
+							<h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h4>
+							<!-- <h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | localize: ":simple" }}</time></h4> -->
+							<hr />
+							{% if post.featured-img-url %}
+            				<p class="pull-left hidden-xs thoughts-thumbnail"><img src="{{site.baseurl}}/assets/img/{{post.featured-img-url}}"></p>
+            				{% endif %}
+							<a href="{{site.baseurl}}{{post.url}}"><h4>{{ post.title }}</h4></a>
+							<p>{{ post.excerpt }}</p>
+						</div>												
+					</div>
+				{% endfor %}
+				</div>
+			</section>
+
+		</div>
+
+	</div>
+
+</main>

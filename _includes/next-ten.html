@@ -1,0 +1,63 @@
+{% if firstThree %}
+  {% assign cardCount = cardCount | minus: 3 %}
+  {% assign firstThree = false %}
+{% else %}
+  {% assign cardCount = cardCount | minus: 10 %}
+{% endif %}
+{% if page.class == 'blog-index' %}
+    {% assign x = 'Blog Posts' %}
+{% else %}
+    {% if cardCount == 1 %}
+        {% assign cardCount = '' %}
+        {% assign x = '' %}
+    {% else %}
+        {% assign x = 's' %}
+    {% endif %}
+{% endif %}
+  <h3 class="text-center"><a href='#' class='next-ten transition clearfix'>{{topics.next}} <span class='next-count'> {% if cardCount == '' %}{% elsif cardCount >= 10 %} 10{% else %} {{cardCount}}{% endif %}</span> {{topics.result}}{{x}}</a></h3>
+
+<script>
+var $nodisplay = $('.card.nodisplay'),
+    countStr = '{{cardCount}}',
+    cardCount = (countStr === '') ? null : parseInt(countStr);
+
+$('a.next-ten').bind('click',function(e){
+    e.preventDefault();
+    cardCount -= 10;
+    var $nodisplay = $('.card.nodisplay');
+    // get rid of the nodisplay class for the next ten elements
+
+    $.each($nodisplay,function(i,el){
+        if (i < 10) {
+            el.className = el.className.replace('nodisplay','display');
+        }
+    });
+    
+    // detect if there is more to load, if not hide next-ten button
+    if (cardCount <= 0) {
+        $('a.next-ten').addClass('nodisplay');
+    } else if (cardCount >= 10) {
+        $('.next-count').html('10');
+    } else {
+        $('.next-count').html(cardCount);
+    }
+    // only applicable to all topics page
+    var totalTopicNum = '{{topicCount}}',
+        $visibleTopics = $('.card.all-topics.display'),
+        visibleTopicNum = 4;
+        
+    totalTopicNum = (totalTopicNum === '') ? null : parseInt(totalTopicNum);
+    
+    if (totalTopicNum > visibleTopicNum ) {
+        $visibleTopics.removeClass('noborder');
+    }
+    
+    var visibleTopics = $('.card.all-topics.display');
+    if (totalTopicNum % 2 === 0) {
+        visibleTopics.last().addClass('noborder');
+        visibleTopics.last().prev().addClass('noborder');
+    } else {
+        visibleTopics.last().addClass('noborder');
+    }
+});
+</script>

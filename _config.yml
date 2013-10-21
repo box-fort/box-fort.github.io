@@ -1,0 +1,24 @@
+name:             'Box Fort'
+url:              'http://www.box-fort.com'
+markdown:         rdiscount
+pygments:         true
+
+baseurl:
+permalink:        /:title
+
+authors:
+ vortex:
+  name: Box Fort
+  display_name: Box Fort
+  email: bustia@box-fort.com
+  web: http://www.box-fort.com/
+
+# Server
+exclude:          ["LICENSE", "README.md",]
+port:             9001
+
+# Prose
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://box-fort.github.io/'
+  media: 'assets/img'

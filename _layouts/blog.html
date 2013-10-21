@@ -1,0 +1,43 @@
+---
+layout: default
+class: blog-article
+slug: blog
+---
+
+{% assign author = site.authors[page.author] %}
+
+<main class="vx-masthead" id="content" role="main">
+
+  <div class="container">
+
+    <div class="body-content blog">        
+
+      <ul class="breadcrumb">
+        <li><a href="{{ site.base_url }}/">Home</a></li>
+        <li><a href="{{ site.base_url }}/blog">News</a></li>
+        <li class="active">{{page.title}}</li>
+      </ul>
+
+      <div class="page-header">
+        <h1>News</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-12 blog-list">
+          <article class="article" role="main">
+            {% include social.html %}
+            <h4><time datetime="{{ page.date | date: "%Y-%m-%d %H:%M%z" }}">{{ page.date | date: "%b %d" }}</time> by {{ author.display_name }}</h4>
+            {% if page.featured-img-url %}
+            <p class="pull-right hidden-xs"><img class="img-circle" src="{{site.baseurl}}/assets/img/{{page.featured-img-url}}"></p>
+            {% endif %}
+            {{ content }}
+          </article>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
