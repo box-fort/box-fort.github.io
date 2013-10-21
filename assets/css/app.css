@@ -296,7 +296,7 @@ h2.title-icon a:hover {
 .jumbotron {
   border-radius:0;
   color:rgb(8,100,182);
-  background:rgba(8, 100, 182, 0.25);
+  background:rgba(8, 100, 182, 0.15);
 }
 
 .jumbotron.case-study {
@@ -420,7 +420,7 @@ header[role="banner"] div.navbar {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background:rgba(0, 60, 76, 0.25);
+  background:rgba(8, 100, 182, 0.15);
   color:rgb(8,100,182);
 }
 
@@ -718,11 +718,21 @@ main[role="main"] {
  .about-us #thoughts div.row .recent-news {
   min-height: 120px;
 }
-body.vx-solutions div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
+body.vx-maletes div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
   float: none!important;
 }
 .body-content.blog, .body-content.markets, .body-content.solutions {
   padding-top: 0;
+}
+ body.vx-maletes.maletes-maleta main[role="main"] div.content-two-third {
+  width: 70%;
+  float:right;
+}
+body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+  width: 30%;
+  float:right;
+  position: relative;
+  margin: 1em 0;
 }
 }
 
@@ -731,10 +741,10 @@ body.vx-solutions div.body-content article p.pull-right, body.vx-markets div.bod
       background: url(/assets/img/banner-barcelona-lg.jpg) no-repeat 50% 8%;
   }
 
-body.vx-solutions div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
+body.vx-maletes div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
   float: right!important;
 }
-body.vx-solutions div.body-content article p.featured-img-url {
+body.vx-maletes div.body-content article p.featured-img-url {
   margin-top: -165px;
   margin-left: 10px;
 }

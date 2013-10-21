@@ -1,0 +1,166 @@
+---
+layout: default
+slug: maletes
+---
+
+<main class="vx-masthead container" id="content" role="main">
+
+  <div class="content-two-third">
+
+    <div class="body-content solutions">
+
+      <div class="page-header">
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong> {% else if %}{{page.title}} {% if page.subitle %}, {{page.subtitle}} {% endif %} {% endif %}</h1>
+      </div>
+
+      <ul class="breadcrumb">
+        <li><a href="{{ site.base_url }}/">Home</a></li>
+        <li><a href="{{ site.base_url }}/maletes">Maletes</a></li>
+        {% if page.title != 'Maletes' %}
+        <li class="active">{{page.title}}</li>
+        {% endif %}
+      </ul>
+
+          <article role="main">
+            {% if page.featured-img-url %}
+            <p class="pull-right hidden-xs text-center featured-img-url"><img class="img-thumbnail" src="{{site.baseurl}}/assets/img/{{page.featured-img-url}}"></p>
+            {% endif %}
+            {{ content }}
+          </article>   
+
+        {% if page.register %}
+
+        <div class="well {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
+
+          <p>New to Vortex? Please, <strong>sign up</strong></p>
+
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputName1" class="col-md-4 col-lg-4 control-label">Complete Name</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="name" class="form-control" id="inputName1" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail1" class="col-md-4 col-lg-4 control-label">Email address</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail2" class="col-md-4 col-lg-4 control-label">Confirm Email</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> I agree with Vortex <a data-toggle="modal" href="#myModal">Terms of service</a> and <a data-toggle="modal" href="#myModal2">Privacy Policy</a>.
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
+                <button type="submit" class="btn btn-default">Sign up</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        {% else if %}
+
+        <div class="well {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
+
+          <p>Please, <strong>contact sales</strong></p>
+
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputName1" class="col-md-4 col-lg-4 control-label">Name</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="name" class="form-control" id="inputName1" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputCompany1" class="col-md-4 col-lg-4 control-label">Company</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="name" class="form-control" id="inputCompany1" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail1" class="col-md-4 col-lg-4 control-label">Email address</label>
+              <div class="col-md-6 col-lg-6">
+                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        {% endif %}
+
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Terms of service</h4>
+              </div>
+              <div class="modal-body">
+
+              {% include terms-of-service.html %}
+               
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div>
+
+        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Privacy Policy</h4>
+              </div>
+              <div class="modal-body">
+
+              {% include policy.html %}
+               
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div>
+
+    </div>
+
+  </div>
+
+  {% if page.title != 'Maletes' %}
+  <aside role="complementary" class="content-one-third">  
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>      
+  </aside>
+  {% endif %}
+
+</main>
