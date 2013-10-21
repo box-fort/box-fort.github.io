@@ -7,88 +7,35 @@ keywords: online, wind, modeling, forecast, solar, offshore
 
 <main class="vx-masthead" id="content" role="main">
 
-	<!-- Carousel
-	================================================== -->
-	<div id="myCarouselHomeVortex" class="carousel slide carousel-vortex-home">
-	<!-- Indicators -->
-		<ol class="carousel-indicators">
-		{% assign count = '-1' %}
-			{% for post in site.tags.slideshow limit:5 %}
-				{% if post.tags contains 'slideshow' %}
-					{% capture count %}{{ count | plus: '1' }}{% endcapture %}
-					{% if count == '0' %}
-					<li data-target="#myCarouselHomeVortex" data-slide-to="{{ count }}" class="active">
-					{% else if %}
-					<li data-target="#myCarouselHomeVortex" data-slide-to="{{ count }}">
-					{% endif %}
-					</li>
-				{% endif %}
-			{% endfor %}
-		</ol>
-		<div class="carousel-inner">
-			{% assign count = '0' %}
-			{% for post in site.tags.slideshow limit:5 %}
-			{% if post.tags contains 'slideshow' %}
-				{% capture count %}{{ count | plus: '1' }}{% endcapture %}
-				{% if count == '1' %}
-				<div class="item active">
-				{% else if %}
-				<div class="item">
-				{% endif %}
-					{% if post.featured-img-url %}
-					<div class="container">
-						<img src="{{site.baseurl}}/assets/img/{{post.featured-img-url}}">
-			            <div class="carousel-caption">
-			              	<h1>
-			              	{% if post.title == 'Vortex' %}
-				              	<strong>{{ post.title }}</strong>, {{ post.subtitle }}
-				             {% else if %}
-				             	<a href="{{site.baseurl}}/markets/{{ post.url }}.html"><strong>{{ post.title }}</strong></a>, {{ post.subtitle }}
-				             {% endif %}
-			              	</h1>
-			              	<h4>{{ post.excerpt }}</h4>
-			            </div>
-			         </div>	
-					
-					{% else if %}
-					<div class="container">
-			            <div class="carousel-caption">
-			              	<h1>
-				              	<a href="{{site.baseurl}}/markets/{{ post.url }}.html"><strong>{{ post.title }}</strong>, {{ post.subtitle }}</a>
-		              		</h1>
-			              	<h4>{{ post.excerpt }}</h4>
-			            </div>
-					
-					{% endif %}
-				</div>
-			{% endif %}
-			{% endfor %}
-		</div>
-	<a class="left carousel-control" href="#myCarouselHomeVortex" data-slide="prev"></a>
-	<a class="right carousel-control" href="#myCarouselHomeVortex" data-slide="next"></a>
-	</div><!-- /.carousel -->
-
-	<!-- iconMarkets
-	================================================== -->
-
-	<div id="marketsIconHome" class="jumbotron jumbotron-white jumbotron-no-margin full-width cl-effect-3">
+	<div id="marketsIconHome" class="jumbotron jumbotron-white jumbotron-no-margin full-width cl-effect-1">
 
 		<div class="container">
 
+			<p class="text-center"><img src="{{site.baseurl}}/assets/img/maletes-home-box-fort.jpg"></p>
+
 	  		<div class="row">
-	  			<div class="col-md-3 col-sm-6">
-			    	<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/wind-and-site.html">Wind & Site</a></h2>
+	  			<div class="col-md-4 col-sm-4">
+			    	<h2 class="title-icon text-center"><a href="{{ site.base_url }}/maletes.html" data-hover="Maletes"><span>Maletes</span></a></h2>
 				</div>
-				<div class="col-md-3 col-sm-6">
-				    <h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/forecast.html">Forecast</a></h2>
+				<div class="col-md-4 col-sm-4">
+				    <h2 class="title-icon text-center"><a href="{{ site.base_url }}/fundes-textil.html">Fundes tèxtil</a></h2>
 				</div>
-				<div class="col-md-3 col-sm-6">
-					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/solar.html">Solar</a></h2>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/markets/offshore.html">Offshore</a></h2>
+				<div class="col-md-4 col-sm-4">
+					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/altres.html">Altres</a></h2>
 				</div>
 			</div>
+
+		</div>		
+
+	</div>
+
+	<div class="container">
+
+		<div id="boxFortLead" class="jumbotron jumbotron-no-margin">
+
+			<h1><strong>Box Fort</strong>, maletes i contenidors professionals</h1>
+
+			<p class="lead">Després de més de 25 anys d'experiència, a BOXFORT, seguim fabricant maletes, i intentem fer-ho cada vegada millor. Amb una amplia oferta de maletes standard en alumini, en plàstic polipropilè, ABS, doble paret, estanques, en materials tèxtils i la fabricació a mida de flight cases i maletes en general, cobrim la majoria de necessitats.</p>
 
 		</div>
 
@@ -100,10 +47,10 @@ keywords: online, wind, modeling, forecast, solar, offshore
 
 			<section id="thoughts">
 				<div class="row">
-				{% for post in site.categories.general limit:3 %}
-					<div class="col-sm-4 col-md-4">
+				{% for post in site.categories.general limit:1 %}
+					<div class="col-sm-12 col-md-12">
 						<div class="recent-news">
-							<h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h4>
+							<h4>Novetats - <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h4>
 							<!-- <h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | localize: ":simple" }}</time></h4> -->
 							<hr />
 							{% if post.featured-img-url %}

@@ -2,17 +2,17 @@
 <div class='social-share clearfix'>
   <ul>
     <li>
-      <iframe class='twframe' allowtransparency='true' frameborder='0' scrolling='no' src='' via='Vortex.es' style='height:20px;'></iframe>
+      <iframe class='twframe' allowtransparency='true' frameborder='0' scrolling='no' src='' via='Box-fort.com' style='height:20px;'></iframe>
     </li>
     <li>
-      <a href='http://www.linkedin.com/shareArticle?mini=true&url=http://www.vortex.es{{page.url | replace:"'","\'" | uri_escape}}&title={{page.title | replace:"'","\'" | uri_escape}}&summary={{page.excerpt | replace:"'","\'" | uri_escape}}&source=http://www.vortex.es' class='mailto btn btn-default btn-sm' title='Share on Linkedin' target="_blank"><span class='icon-linkedin icon-white'></span> Linkedin</a>
+      <a href='http://www.linkedin.com/shareArticle?mini=true&url=http://www.box-fort.com{{page.url | replace:"'","\'" | uri_escape}}&title={{page.title | replace:"'","\'" | uri_escape}}&summary={{page.excerpt | replace:"'","\'" | uri_escape}}&source=http://www.box-fort.com' class='mailto btn btn-default btn-sm' title='Share on Linkedin' target="_blank"><span class='icon-linkedin icon-white'></span> Linkedin</a>
       <!-- <iframe src='' class='inframe' frameborder='0' style='border:none; overflow:hidden; height:25px;' allowTransparency='true'></iframe> -->
     </li>
     <!-- <li>
       <iframe src='' class='fbframe' frameborder='0' style='border:none; overflow:hidden; height:25px;' allowTransparency='true'></iframe>
     </li> -->
     <li>
-      <a href='mailto:?subject={{page.title}} - Vortex.es&body=Voldria compartir aquest enllaç amb tu: http://www.vortex.es{{page.url}}' class='mailto btn btn-default btn-sm' title='Envia aquesta pàgina'><span class='icon-envelope icon-white'></span> E-mail</a>
+      <a href='mailto:?subject={{page.title}} - Box-fort.com&body=Voldria compartir aquest enllaç amb tu: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default btn-sm' title='Envia aquesta pàgina'><span class='icon-envelope icon-white'></span> E-mail</a>
     </li>
   </ul>
 </div>
@@ -28,21 +28,21 @@ $(window).load(function(){
       var url = $(this).parent().attr('data-url');
       var title = $(this).parent().attr('data-title');
 
-      // $(this).find('.inframe').attr('src','http://www.linkedin.com/shareArticle?mini=true&url=http://www.vortex.es' + url + '&title=' + title + '&summary=' + excerpt + '&source=http://www.vortex.es');
+      // $(this).find('.inframe').attr('src','http://www.linkedin.com/shareArticle?mini=true&url=http://www.box-fort.com' + url + '&title=' + title + '&summary=' + excerpt + '&source=http://www.box-fort.com');
 
-      $(this).find('.fbframe').attr('src','https://www.facebook.com/plugins/like.php?href=vortex.es' + url + '&layout=button_count&show_faces=false&width=450&action=like&font&amp;colorscheme=light&amp;height=25&amp;xfbml=true;');
+      $(this).find('.fbframe').attr('src','https://www.facebook.com/plugins/like.php?href=box-fort.com' + url + '&layout=button_count&show_faces=false&width=450&action=like&font&amp;colorscheme=light&amp;height=25&amp;xfbml=true;');
 
-      $(this).find('.twframe').attr('src','https://platform.twitter.com/widgets/tweet_button.html?text=' + title + '&url=http://www.vortex.es' + url + '&via=vortex.es&counturl=http://www.vortex.es'+ url +'');
+      $(this).find('.twframe').attr('src','https://platform.twitter.com/widgets/tweet_button.html?text=' + title + '&url=http://www.box-fort.com' + url + '&via=box-fort.com&counturl=http://www.box-fort.com'+ url +'');
 
-      $(this).find('.mailto').attr('href','mailto:?subject=' + title + ' - vortex.es&body=Voldria compartir aquest enllaç amb tu: http://www.vortex.es/'+ url + '')
+      $(this).find('.mailto').attr('href','mailto:?subject=' + title + ' - box-fort.com&body=Voldria compartir aquest enllaç amb tu: http://www.box-fort.com/'+ url + '')
 
     }else{
 
-      // $('.inframe').attr('src','http://www.linkedin.com/shareArticle?mini=true&url=http://www.vortex.es{{page.url | replace:"'","\'" | uri_escape}}&title={{page.title | replace:"'","\'" | uri_escape}}&summary={{page.excerpt | replace:"'","\'" | uri_escape}}&source=http://www.vortex.es');
+      // $('.inframe').attr('src','http://www.linkedin.com/shareArticle?mini=true&url=http://www.box-fort.com{{page.url | replace:"'","\'" | uri_escape}}&title={{page.title | replace:"'","\'" | uri_escape}}&summary={{page.excerpt | replace:"'","\'" | uri_escape}}&source=http://www.box-fort.com');
 
-      $('.fbframe').attr('src','https://www.facebook.com/plugins/like.php?href=vortex.es{{page.url | replace:"'","\'" | uri_escape}}&layout=button_count&show_faces=false&width=450&action=like&font&amp;colorscheme=light&amp;height=25&amp;xfbml=true;');
+      $('.fbframe').attr('src','https://www.facebook.com/plugins/like.php?href=box-fort.com{{page.url | replace:"'","\'" | uri_escape}}&layout=button_count&show_faces=false&width=450&action=like&font&amp;colorscheme=light&amp;height=25&amp;xfbml=true;');
 
-      $('.twframe').attr('src','https://platform.twitter.com/widgets/tweet_button.html?text={{page.title | replace:"'","\'" | uri_escape}}&url=http://www.vortex.es{{page.url | replace:"'","\'" | uri_escape}}&via=vortex.es&counturl=http://www.vortex.es{{page.url | replace:"'","\'" | uri_escape}}');
+      $('.twframe').attr('src','https://platform.twitter.com/widgets/tweet_button.html?text={{page.title | replace:"'","\'" | uri_escape}}&url=http://www.box-fort.com{{page.url | replace:"'","\'" | uri_escape}}&via=box-fort.com&counturl=http://www.box-fort.com{{page.url | replace:"'","\'" | uri_escape}}');
 
     }
   });

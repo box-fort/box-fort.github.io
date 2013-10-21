@@ -7,7 +7,7 @@ baseurl:
 permalink:        /:title
 
 authors:
- vortex:
+ box-fort:
   name: Box Fort
   display_name: Box Fort
   email: bustia@box-fort.com
