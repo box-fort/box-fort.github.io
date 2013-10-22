@@ -1,9 +1,9 @@
 ---
 layout: maletes
 slug: maletes
-box: standard
+box: flight-cases
 class: maletes-maleta
-title: Alumini standard
+title: Flight cases
 subtitle:
 keywords: 
 featured-img-url:

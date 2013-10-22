@@ -1,0 +1,28 @@
+	<h3>Tipus de maletes</h3>
+
+    <ul class="nav nav-pills nav-stacked">
+      <li class="disabled active"><a href="#">Alumini</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/alumini/standard.html">{% if page.box == "standard" %}<em>Standard</em>{% else %}Standard{% endif %}</a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/a-mida.html">{% if page.box == "a-mida" %}<em>A mida</em>{% else %}A mida{% endif %}</a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/flight-cases.html">{% if page.box == "flight-cases" %}<em>Flight Cases</em>{% else %}Flight Cases{% endif %}</a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/contenidors.html">{% if page.box == "contenidors" %}<em>Contenidors</em>{% else %}Contenidors{% endif %}</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/plastic/">{% if page.box == "plastic" %}<em>Plàstic</em>{% else %}Plàstic{% endif %}</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/plastic/injeccio.html">Injecció</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/doble-paret.html">Doble paret</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/estanques.html">Estanques</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/box-fort.html">Box fort</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/panaro.html">Panaro</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/hofbauer.html">Hofbauer</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/parat.html">Parat</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/piloto/">Piloto</a></li>
+    </ul>

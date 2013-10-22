@@ -1,9 +1,9 @@
 ---
 layout: maletes
 slug: maletes
-box: standard
+box: contenidors
 class: maletes-maleta
-title: Alumini standard
+title: Contenidors
 subtitle:
 keywords: 
 featured-img-url:

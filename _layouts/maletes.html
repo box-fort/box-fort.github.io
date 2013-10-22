@@ -3,7 +3,7 @@ layout: default
 slug: maletes
 ---
 
-<main class="vx-masthead container" id="content" role="main">
+<main class="bx-masthead container" id="content" role="main">
 
   <div class="content-two-third">
 
@@ -26,6 +26,7 @@ slug: maletes
             <p class="pull-right hidden-xs text-center featured-img-url"><img class="img-thumbnail" src="{{site.baseurl}}/assets/img/{{page.featured-img-url}}"></p>
             {% endif %}
             {{ content }}
+            {% if page.box == 'a-mida' %}{% include grid-thumbnail-maletes-a-mida.html %}{% endif %}
           </article>   
 
         {% if page.register %}
@@ -131,34 +132,7 @@ slug: maletes
   {% if page.title != 'Maletes' %}
   <aside role="complementary" class="content-one-third">
 
-    <h3>Tipus de maletes</h3>
-
-    <ul class="nav nav-pills nav-stacked">
-      <li class="disabled active"><a href="#">Alumini</a>
-        <ul>
-          <li><a href="{{ site.base_url }}/maletes/alumini/standard.html"><em>Standard</em></a></li>
-          <li><a href="{{ site.base_url }}/maletes/alumini/a-mida.html">A mida</a></li>
-          <li><a href="{{ site.base_url }}/maletes/alumini/flight-cases.html">Flight cases</a></li>
-          <li><a href="{{ site.base_url }}/maletes/alumini/contenidors.html">Contenidors</a></li>
-        </ul>
-      </li>
-      <li><a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>
-        <ul>
-          <li><a href="{{ site.base_url }}/maletes/plastic/injeccio.html">Injecció</a></li>
-          <li><a href="{{ site.base_url }}/maletes/plastic/doble-paret.html">Doble paret</a></li>
-          <li><a href="{{ site.base_url }}/maletes/plastic/estanques.html">Estanques</a></li>
-        </ul>
-      </li>
-      <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>
-        <ul>
-          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/box-fort.html">Box fort</a></li>
-          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/panaro.html">Panaro</a></li>
-          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/hofbauer.html">Hofbauer</a></li>
-          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/parat.html">Parat</a></li>
-        </ul>
-      </li>
-      <li><a href="{{ site.base_url }}/maletes/piloto/">Piloto</a></li>
-    </ul>
+  {% include nav-pills-tipus-de-maletes.html %}
 
   </aside>
   {% endif %}

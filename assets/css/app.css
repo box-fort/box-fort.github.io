@@ -331,7 +331,7 @@ h2.title-icon a:hover {
 .jumbotron .page-header {
   border-bottom: none;
 }
-.vx-blog #content {
+.bx-blog #content {
   background:#ffffff;
 }
 
@@ -440,7 +440,7 @@ main[role="main"] {
   margin-top: 77px;
 }
 
-body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
   margin: 0 0 2.5em 0;
 }
 
@@ -648,10 +648,10 @@ width: 90px!important;
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 
-  body.vx-comunicacio,body.vx-infraestructura {
+  body.bx-comunicacio,body.bx-infraestructura {
       background: url(/assets/img/banner-barcelona-lg.jpg) repeat-x 20% 0;
   }
-  body.vx-comunicacio [role="main"],body.vx-infraestructura [role="main"] {
+  body.bx-comunicacio [role="main"],body.bx-infraestructura [role="main"] {
     padding-top: 25px;
   }
   .jumbotron {
@@ -660,7 +660,7 @@ width: 90px!important;
   .jumbotron.full-width {
     margin-top: 0;
   }
-  body.vx-comunicacio .jumbotron:first-child,body.vx-infraestructura .jumbotron:first-child {
+  body.bx-comunicacio .jumbotron:first-child,body.bx-infraestructura .jumbotron:first-child {
     background: rgba(172,203,218,.5);
   }
 
@@ -730,17 +730,17 @@ main[role="main"] {
  .about-us #thoughts div.row .recent-news {
   min-height: 120px;
 }
-body.vx-maletes div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
+body.bx-maletes div.body-content article p.pull-right, body.bx-markets div.body-content article p.pull-right {
   float: none!important;
 }
 .body-content.blog, .body-content.markets, .body-content.solutions {
   padding-top: 0;
 }
- body.vx-maletes.maletes-maleta main[role="main"] div.content-two-third {
+ body.bx-maletes.maletes-maleta main[role="main"] div.content-two-third {
   width: 75%;
   float:right;
 }
-body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
   width: 25%;
   float:right;
   position: relative;
@@ -749,14 +749,14 @@ body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
 }
 
 @media screen and (min-width: 1024px) {
- body.vx-comunicacio,body.vx-infraestructura {
+ body.bx-comunicacio,body.bx-infraestructura {
       background: url(/assets/img/banner-barcelona-lg.jpg) no-repeat 50% 8%;
   }
 
-body.vx-maletes div.body-content article p.pull-right, body.vx-markets div.body-content article p.pull-right {
+body.bx-maletes div.body-content article p.pull-right, body.bx-markets div.body-content article p.pull-right {
   float: right!important;
 }
-body.vx-maletes div.body-content article p.featured-img-url {
+body.bx-maletes div.body-content article p.featured-img-url {
   margin-top: -165px;
   margin-left: 10px;
 }
