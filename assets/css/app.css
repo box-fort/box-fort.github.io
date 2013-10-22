@@ -9,6 +9,10 @@ img {
   max-width:100%;
 }
 
+a {
+  color:#0864B6;
+}
+
 .display {
   display: block;
 }
@@ -331,6 +335,10 @@ h2.title-icon a:hover {
   background:#ffffff;
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #0864B6;
+}
+
 body {
   font-family:Verdana, Geneva, sans-serif;;
 }
@@ -430,6 +438,10 @@ header[role="banner"] div.navbar {
 
 main[role="main"] {
   margin-top: 77px;
+}
+
+body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+  margin: 0 0 2.5em 0;
 }
 
 footer[role="contentinfo"] {
@@ -725,11 +737,11 @@ body.vx-maletes div.body-content article p.pull-right, body.vx-markets div.body-
   padding-top: 0;
 }
  body.vx-maletes.maletes-maleta main[role="main"] div.content-two-third {
-  width: 70%;
+  width: 75%;
   float:right;
 }
 body.vx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
-  width: 30%;
+  width: 25%;
   float:right;
   position: relative;
   margin: 1em 0;

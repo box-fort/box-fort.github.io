@@ -9,10 +9,6 @@ slug: maletes
 
     <div class="body-content solutions">
 
-      <div class="page-header">
-        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong> {% else if %}{{page.title}} {% if page.subitle %}, {{page.subtitle}} {% endif %} {% endif %}</h1>
-      </div>
-
       <ul class="breadcrumb">
         <li><a href="{{ site.base_url }}/">Home</a></li>
         <li><a href="{{ site.base_url }}/maletes">Maletes</a></li>
@@ -20,6 +16,10 @@ slug: maletes
         <li class="active">{{page.title}}</li>
         {% endif %}
       </ul>
+
+      <div class="page-header">
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong> {% else if %}{{page.title}} {% if page.subitle %}, {{page.subtitle}} {% endif %} {% endif %}</h1>
+      </div>
 
           <article role="main">
             {% if page.featured-img-url %}
@@ -73,35 +73,10 @@ slug: maletes
 
         {% else if %}
 
-        <div class="well {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
+        <div class="well well-sm {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
-          <p>Please, <strong>contact sales</strong></p>
-
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <label for="inputName1" class="col-md-4 col-lg-4 control-label">Name</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="name" class="form-control" id="inputName1" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputCompany1" class="col-md-4 col-lg-4 control-label">Company</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="name" class="form-control" id="inputCompany1" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail1" class="col-md-4 col-lg-4 control-label">Email address</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
-                <button type="submit" class="btn btn-default">Submit</button>
-              </div>
-            </div>
-          </form>
+          <h1 class="text-center">El podem ajudar?</h1> 
+          <p class="text-center"><a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='icon-envelope icon-white'></span> Contacti amb nosaltres</a></p>
 
         </div>
 
@@ -154,12 +129,37 @@ slug: maletes
   </div>
 
   {% if page.title != 'Maletes' %}
-  <aside role="complementary" class="content-one-third">  
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Messages</a></li>
-      </ul>      
+  <aside role="complementary" class="content-one-third">
+
+    <h3>Tipus de maletes</h3>
+
+    <ul class="nav nav-pills nav-stacked">
+      <li class="disabled active"><a href="#">Alumini</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/alumini/standard.html"><em>Standard</em></a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/a-mida.html">A mida</a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/flight-cases.html">Flight cases</a></li>
+          <li><a href="{{ site.base_url }}/maletes/alumini/contenidors.html">Contenidors</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/plastic/injeccio.html">Injecció</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/doble-paret.html">Doble paret</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/estanques.html">Estanques</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>
+        <ul>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/box-fort.html">Box fort</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/panaro.html">Panaro</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/hofbauer.html">Hofbauer</a></li>
+          <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/parat.html">Parat</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ site.base_url }}/maletes/piloto/">Piloto</a></li>
+    </ul>
+
   </aside>
   {% endif %}
 
