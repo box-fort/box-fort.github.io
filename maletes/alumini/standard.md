@@ -3,8 +3,8 @@ layout: maletes
 slug: maletes
 box: standard
 class: maletes-maleta
-title: Alumini standard
-subtitle:
+title: Maletes d'aAlumini
+subtitle: Standard
 keywords: 
 featured-img-url:
 icon-url: 

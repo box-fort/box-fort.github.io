@@ -3,8 +3,8 @@ layout: maletes
 slug: maletes
 box: a-mida
 class: maletes-maleta
-title: A mida
-subtitle:
+title: Maletes d'alumini
+subtitle: A mida
 keywords: 
 featured-img-url:
 icon-url: 

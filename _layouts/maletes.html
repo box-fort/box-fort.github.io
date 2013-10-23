@@ -13,12 +13,12 @@ slug: maletes
         <li><a href="{{ site.base_url }}/">Home</a></li>
         <li><a href="{{ site.base_url }}/maletes">Maletes</a></li>
         {% if page.title != 'Maletes' %}
-        <li class="active">{{page.title}}</li>
+        <li class="active">{{page.title}}, {{page.subtitle}}</li>
         {% endif %}
       </ul>
 
       <div class="page-header">
-        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong> {% else if %}{{page.title}} {% if page.subitle %}, {{page.subtitle}} {% endif %} {% endif %}</h1>
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle 1= null %} {{page.title}}, <strong>{{page.subtitle}}</strong>  {% else %}{{page.title}} {% endif %}</h1>
       </div>
 
           <article role="main">

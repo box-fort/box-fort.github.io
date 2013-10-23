@@ -3,8 +3,8 @@ layout: maletes
 slug: maletes
 box: flight-cases
 class: maletes-maleta
-title: Flight cases
-subtitle:
+title: Maletes d'alumini
+subtitle: Flight cases
 keywords: 
 featured-img-url:
 icon-url: 
