@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-10-01 11:48:19
+date: 2013-10-26 11:48:19
 layout: blog
 slug: vortex-is-a-company-with-experience-independence-and-collaborative
 title: Box Fort is a company with experience, independence and collaborative

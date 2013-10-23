@@ -18,7 +18,7 @@ slug: maletes
       </ul>
 
       <div class="page-header">
-        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle 1= null %} {{page.title}}, <strong>{{page.subtitle}}</strong>  {% else %}{{page.title}} {% endif %}</h1>
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle == null %}{{page.title}}{% endif %}</h1>
       </div>
 
           <article role="main">
@@ -26,103 +26,15 @@ slug: maletes
             <p class="pull-right hidden-xs text-center featured-img-url"><img class="img-thumbnail" src="{{site.baseurl}}/assets/img/{{page.featured-img-url}}"></p>
             {% endif %}
             {{ content }}
+            {% if page.box == 'standard' %}{% include grid-thumbnail-maletes-standard.html %}{% endif %}
             {% if page.box == 'a-mida' %}{% include grid-thumbnail-maletes-a-mida.html %}{% endif %}
           </article>   
-
-        {% if page.register %}
-
-        <div class="well {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
-
-          <p>New to Vortex? Please, <strong>sign up</strong></p>
-
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <label for="inputName1" class="col-md-4 col-lg-4 control-label">Complete Name</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="name" class="form-control" id="inputName1" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail1" class="col-md-4 col-lg-4 control-label">Email address</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail2" class="col-md-4 col-lg-4 control-label">Confirm Email</label>
-              <div class="col-md-6 col-lg-6">
-                <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> I agree with Vortex <a data-toggle="modal" href="#myModal">Terms of service</a> and <a data-toggle="modal" href="#myModal2">Privacy Policy</a>.
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-md-offset-4 col-md-6 col-lg-offset-4 col-lg-6">
-                <button type="submit" class="btn btn-default">Sign up</button>
-              </div>
-            </div>
-          </form>
-
-        </div>
-
-        {% else if %}
 
         <div class="well well-sm {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
           <h1 class="text-center">El podem ajudar?</h1> 
           <p class="text-center"><a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='icon-envelope icon-white'></span> Contacti amb nosaltres</a></p>
 
-        </div>
-
-        {% endif %}
-
-        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Terms of service</h4>
-              </div>
-              <div class="modal-body">
-
-              {% include terms-of-service.html %}
-               
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div>
-
-        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Privacy Policy</h4>
-              </div>
-              <div class="modal-body">
-
-              {% include policy.html %}
-               
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
         </div>
 
     </div>

@@ -3,8 +3,8 @@ layout: maletes
 slug: maletes
 box: contenidors
 class: maletes-maleta
-title: Contenidors
-subtitle:
+title: Maletes d'alumini
+subtitle: contenidors
 keywords: 
 featured-img-url:
 icon-url: 

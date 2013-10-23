@@ -347,6 +347,9 @@ h1,h2,h3 {
   font-family:'robotoslabthin', serif;
   color:rgb(8,100,182);
 }
+h2 small{
+  color: rgb(125,92,60);
+}
 h4,h5,h6,.navbar-default .navbar-nav > li > a {
   font-family:'robotoslablight', serif;
   color:rgb(8,100,182);
@@ -631,7 +634,7 @@ width: 90px!important;
 }
 
 #thoughts div.row .recent-news {
-  background: rgb(235,235,235);
+  background: rgba(206,200,177,.25);
   padding:.75em;
   margin: 0.75em 0;
 }
@@ -643,6 +646,46 @@ width: 90px!important;
 #thoughts .thoughts-thumbnail img {
   max-width: 150px;
   margin-right: 10px;
+}
+
+.maletes-maleta table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.maletes-maleta table {
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 100%;
+}
+.maletes-maleta table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.maletes-maleta table caption + thead tr:first-child th, .maletes-maleta table colgroup + thead tr:first-child th, .maletes-maleta table thead:first-child tr:first-child th, .maletes-maleta table caption + thead tr:first-child td, .maletes-maleta table colgroup + thead tr:first-child td, .maletes-maleta table thead:first-child tr:first-child td {
+    border-top: 0 none;
+}
+.maletes-maleta table thead > tr > th {
+    border-bottom: 2px solid #DDDDDD;
+    vertical-align: bottom;
+}
+.maletes-maleta table thead > tr > th, .maletes-maleta table tbody > tr > th, .maletes-maleta table tfoot > tr > th, .maletes-maleta table thead > tr > td, .maletes-maleta table tbody > tr > td, .maletes-maleta table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+th {
+    text-align: left;
+}
+
+.maletes-maleta table > tbody > tr:nth-child(2n+1) > td, .maletes-maleta table > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F9F9F9;
+}
+.maletes-maleta table thead > tr > th, .maletes-maleta table tbody > tr > th, .maletes-maleta table tfoot > tr > th, .maletes-maleta table thead > tr > td, .maletes-maleta table tbody > tr > td, .maletes-maleta table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -741,9 +784,9 @@ body.bx-maletes div.body-content article p.pull-right, body.bx-markets div.body-
   float:right;
 }
 body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
-  width: 25%;
+  width: 20%;
   float:right;
-  position: relative;
+  position: fixed;
   margin: 1em 0;
 }
 }
@@ -763,5 +806,8 @@ body.bx-maletes div.body-content article p.featured-img-url {
 }
 
 @media screen and (min-width: 1200px) {
+  body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+  width: 15%;
+}
 
 }

@@ -50,13 +50,13 @@ keywords: BOXFORT, maletes, standard, alumini, plàstic, polipropilè, ABS, dobl
 				{% for post in site.categories.general limit:1 %}
 					<div class="col-sm-12 col-md-12">
 						<div class="recent-news">
-							<h4>Novetats - <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h4>
+							<h5>Novetats - <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h5>
 							<!-- <h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | localize: ":simple" }}</time></h4> -->
 							<hr />
 							{% if post.featured-img-url %}
             				<p class="pull-left hidden-xs thoughts-thumbnail"><img src="{{site.baseurl}}/assets/img/{{post.featured-img-url}}"></p>
-            				{% endif %}
-							<a href="{{site.baseurl}}{{post.url}}"><h3>{{ post.title }}</h3></a>
+            				{% endif %}							
+            				<a href="{{site.baseurl}}{{post.url}}"><h3>{{ post.title }}</h3></a>
 							<p>{{ post.excerpt }}</p>
 						</div>												
 					</div>
