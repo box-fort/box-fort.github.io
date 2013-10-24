@@ -38,3 +38,47 @@ CLASSIC|Mides interiors|K SERIES|Mides interiors
 170/42|420 x 305 x 105
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-minibag.jpg"></p>
+
+MAXIBAG|Mides interiors|MINIBAG|Mides interiors|XTRABAG|Mides interiors
+--- | --- | --- | --- | --- | ---
+0,3-67|246 x 173 x 67|1|222 x 145 x 40|100 PP|240 x 188 x  44
+0,4-79|262 x 184 x 79|2|258 x 178 x 45|200 PP|296 x 230 x  76
+0,5-91|280 x 198 x 91|3|319 x 225 x 49|300 PP|368 x 290 x  90
+0,5-111|280 x 196 x 111|4|338 x 229 x 79|400 ABS|450 x 360 x 132
+0,5-131|280 x 196 x 131| | |500 ABS|546 x 435 x 156
+0,8-54|337 x 246 x 54
+0,8-65|337 x 245 x 65
+0,8-76|336 x 245 x 76
+0,8-106|337 x 242 x 106
+0,8-117|336 x 242 x 117
+0,8-158|332 x 242 x 158
+1-81|381 x 271 x 81
+1-96|381 x 269 x 96
+1-111|379 x 269 x 111
+1,5-131|420 x 298 x 131
+1,5-167|420 x 294 x 167
+1,5-202|416 x 294 x 202
+2-81|442 x 320 x 81
+2-102|442 x 318 x 102
+2-122|440 x 318 x 122
+2-137|442 x 314 x 137
+2-157|440 x 314 x 157
+2-192|437 x 314 x 192
+3,5-162|524 x 373 x 162
+3,5-197|524 x 370 x 197
+3,5-232|521 x 370 x 232
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plaston.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plaston-typ-17.jpg"></p>
+
+Referencia|Mides interiors
+--- | ---
+TYP17|207 x 134 x 36
+TYP31|363 x 329 x 64
+TYP51|372 x 249 x 83
+TYP81|420 x 276 x 100
+TYP111|440 x 310 x 100
+TYP126|530 x 375 x 130
+TYP146|610 x 410 x 140
+TYP156|610 x 410 x 200
+Polybutler|470 x 350 x 180
+Polyno|350 x 290 x 180

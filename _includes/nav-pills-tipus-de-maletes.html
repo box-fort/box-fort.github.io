@@ -9,11 +9,11 @@
           <li><a href="{{ site.base_url }}/maletes/alumini/contenidors.html">{% if page.box == "contenidors" %}<em>Contenidors</em>{% else %}Contenidors{% endif %}</a></li>
         </ul>
       </li>
-      <li {% if page.box == 'plastic' or page.box == 'injeccio' %}class="active"{% endif %}><a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>
+      <li {% if page.box == 'plastic' or page.box == 'injeccio' or page.box == 'doble-paret' or page.box == 'estanques' %}class="active"{% endif %}><a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>
         <ul>
           <li><a href="{{ site.base_url }}/maletes/plastic/injeccio.html">{% if page.box == 'injeccio' %}<em>Injecció</em>{% else %}Injecció{% endif %}</a></li>
-          <li><a href="{{ site.base_url }}/maletes/plastic/doble-paret.html">Doble paret</a></li>
-          <li><a href="{{ site.base_url }}/maletes/plastic/estanques.html">Estanques</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/doble-paret.html">{% if page.box == 'doble-paret' %}<em>Doble paret</em>{% else %}Doble paret{% endif %}</a></li>
+          <li><a href="{{ site.base_url }}/maletes/plastic/estanques.html">{% if page.box == 'estanques' %}<em>Estanques</em>{% else %}Estanques{% endif %}</a></li>
         </ul>
       </li>
       <li><a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>
