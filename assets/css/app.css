@@ -645,6 +645,7 @@ width: 90px!important;
 
 #thoughts .thoughts-thumbnail img {
   max-width: 150px;
+  max-height: 150px;
   margin-right: 10px;
 }
 
