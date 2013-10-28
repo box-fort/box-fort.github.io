@@ -343,16 +343,13 @@ body {
   font-family:Verdana, Geneva, sans-serif;;
 }
 
-h1,h2,h3 {
-  font-family:'robotoslabthin', serif;
+h1,h2,h3,.navbar-default .navbar-nav > li > a {
+  /*font-family:'SteelfishRgRegular', serif;*/
   color:rgb(8,100,182);
+  text-transform: uppercase;
 }
 h2 small{
   color: rgb(125,92,60);
-}
-h4,h5,h6,.navbar-default .navbar-nav > li > a {
-  font-family:'robotoslablight', serif;
-  color:rgb(8,100,182);
 }
 
 h4 time {
@@ -447,13 +444,13 @@ body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
   margin: 0 0 2.5em 0;
 }
 
-footer[role="contentinfo"] {
-  font-family:'robotoslabregular', serif;
+/*footer[role="contentinfo"] {
+  font-family:'SteelfishRgRegular', serif;
 }
 
 footer[role="contentinfo"] strong {
   font-family:'robotoslabbold', serif;
-}
+}*/
 
 .oxygen-bg {background:#010101;
 border-collapse: collapse;
