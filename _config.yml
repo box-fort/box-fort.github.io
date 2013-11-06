@@ -15,7 +15,7 @@ authors:
 
 # Server
 exclude:          ["LICENSE", "README.md",]
-port:             9001
+port:             4000
 
 # Prose
 prose:
