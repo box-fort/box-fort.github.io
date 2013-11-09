@@ -440,7 +440,8 @@ main[role="main"] {
   margin-top: 77px;
 }
 
-body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third, 
+body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
   margin: 0 0 2.5em 0;
 }
 
@@ -646,27 +647,53 @@ width: 90px!important;
   margin-right: 10px;
 }
 
-.maletes-maleta table {
+.maletes-maleta table,
+.altres-altre table {
     margin-bottom: 20px;
     width: 100%;
 }
-.maletes-maleta table {
+.maletes-maleta table,
+.altres-altre table {
     background-color: rgba(0, 0, 0, 0);
     max-width: 100%;
 }
-.maletes-maleta table {
+.maletes-maleta table,
+.altres-altre table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.maletes-maleta table caption + thead tr:first-child th, .maletes-maleta table colgroup + thead tr:first-child th, .maletes-maleta table thead:first-child tr:first-child th, .maletes-maleta table caption + thead tr:first-child td, .maletes-maleta table colgroup + thead tr:first-child td, .maletes-maleta table thead:first-child tr:first-child td {
+.maletes-maleta table caption + thead tr:first-child th,
+.altres-altre table caption + thead tr:first-child th,
+.maletes-maleta table colgroup + thead tr:first-child th,
+.altres-altre table colgroup + thead tr:first-child th,
+.maletes-maleta table thead:first-child tr:first-child th,
+.altres-altre table thead:first-child tr:first-child th,
+.maletes-maleta table caption + thead tr:first-child td,
+.altres-altre table caption + thead tr:first-child td,
+.maletes-maleta table colgroup + thead tr:first-child td,
+.altres-altre table colgroup + thead tr:first-child td,
+.maletes-maleta table thead:first-child tr:first-child td,
+.altres-altre table thead:first-child tr:first-child td {
     border-top: 0 none;
 }
-.maletes-maleta table thead > tr > th {
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th {
     border-bottom: 2px solid #DDDDDD;
     vertical-align: bottom;
 }
-.maletes-maleta table thead > tr > th, .maletes-maleta table tbody > tr > th, .maletes-maleta table tfoot > tr > th, .maletes-maleta table thead > tr > td, .maletes-maleta table tbody > tr > td, .maletes-maleta table tfoot > tr > td {
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th,
+.maletes-maleta table tbody > tr > th,
+.altres-altre table tbody > tr > th,
+.maletes-maleta table tfoot > tr > th,
+.altres-altre table tfoot > tr > th,
+.maletes-maleta table thead > tr > td,
+.altres-altre table thead > tr > td,
+.maletes-maleta table tbody > tr > td,
+.altres-altre table tbody > tr > td,
+.maletes-maleta table tfoot > tr > td,
+.altres-altre table tfoot > tr > td {
     border-top: 1px solid #DDDDDD;
     line-height: 1.42857;
     padding: 8px;
@@ -676,10 +703,24 @@ th {
     text-align: left;
 }
 
-.maletes-maleta table > tbody > tr:nth-child(2n+1) > td, .maletes-maleta table > tbody > tr:nth-child(2n+1) > th {
+.maletes-maleta table > tbody > tr:nth-child(2n+1) > td,
+.altres-altre table > tbody > tr:nth-child(2n+1) > td,
+.maletes-maleta table > tbody > tr:nth-child(2n+1) > th,
+.altres-altre table > tbody > tr:nth-child(2n+1) > th {
     background-color: #F9F9F9;
 }
-.maletes-maleta table thead > tr > th, .maletes-maleta table tbody > tr > th, .maletes-maleta table tfoot > tr > th, .maletes-maleta table thead > tr > td, .maletes-maleta table tbody > tr > td, .maletes-maleta table tfoot > tr > td {
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th,
+.maletes-maleta table tbody > tr > th,
+.altres-altre table tbody > tr > th,
+.maletes-maleta table tfoot > tr > th,
+.altres-altre table tfoot > tr > th,
+.maletes-maleta table thead > tr > td,
+.altres-altre table thead > tr > td,
+.maletes-maleta table tbody > tr > td,
+.altres-altre table tbody > tr > td,
+.maletes-maleta table tfoot > tr > td,
+.altres-altre table tfoot > tr > td {
     border-top: 1px solid #DDDDDD;
     line-height: 1.42857;
     padding: 8px;
@@ -772,17 +813,22 @@ main[role="main"] {
  .about-us #thoughts div.row .recent-news {
   min-height: 120px;
 }
-body.bx-maletes div.body-content article p.pull-right, body.bx-markets div.body-content article p.pull-right {
+body.bx-maletes div.body-content article p.pull-right, 
+body.bx-markets div.body-content article p.pull-right, 
+body.bx-altres div.body-content article p.pull-right, 
+body.bx-altres div.body-content article p.pull-right {
   float: none!important;
 }
 .body-content.blog, .body-content.markets, .body-content.solutions {
   padding-top: 0;
 }
- body.bx-maletes.maletes-maleta main[role="main"] div.content-two-third {
+ body.bx-maletes.maletes-maleta main[role="main"] div.content-two-third,
+ body.bx-altres.altres-altre main[role="main"] div.content-two-third {
   width: 75%;
   float:right;
 }
-body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third,
+body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
   width: 20%;
   float:right;
   position: fixed;
@@ -795,9 +841,12 @@ body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
       background: url(/assets/img/banner-barcelona-lg.jpg) no-repeat 50% 8%;
   }
 
-body.bx-maletes div.body-content article p.pull-right, body.bx-markets div.body-content article p.pull-right {
+body.bx-altres div.body-content article p.pull-right, 
+body.bx-maletes div.body-content article p.pull-right, 
+body.bx-markets div.body-content article p.pull-right {
   float: right!important;
 }
+body.bx-altres div.body-content article p.featured-img-url,
 body.bx-maletes div.body-content article p.featured-img-url {
   margin-top: -165px;
   margin-left: 10px;
@@ -805,6 +854,7 @@ body.bx-maletes div.body-content article p.featured-img-url {
 }
 
 @media screen and (min-width: 1200px) {
+  body.bx-altres.altres-altre aside[role="complementary"].content-one-third,
   body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
   width: 15%;
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: maletes
+slug: altres
 ---
 
 <main class="bx-masthead container" id="content" role="main">
@@ -11,14 +11,14 @@ slug: maletes
 
       <ul class="breadcrumb">
         <li><a href="{{ site.base_url }}/">Home</a></li>
-        <li><a href="{{ site.base_url }}/maletes">Maletes</a></li>
-        {% if page.title != 'Maletes' %}
-        <li class="active">{% if page.title != 'Maletes' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle == null %}{{page.title}}{% endif %}</li>
+        <li><a href="{{ site.base_url }}/altres">Altres</a></li>
+        {% if page.title != 'Altres' %}
+        <li class="active">{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</li>
         {% endif %}
       </ul>
 
       <div class="page-header">
-        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Maletes' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle == null %}{{page.title}}{% endif %}</h1>
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Altres' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</h1>
       </div>
 
           <article role="main">
@@ -32,7 +32,7 @@ slug: maletes
             {% if page.box == 'contenidors' %}{% include grid-thumbnail-maletes-contenidors.html %}{% endif %}
           </article>   
 
-        <div class="well well-sm {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
+        <div class="well well-sm {% if page.title == 'Altres' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
           <h1 class="text-center">El podem ajudar?</h1> 
           <p class="text-center"><a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='icon-envelope icon-white'></span> Contacti amb nosaltres</a></p>
@@ -43,7 +43,7 @@ slug: maletes
 
   </div>
 
-  {% if page.title != 'Maletes' %}
+  {% if page.title != 'Altres' %}
   <aside role="complementary" class="content-one-third">
 
   {% include nav-pills-tipus-de-maletes.html %}
