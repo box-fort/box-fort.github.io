@@ -4,11 +4,17 @@ slug: maletes
 box: injeccio
 class: maletes-maleta
 title: Maletes de plàstic
-subtitle: Injecció
+subtitle: injecció
 keywords: 
 featured-img-url:
-icon-url: 
+icon-url:  
 --- 
+
+<p class="text-center">
+  <a href="#injeccio" class="btn btn-primary">Imatges Plastica Panaro</a>
+  <a href="#" class="btn btn-primary">Imatges Hofbauer</a>
+  <a href="#" class="btn btn-primary">Imatges Plaston</a>
+</ul>
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-48-h132-gris.jpg"></p>
 
