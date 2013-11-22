@@ -28,13 +28,13 @@ Gran varietat de maletes d'eines en alumini, ABS, pell, fibra de carboni, etc. T
 
 	<div class="col-sm-3 col-md-3">
 
-		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/hofbauer.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"><br/>Hofbauer</a></p>
+		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/hofbauer.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-hofbauer-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-hofbauer-servicebag.jpg"><br/>Hofbauer</a></p>
 
 	</div>
 
 	<div class="col-sm-3 col-md-3">
 
-		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/parat.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"><br/>Parat</a></p>
+		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/parat.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-parat-logo-parat.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-parat-481-500-171.jpg"><br/>Parat</a></p>
 
 	</div>
 

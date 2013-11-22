@@ -10,7 +10,18 @@ featured-img-url:
 icon-url: 
 ---
 
-A **Boxfort** fabriquem maletes a mida personalitzant tant exteriors com interiors. 
-En aquests més de 25 anys d'experiència, hem treballat per infinitat de sectors i hem creat una borsa de clients entre els que hi trobem empreses de primera fila. Les nostres maletes han viatjat per tot el món portant els objectes més diversos: motos, mostruaris de tot tipus, equips electrònics, escultures, quadres, ...
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-boxmt-25225.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-M145-d-ab.jpg"></p>
 
-Digui'ns que ha de transportar i nosaltres fabricarem la maleta mes adient per a el seu ús
+Maletes eines|Mides interiors
+--- | ---
+MT 25225|460 x 330 x 160
+MT 25222|460 x 330 x 155
+MT 25215 (Trolley)|455 x 340 x 185
+
+BoxFort|Mides interiors
+--- | ---
+M95|450 x 330 x 95
+M120|450 x 330 x 120
+M145|450 x 330 x 145
+MA95|400 x 300 x 95
+MA120|400 x 300 x 120

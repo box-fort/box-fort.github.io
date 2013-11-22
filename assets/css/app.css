@@ -414,7 +414,7 @@ header[role="banner"] div.navbar {
   min-height: 80px;
 }
 .navbar{
-  background: #ffffff;
+  background: #F2F7FB;
   border: none;
 }
 
@@ -443,6 +443,10 @@ main[role="main"] {
 body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third, 
 body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
   margin: 0 0 2.5em 0;
+}
+
+footer[role="contentinfo"] {
+  margin-bottom: -1.5em;
 }
 
 /*footer[role="contentinfo"] {
@@ -492,6 +496,11 @@ color:#ffffff;
 .body-content.blog, .body-content.markets, .body-content.solutions {
   position: relative;
   padding: 30px 2.5% 50px 2.5%;
+}
+
+.well {
+  border: 1px solid rgba(8,100,182,1);
+  background: rgba(8,100,182,.1);
 }
 
 .body-content.blog .well, .body-content.markets .well, .body-content.solutions .well{
@@ -786,7 +795,7 @@ header[role="banner"] div.navbar {
   font-size: 1em;
 }
 main[role="main"] {
-  margin-top: 99px;
+  margin-top: 109px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background:none;
