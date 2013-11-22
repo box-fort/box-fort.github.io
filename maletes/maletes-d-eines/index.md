@@ -16,13 +16,13 @@ Gran varietat de maletes d'eines en alumini, ABS, pell, fibra de carboni, etc. T
 
 	<div class="col-sm-3 col-md-3">
 
-		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/box-fort.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-plastica-panaro-170-48-h132-gris.jpg"><br/>Box Fort</a></p>
+		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/box-fort.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-logo-box-fort.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-boxmt-25225.jpg"><br/>Box Fort</a></p>
 
 	</div>
 
 	<div class="col-sm-3 col-md-3">
 
-		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/panaro.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"><br/>Panaro</a></p>
+		<p class="text-center"><a href="{{ site.base_url }}/maletes/maletes-d-eines/panaro.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-plastica-panaro-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-plastica-panaro-170-48-h-184-pu-d.jpg"><br/>Panaro</a></p>
 
 	</div>
 
