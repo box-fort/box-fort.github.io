@@ -11,8 +11,8 @@ icon-url:
 --- 
 
 <p class="text-center">
-  <a href="#injeccio" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plastica Panaro</a>
-  <a href="#" class="btn btn-primary"><i class="fa fa-picture-o"></i> Hofbauer</a>
+  <a href="#injeccio-plastica-panaro" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plastica Panaro</a>
+  <a href="#injeccio-hofbauer" class="btn btn-primary"><i class="fa fa-picture-o"></i> Hofbauer</a>
   <a href="#" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plaston</a>
 </ul>
 
