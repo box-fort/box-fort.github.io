@@ -11,7 +11,7 @@ icon-url:
 --- 
 
  	
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-piloto.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-101-perline.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-180-43-blau.jpg"></p>
  
  Article| Mides | Descripció | 
 --- | --- |
