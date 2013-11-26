@@ -10,7 +10,11 @@ featured-img-url:
 icon-url: 
 --- 
 
- 	
+<p class="text-center">
+  <a href="#altres-blisters-polipropile" class="btn btn-primary"><i class="fa fa-picture-o"></i> Polipropilè</a>
+  <a href="#altres-blisters-termoformat" class="btn btn-primary"><i class="fa fa-picture-o"></i> Termoformat</a>
+</p>
+
 A Boxfort podrà trobar una amplia gamma de productes en polipropilé troquelat, una solució econòmica d'embalatge.
 
 Amb aquest material, podem fabricar tot tipus de blisters i maletes lleugeres, que li facilitaran una bona presentació dels seus productes.

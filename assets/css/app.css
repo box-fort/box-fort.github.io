@@ -560,32 +560,32 @@ a.next-ten {
     color:#fff;
 }
 .card:hover {
-  background-color:rgba(11,140,255,1);
+  background-color:rgba(125,92,60,1);
   color:#fff;
-  -webkit-transition:background-color .2s, color .2s;
-     -moz-transition:background-color .2s, color .2s;
-       -o-transition:background-color .2s, color .2s;
-      -ms-transition:background-color .2s, color .2s;
-          transition:background-color .2s,color .2s;
+  -webkit-transition:background-color .5s, color .5s;
+     -moz-transition:background-color .5s, color .5s;
+       -o-transition:background-color .5s, color .5s;
+      -ms-transition:background-color .5s, color .5s;
+          transition:background-color .5s,color .5s;
 }
 
 a.next-ten:hover {
   background: #fff;
   color:rgba(11,140,255,1);
-  -webkit-transition:background-color .2s, color .2s;
-     -moz-transition:background-color .2s, color .2s;
-       -o-transition:background-color .2s, color .2s;
-      -ms-transition:background-color .2s, color .2s;
-          transition:background-color .2s,color .2s;
+  -webkit-transition:background-color .5s, color .5s;
+     -moz-transition:background-color .5s, color .5s;
+       -o-transition:background-color .5s, color .5s;
+      -ms-transition:background-color .5s, color .5s;
+          transition:background-color .5s,color .5s;
 }
 
 .card:hover h2,.card:hover h4 {
   color:#fff;
-  -webkit-transition:color .2s;
-     -moz-transition:color .2s;
-       -o-transition:color .2s;
-      -ms-transition:color .2s;
-          transition:color .2s;
+  -webkit-transition:color .5s;
+     -moz-transition:color .5s;
+       -o-transition:color .5s;
+      -ms-transition:color .5s;
+          transition:color .5s;
 }
 
 .article {
@@ -645,7 +645,7 @@ width: 90px!important;
 }
 
 #thoughts div.row .recent-news {
-  background: rgba(206,200,177,.25);
+  background: rgba(125,92,60,.1);
   padding:.75em;
   margin: 0.75em 0;
 }
