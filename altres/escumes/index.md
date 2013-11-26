@@ -11,12 +11,8 @@ icon-url:
 --- 
 
  	
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-piloto.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-escumes-candaus.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-escumes-escumes.jpg"></p>
 
-Interiors neutres o personalitzats amb escumes troquelades de diferents densitats i colors, termoconformats, buidats, accessoris porta eines, etc.
+A Boxfort, treballem amb escumes d'alta (polietilè) i baixa densitat (poliuretà), les tallem, les troquelem o les fresem segons necessitats.  Disposem d'escumes pre troquelades (multiforma) per a diferents models de maleta, que permeten al client fer ell mateix l'interior desitjat.
 
-Maletes més lleugeres, més fortes, més qualitat.
-
-Mides interiors|
---- |
-480 x380 x230|
+Poden posar-se en amb nosaltres per a buscar la solució d'un professional.
