@@ -29,6 +29,10 @@ body.solutions-solution .page-header {
   border-bottom:none;
 }
 
+.btn-primary {
+  background-color: rgba(8,100,182,1);
+}
+
 /* ----- #myCarouselHomeVortex ---- */
 
 #myCarouselHomeVortex .carousel-caption {
