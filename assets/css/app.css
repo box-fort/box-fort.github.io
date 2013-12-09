@@ -352,6 +352,15 @@ h1,h2,h3,.navbar-default .navbar-nav > li > a {
   color:rgb(8,100,182);
   text-transform: uppercase;
 }
+.navbar-header > p.lang  {
+  position: absolute;
+  top: 0;
+}
+.navbar-header > p.lang > a.active {
+  font-weight: bold;
+  cursor: default;
+  color: #333333;
+}
 h2 small{
   color: rgb(125,92,60);
 }
@@ -375,7 +384,7 @@ h4 time {
 }
 
 .cl-effect-1 a::before {
-  margin-right: 10px;
+  margin-right: 5px;
   content: '[';
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
@@ -383,7 +392,7 @@ h4 time {
 }
 
 .cl-effect-1 a::after {
-  margin-left: 10px;
+  margin-left: 5px;
   content: ']';
   -webkit-transform: translateX(-20px);
   -moz-transform: translateX(-20px);

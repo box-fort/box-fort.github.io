@@ -7,21 +7,50 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ site.base_url }}/"><img src="{{ site.base_url }}/assets/img/box-fort-logo.png" /></a>
+          <p class="lang hidden-xs">
+            {% if page.lang != 'es' %}
+              <a href="#" title="català" class="active">ca</a> <a href="{{ site.base_url }}/es/" title="español">es</a>
+            {% else if %}
+              <a href="{{ site.base_url }}/" title="català">ca</a> <a href="#" title="español" class="active">es</a>
+            {% endif %}
+            </p>
+          {% if page.lang == 'es' %}
+            <a class="navbar-brand" href="{{ site.base_url }}/es/">
+          {% else if %}
+            <a class="navbar-brand" href="{{ site.base_url }}/">
+          {% endif %}
+          <img src="{{ site.base_url }}/assets/img/box-fort-logo.png" />
+          </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-nav-right">
            <li{% if page.slug == "maletes" %} class="active"{% endif %}>
+              {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/maletas/">Maletas</a>
+              {% else if %}
 				      <a href="{{ site.base_url }}/maletes/">Maletes</a>
+              {% endif %}
 		       </li>
            <li{% if page.slug == "fundes-textil" %} class="active"{% endif %}>
+              {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/fundas-textil.html">Fundas téxtil</a>
+              {% else if %}
               <a href="{{ site.base_url }}/fundes-textil.html">Fundes tèxtil</a>
+              {% endif %}
            </li>
            <li{% if page.slug == "altres" %} class="active"{% endif %}>
+              {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/otros/">Otros</a>
+              {% else if %}
               <a href="{{ site.base_url }}/altres/">Altres</a>
+              {% endif %}
            </li>
            <li{% if page.slug == "contacte" %} class="active"{% endif %}>
+              {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/contacto/">Contacto</a>
+              {% else if %}
               <a href="{{ site.base_url }}/contacte/">Contacte</a>
+              {% endif %}
            </li>
           </ul>
         </div><!--/.nav-collapse -->

@@ -10,15 +10,39 @@ slug: altres
     <div class="body-content solutions">
 
       <ul class="breadcrumb">
-        <li><a href="{{ site.base_url }}/">Home</a></li>
-        <li><a href="{{ site.base_url }}/altres">Altres</a></li>
-        {% if page.title != 'Altres' %}
-        <li class="active">{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</li>
+        <li>
+            {% if page.lang == 'es' %}
+            <a href="{{ site.base_url }}/es/">Home</a>
+            {% else if %}
+            <a href="{{ site.base_url }}/">Home</a>
+            {% endif %}
+        </li>
+        <li>
+            {% if page.lang == 'es' %}
+            <a href="{{ site.base_url }}/es/otros">Otros</a>
+            {% else if %}
+            <a href="{{ site.base_url }}/altres">Altres</a>
+            {% endif %}
+        </li>
+        {% if page.lang == 'es' %}
+          {% if page.title != 'Otros' %}
+          <li class="active">{% if page.title != 'Otros' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle == null %}{{page.title}}{% endif %}</li>
+          {% endif %}
+        {% else if %}
+          {% if page.title != 'Altres' %}
+          <li class="active">{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</li>
+          {% endif %}
         {% endif %}
       </ul>
 
       <div class="page-header">
-        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} {% if page.title == 'Altres' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</h1>
+        <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} 
+        {% if page.lang == 'es' %}
+          {% if page.title == 'Otros' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle == null %}{{page.title}}{% endif %}
+        {% else if %}
+          {% if page.title == 'Altres' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}
+        {% endif %}
+        </h1>
       </div>
 
           <article role="main">
@@ -40,7 +64,7 @@ slug: altres
 
   </div>
 
-  {% if page.title != 'Altres' %}
+  {% if page.title != 'Altres' and page.title != 'Otros' %}
   <aside role="complementary" class="content-one-third">
 
   {% include nav-pills-tipus-d-altres.html %}
