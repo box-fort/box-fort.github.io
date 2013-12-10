@@ -16,9 +16,9 @@ icon-url:
   <a href="#injeccio-plaston" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plaston</a>
 </p>
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-48-h132-gris.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-60H144-34x30-cm.jpg"></p>
 
-ROCASE|Mides interiors|ADVANCED|Mides interiors
+PROCASE|Mides interiors|ADVANCED|Mides interiors
 --- | --- | --- |
 170/34H96|324 x 251 x 87|170/25|235 x 185 x 43
 170/34H128|320 x 247 x 118,5|170/26H44|248 x 178 x 39
