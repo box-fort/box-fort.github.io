@@ -10,8 +10,20 @@ slug: maletes
     <div class="body-content solutions">
 
       <ul class="breadcrumb">
-        <li><a href="{{ site.base_url }}/">Home</a></li>
-        <li><a href="{{ site.base_url }}/maletes">Maletes</a></li>
+        <li>
+            {% if page.lang == 'es' %}
+            <a href="{{ site.base_url }}/es/">Home</a>
+            {% else if %}
+            <a href="{{ site.base_url }}/">Home</a>
+            {% endif %}
+        </li>
+        <li>
+            {% if page.lang == 'es' %}
+            <a href="{{ site.base_url }}/es/maletas">Maletas</a>
+            {% else if %}
+            <a href="{{ site.base_url }}/maletes">Maletes</a>
+            {% endif %}
+        </li>
         {% if page.title != 'Maletes' %}
         <li class="active">{% if page.title != 'Maletes' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle == null %}{{page.title}}{% endif %}</li>
         {% endif %}
@@ -39,9 +51,9 @@ slug: maletes
             {% if page.box == 'estanques' %}{% include grid-thumbnail-maletes-estanques-explorer.html %}{% endif %}
           </article>   
 
-        <div class="well well-sm {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
+        <div class="well well-sm {% if page.title == 'Maletes' or page.title == 'Maletas' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
-          <h1 class="text-center">El podem ajudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class="fa fa-envelope"></span> Contacti amb nosaltres</a></h1>
+          {% include contact-us.html %}
 
         </div>
 
@@ -49,7 +61,7 @@ slug: maletes
 
   </div>
 
-  {% if page.title != 'Maletes' %}
+  {% if page.title != 'Maletes' and page.title != 'Maletas' %}
   <aside role="complementary" class="content-one-third">
 
   {% include nav-pills-tipus-de-maletes.html %}

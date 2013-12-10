@@ -14,17 +14,7 @@ keywords: BOXFORT, maletes, standard, alumini, plàstic, polipropilè, ABS, dobl
 
 			<p class="text-center"><img src="{{site.baseurl}}/assets/img/maletes-home-box-fort.jpg"></p>
 
-	  		<div class="row">
-	  			<div class="col-md-4 col-sm-4">
-			    	<h2 class="title-icon text-center"><a href="{{ site.base_url }}/es/maletes/" data-hover="Maletes"><span>Maletas</span></a></h2>
-				</div>
-				<div class="col-md-4 col-sm-4">
-				    <h2 class="title-icon text-center"><a href="{{ site.base_url }}/es/fundas-textil">Fundas</a></h2>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<h2 class="title-icon text-center"><a href="{{ site.base_url }}/es/otros/">Otros</a></h2>
-				</div>
-			</div>
+	  		{% include distrib-home.html %}
 
 		</div>		
 
@@ -32,13 +22,7 @@ keywords: BOXFORT, maletes, standard, alumini, plàstic, polipropilè, ABS, dobl
 
 	<div class="container">
 
-		<div id="boxFortLead" class="jumbotron jumbotron-no-margin">
-
-			<h1><strong>Box Fort</strong>, maletas y contenedores professionales</h1>
-
-			<p class="lead">Després de més de 25 anys d'experiència, a <strong>BOXFORT</strong>, seguim fabricant <strong>maletes</strong>, i intentem fer-ho cada vegada millor. Amb una amplia oferta de maletes standard en <strong>alumini</strong>, en <strong>plàstic polipropilè</strong>, <strong>ABS</strong>, <strong>doble paret</strong>, <strong>estanques</strong>, en materials <strogn>tèxtils</strogn>s i la fabricació a mida de <strong>flight cases</strong> i maletes en general, cobrim la majoria de necessitats.</p>
-
-		</div>
+		{% include box-fort-lead.html %}
 
 	</div>
 
@@ -46,24 +30,7 @@ keywords: BOXFORT, maletes, standard, alumini, plàstic, polipropilè, ABS, dobl
 
 		<div class="body-content">
 
-			<section id="thoughts">
-				<div class="row">
-				{% for post in site.categories.general limit:1 %}
-					<div class="col-sm-12 col-md-12">
-						<div class="recent-news">
-							<h5>Novetats - <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | date: "%b %d" }}</time></h5>
-							<!-- <h4><time datetime="{{ post.date | date: "%Y-%m-%d %H:%M%z" }}">{{ post.date | localize: ":simple" }}</time></h4> -->
-							<hr />
-							{% if post.featured-img-url %}
-            				<p class="pull-left hidden-xs thoughts-thumbnail"><img src="{{site.baseurl}}/assets/img/{{post.featured-img-url}}"></p>
-            				{% endif %}							
-            				<a href="{{site.baseurl}}{{post.url}}"><h3>{{ post.title }}</h3></a>
-							<p>{{ post.excerpt }}</p>
-						</div>												
-					</div>
-				{% endfor %}
-				</div>
-			</section>
+			{% include section-thoughts.html %}
 
 		</div>
 
