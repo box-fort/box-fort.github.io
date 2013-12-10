@@ -15,5 +15,5 @@ icon-url:
 PANARO|Mides interiors
 --- | ---
 170/48H184PU|460 x 325 x 170	
-MJ138PU|430 x 290 x 150	
-MJ139PU|504 x 352 x 195
+MAX430PU|426 x 290 x 159	
+MAX505PU|500 x 350 x 194
