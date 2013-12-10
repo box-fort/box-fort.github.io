@@ -78,8 +78,6 @@ Art. 30|90x65x40
 Art. 28/30|90x65x50
 Art. 29/30|90x65x60
 
-###Maletes lleugeres
-
 Referencia|Mides interiors
 --- | ---
 A 95|328 x 240 x 89
