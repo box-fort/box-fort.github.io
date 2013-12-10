@@ -16,6 +16,7 @@ Maletes eines|Mides interiors
 --- | ---
 MT 25225|460 x 330 x 160
 MT 25222|460 x 330 x 155
+MT 25221|460 x 330 x 155
 MT 25215 (Trolley)|455 x 340 x 185
 
 BoxFort|Mides interiors
