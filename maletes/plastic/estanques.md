@@ -33,3 +33,11 @@ Referencia|Mides interiors|Referencia|Mides interiors
 * Con ruedas. ** Con ruedas y 2 cierres digitales.
 
 Colores: negro, naranja y verde. Medidas en mm
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"></p>
+
+Referencia|Mides interiors
+--- | ---
+MAX300|300 x 225 x 132
+MAX430|426 x 290 x 159
+MAX505|500 x 350 x 194
