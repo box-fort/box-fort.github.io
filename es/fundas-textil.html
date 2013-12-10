@@ -4,7 +4,7 @@ lang: es
 slug: fundes-textil
 box: fundes-textil
 class: fundes-textil-funda
-title: Fundes tèxil
+title: Fundas téxtil
 keywords: 
 featured-img-url:
 icon-url: 
@@ -18,7 +18,7 @@ icon-url:
 
       <ul class="breadcrumb">
         <li><a href="{{ site.base_url }}/">Home</a></li>
-        <li>Fundes tèxtil</li>
+        <li>Fundas téxtil</li>
       </ul>
 
       <div class="page-header">
@@ -28,17 +28,20 @@ icon-url:
           <article role="main">
             <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-fundes-textil-bosses-de-cordura-per-a-eines.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-fundes-textil-motxilla-trolley-primers-auxilis.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-fundes-textil-funda-per-a-peana.jpg"></p>
             
-            <p>Fabriquem tot tipus de maletes, bosses i articles diversos en niló de qualitat, així com en altres materials com polipell, lona, cordura, etc.</p>
+            <p>Fabricamos todo tipo de maletas, bolsas y artículos diversos en nylon de calidad, así como en otros materiales como polipiel, lona, cordura, etc.</p>
 
-            <p>El nostre procés de fabricació, va des de el disseny i el desenvolupament tècnic, fins a la fabricació i lliurament del producte totalment acabat.  Tots els nostres productes es poden personalitzar ja sigui amb colors, serigrafia, etc.</p>
+            <p>Nuestro proceso de fabricación, va desde el diseño y el desarrollo técnico, hasta la fabricación y entrega del producto totalmente acabado. Todos nuestros productos se pueden personalizar ya sea con colores, serigrafía, etc.</p>
             
             {% if page.box == 'fundes-textil' %}{% include grid-thumbnail-fundes-textil.html %}{% endif %}
           </article>   
 
         <div class="well well-sm {% if page.title == 'Maletes' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
-          <h1 class="text-center">El podem ajudar?</h1> 
-          <p class="text-center"><a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='icon-envelope icon-white'></span> Contacti amb nosaltres</a></p>
+          {% if page.lang == 'es' %}
+            <h1 class="text-center">¿Le podemos ayudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Quisiera información adicional sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacte con nosotros'><span class='fa fa-envelope'></span> Contacte con nosotros</a></h1>
+          {% else if %}
+            <h1 class="text-center">El podem ajudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='fa fa-envelope'></span> Contacti amb nosaltres</a></h1>
+          {% endif %}
 
         </div>
 

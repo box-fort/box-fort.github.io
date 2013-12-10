@@ -4,7 +4,7 @@ lang: es
 slug: altres
 box: plafons
 class: altres-altre
-title: Plafons
+title: Plafones
 subtitle:
 keywords: 
 featured-img-url:
@@ -14,6 +14,6 @@ icon-url:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-plafons-carpetes.jpg"></p>
 
-Pràcticament totes les maletes Boxfort, poden incorporar compartiments per a accessoris, portadocuments, plafons porta eines, escumes pretroquelades, etc. Disposem de diferents materials per la fabricaci&oacute. Serveixin d'exemple les imatges que mostrem. 
+Prácticamente todas las maletas Boxfort, pueden incorporar compartimentos para accesorios, portadocumentos, paneles portaherramientas, espumas pretroqueladas, etc. Disponemos de diferentes materiales para la fabricación. Sirvan de ejemplo las imágenes que mostramos.
 
-Poden posar-se en amb nosaltres per a buscar la solució d'un professional.
+Pueden ponerse en con nosotros para buscar la solución de un profesional.

@@ -14,6 +14,6 @@ icon-url:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-escumes-candaus.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-escumes-escumes.jpg"></p>
 
-A Boxfort, treballem amb escumes d'alta (polietilè) i baixa densitat (poliuretà), les tallem, les troquelem o les fresem segons necessitats.  Disposem d'escumes pre troquelades (multiforma) per a diferents models de maleta, que permeten al client fer ell mateix l'interior desitjat.
+En Boxfort, trabajamos con espumas de alta (polietileno) y baja densidad (poliuretano), las cortamos, las troquelado o fresado según necesidades. Disponemos de espumas pre troqueladas (multiforme) para diferentes modelos de maleta, que permiten al cliente hacer él mismo el interior deseado.
 
-Poden posar-se en amb nosaltres per a buscar la solució d'un professional.
+Pueden ponerse en con nosotros para buscar la solución de un profesional.

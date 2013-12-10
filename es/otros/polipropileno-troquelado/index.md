@@ -4,7 +4,7 @@ lang: es
 slug: altres
 box: polipropile-troquelat
 class: altres-altre
-title: Polipropilè troquelat
+title: Polipropileno troquelado
 subtitle:
 keywords: 
 featured-img-url:
@@ -14,8 +14,10 @@ icon-url:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-polipropile-troquelat.jpg"></p>
 
-A Boxfort podrà trobar una amplia gamma de productes en polipropilè troquelat, una solució econòmica d'embalatge.
-Amb aquest material, podem fabricar carpetes, maletes lleugeres, estoigs, etc., que li facilitaran una bona presentació dels seus productes.
-Interiors completament personalitzats.
+En Boxfort podrá encontrar una amplia gama de productos en polipropileno troquelado, una solución económica de embalaje.
 
-Poden posar-se en amb nosaltres per a buscar la solució d'un professional.
+Con este material, podemos fabricar carpetas, maletas ligeras, estuches, etc., Que le facilitarán una buena presentación de sus productos.
+
+Interiores completamente personalizados.
+
+Pueden ponerse en con nosotros para buscar la solución de un profesional.

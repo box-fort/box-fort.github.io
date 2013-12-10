@@ -12,19 +12,19 @@ icon-url:
 --- 
 
 <p class="text-center">
-  <a href="#altres-blisters-polipropile" class="btn btn-primary"><i class="fa fa-picture-o"></i> Polipropilè</a>
-  <a href="#altres-blisters-termoformat" class="btn btn-primary"><i class="fa fa-picture-o"></i> Termoformat</a>
+  <a href="#altres-blisters-polipropile" class="btn btn-primary"><i class="fa fa-picture-o"></i> Polipropileno</a>
+  <a href="#altres-blisters-termoformat" class="btn btn-primary"><i class="fa fa-picture-o"></i> Termoformado</a>
 </p>
 
-A Boxfort podrà trobar una amplia gamma de productes en polipropilé troquelat, una solució econòmica d'embalatge.
+En Boxfort podrá encontrar una amplia gama de productos en polipropileno troquelado, una solución económica de embalaje.
 
-Amb aquest material, podem fabricar tot tipus de blisters i maletes lleugeres, que li facilitaran una bona presentació dels seus productes.
+Con este material, podemos fabricar todo tipo de blisters y maletas ligeras, que le facilitarán una buena presentación de sus productos.
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/04-thumbnail-box-fort-altres-blisters-polipropile-blister-polipropile.jpg"></p>
 
-##Polipropilè
+##Polipropileno
 
-Referencia|Mides interiors
+Referencia|Medidas interiores
 --- | ---
 ART. A1|48 x 38 x 15
 ART. A2|48 x 38 x 10
@@ -40,13 +40,13 @@ ART. F1|195 x 70 x 35
 ART. F2|245 x 70 x 35
 ART. F3|295 x 70 x 35
 ART. F4|315 x 55 x 22
-ART. D0/4|125 x 65 x 18<br/>4 compartiments
+ART. D0/4|125 x 65 x 18<br/>4 compartimientos
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-altres-blisters-termoformat-PVC.jpg"></p>
 
-##Termoformat
+##Termoformado
 
-Referencia|Mides interiors
+Referencia|Medidas interiores
 --- | ---
 Art. 1|55x45x12
 Art. 2|55x45x20
@@ -79,14 +79,12 @@ Art. 30|90x65x40
 Art. 28/30|90x65x50
 Art. 29/30|90x65x60
 
-###Maletes lleugeres
-
-Referencia|Mides interiors
+Referencia|Medidas interiores
 --- | ---
 A 95|328 x 240 x 89
-B 20|328 x 240 x 20<br/>(sobre comanda)
+B 20|328 x 240 x 20<br/>(sobre pedido)
 B 40|328 x 239 x 39
-D 60|210 x 155 x 59<br/>(comanda minima)
+D 60|210 x 155 x 59<br/>(pedido mínimo)
 D 85|210 x 155 x 85
 E 30|210 x 155 x 29
 F 60|159 x 110 x 59

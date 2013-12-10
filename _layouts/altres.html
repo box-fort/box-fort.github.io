@@ -56,7 +56,11 @@ slug: altres
 
         <div class="well well-sm {% if page.title == 'Altres' %} hidden-xs hidden-sm hidden-md hidden-lg {% endif %}">
 
-          <h1 class="text-center">El podem ajudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='fa fa-envelope'></span> Contacti amb nosaltres</a></h1>
+          {% if page.lang == 'es' %}
+            <h1 class="text-center">¿Le podemos ayudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Quisiera información adicional sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacte con nosotros'><span class='fa fa-envelope'></span> Contacte con nosotros</a></h1>
+          {% else if %}
+            <h1 class="text-center">El podem ajudar? <a href='mailto:bustia@box-fort.com?subject={{page.title}} - Box-fort.com&body=Voldria informació addicionals sobre: http://www.box-fort.com{{page.url}}' class='mailto btn btn-default' title='Contacti amb nosaltres'><span class='fa fa-envelope'></span> Contacti amb nosaltres</a></h1>
+          {% endif %}
 
         </div>
 
