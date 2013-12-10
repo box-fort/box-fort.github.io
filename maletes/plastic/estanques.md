@@ -10,6 +10,11 @@ featured-img-url:
 icon-url: 
 --- 
 
+<p> Galeria d'imatges: 
+  <a href="#estanques-explorer" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-icon-explorer-cases.jpg"> Explorer cases</a>
+  <a href="#estanques-max" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-icon-max-cases.jpg"> Max cases</a>
+</p>
+
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"></p>
 
 Referencia|Mides interiors|Referencia|Mides interiors
