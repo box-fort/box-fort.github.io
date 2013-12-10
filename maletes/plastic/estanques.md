@@ -34,7 +34,7 @@ Referencia|Mides interiors|Referencia|Mides interiors
 
 Colores: negro, naranja y verde. Medidas en mm
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-max-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-max-cases.jpg"></p>
 
 Referencia|Mides interiors
 --- | ---
