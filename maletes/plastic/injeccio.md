@@ -10,10 +10,10 @@ featured-img-url:
 icon-url:  
 --- 
 
-<p class="text-center">
-  <a href="#injeccio-plastica-panaro" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plastica Panaro</a>
-  <a href="#injeccio-hofbauer" class="btn btn-primary"><i class="fa fa-picture-o"></i> Hofbauer</a>
-  <a href="#injeccio-plaston" class="btn btn-primary"><i class="fa fa-picture-o"></i> Plaston</a>
+<p> Galeria d'imatges: 
+  <a href="#injeccio-plastica-panaro" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plastica-panaro.jpg"> Plastica Panaro</a>
+  <a href="#injeccio-hofbauer" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-hofbauer.jpg"> Hofbauer</a>
+  <a href="#injeccio-plaston" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plaston.jpg"> Plaston</a>
 </p>
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-60H144-34x30-cm.jpg"></p>
