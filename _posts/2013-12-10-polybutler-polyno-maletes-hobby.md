@@ -8,7 +8,7 @@ categories: [infraestructura, general, no-cita]
 featured-img-url: maletes-max-extremament-durables-en-totes-les-condicions.jpg
 tags:
 meta: Polybutler Polyno, maletes hobby
-excerpt: Les maletes Max compten amb la certificació IP67, resistent, durable i fiable. Poden ser utilitzades en una varietat d'aplicacions, que van des de marines, la fotografia, el busseig, la caça, la pesca, el cos especial i fins i tot la indústria manufacturera.
+excerpt: POLYBUTLER la maleta para todo y para todos.
 author: box-fort
 keywords: box-fort, max, plastica, panaro, IP67, durables, extremamment, durables
 ---
