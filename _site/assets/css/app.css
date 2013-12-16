@@ -1,0 +1,884 @@
+ @import url("/assets/fonts/stylesheet.css");
+ 
+ /* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+img {
+  max-width:100%;
+}
+
+a {
+  color:#0864B6;
+}
+
+.display {
+  display: block;
+}
+
+.nodisplay {
+  display: none!important;
+}
+
+.page-header {
+  border-bottom:1px solid rgb(8,100,182);
+}
+
+body.solutions-solution .page-header {
+  border-bottom:none;
+}
+
+.btn-primary {
+  background-color: rgba(8,100,182,1);
+}
+
+/* ----- #myCarouselHomeVortex ---- */
+
+#myCarouselHomeVortex .carousel-caption {
+  z-index: 10;
+  bottom:0;
+  padding-top: 0;
+  top: 0;
+  text-align: left;
+  text-shadow:none;
+}
+#myCarouselHomeVortex .carousel-caption a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+  -webkit-opacity: 0.5;
+     -moz-opacity: 0.5;
+          opacity: 0.5;
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+#myCarouselHomeVortex .carousel-caption a:hover {
+  -webkit-opacity: 1;
+     -moz-opacity: 1;
+          opacity: 1;
+}
+#myCarouselHomeVortex .carousel-indicators {
+  bottom:20px;
+}
+#myCarouselHomeVortex .carousel-caption h1, #myCarouselHomeVortex .carousel-caption h4 {
+  color: #ffffff;
+}
+
+#myCarouselHomeVortex.carousel .item {
+  min-height: 400px;
+  background-color: rgba(8,100,182,1);
+}
+
+#myCarouselHomeVortex .carousel-inner .item .container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  display: none;
+  height: 500px;
+}
+
+/* ---- marketsIconHome ---- */
+
+  @-webkit-keyframes cf3FadeInOut {
+   0% {
+     opacity:1;
+   }
+   25% {
+    opacity:1;
+  }
+  75% {
+    opacity:0;
+  }
+  100% {
+   opacity:0;
+ }
+}
+
+@-moz-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@-o-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes cf3FadeInOut_b {
+   0% {
+     opacity:0;
+   }
+   25% {
+    opacity:0;
+  }
+  75% {
+    opacity:1;
+  }
+  100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes cf3FadeInOut_b {
+ 0% {
+   opacity:0;
+ }
+ 25% {
+  opacity:0;
+}
+75% {
+  opacity:1;
+}
+100% {
+ opacity:1;
+}
+}
+
+@-o-keyframes cf3FadeInOut_b {
+ 0% {
+   opacity:0;
+ }
+ 25% {
+  opacity:0;
+}
+75% {
+  opacity:1;
+}
+100% {
+ opacity:1;
+}
+}
+
+@keyframes cf3FadeInOut_b {
+ 0% {
+   opacity:0;
+ }
+ 25% {
+  opacity:0;
+}
+75% {
+  opacity:1;
+}
+100% {
+ opacity:1;
+}
+}
+
+.blau-vortex {
+  /*background: rgba(8,100,182,1);*/
+}
+
+#cf3 {
+  position:relative;
+  height:115px;
+  width:174px;
+  margin:0 auto;
+}
+#cf3 img {
+  position:absolute;
+  left:0;
+}
+
+#cf3 img.top {
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation-name: cf3FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 10s;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: cf3FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 10s;
+  -o-animation-direction: alternate;
+
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+#cf3 img.bottom {
+  -webkit-animation-name: cf3FadeInOut_b;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation-name: cf3FadeInOut_b;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 10s;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: cf3FadeInOut_b;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 10s;
+  -o-animation-direction: alternate;
+
+  animation-name: cf3FadeInOut_b;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+p.vortex-icon.title-icon a {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family:'robotoslabregular', serif;
+  color: rgba(8,100,182,1);
+  letter-spacing: 2px;
+  margin:0;
+}
+
+p.vortex-icon.title-icon.title-inverse-icon a {
+  color: rgba(255,255,255,1);
+}
+
+h2.title-icon a {
+  text-transform: uppercase;
+  color: rgba(0, 60, 76, 1);
+}
+
+h2.title-icon a:hover {
+  text-decoration: none;
+}
+
+.molecula:hover {
+          transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition-duration:1500ms;
+  cursor:progress;
+}
+
+.jumbotron {
+  border-radius:0;
+  color:rgb(8,100,182);
+  background:rgba(8, 100, 182, 0.15);
+}
+
+.jumbotron.case-study {
+  color:rgba(8, 100, 182, 0.25);
+  background:rgb(8,100,182);
+}
+
+.jumbotron-blue-vortex {
+  background:rgb(191,203,207);
+}
+
+.jumbotron-white {
+  background:rgb(255,255,255);
+}
+
+.jumbotron-no-margin {
+  margin: 0
+}
+
+.jumbotron.case-study.case-study-sequence {
+  padding: 0;
+}
+
+.jumbotron.case-study h1, .jumbotron.case-study h2, .jumbotron.case-study h3 {
+  color:rgb(255,255,255);
+}
+
+.jumbotron .page-header {
+  border-bottom: none;
+}
+.bx-blog #content {
+  background:#ffffff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #0864B6;
+}
+
+body {
+  font-family:Verdana, Geneva, sans-serif;;
+}
+
+h1,h2,h3,.navbar-default .navbar-nav > li > a {
+  /*font-family:'SteelfishRgRegular', serif;*/
+  color:rgb(8,100,182);
+  text-transform: uppercase;
+}
+.navbar-header > p.lang  {
+  position: absolute;
+  top: 0;
+}
+.navbar-header > p.lang > a.active {
+  font-weight: bold;
+  cursor: default;
+  color: #333333;
+}
+h2 small{
+  color: rgb(125,92,60);
+}
+
+h4 time {
+  text-transform: uppercase;
+}
+
+/*.navbar-default .navbar-nav > li:last-child > a {
+  color:rgb(147,176,237);
+}*/
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+  margin-right: 5px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+  margin-left: 5px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.cl-effect-1 a.navbar-brand:hover::before,
+.cl-effect-1 a.navbar-brand:hover::after,
+.cl-effect-1 li.active a:hover:before,
+.cl-effect-1 li.active a:hover::after,
+.cl-effect-1 a.navbar-brand:focus::before,
+.cl-effect-1 a.navbar-brand:focus::after,
+.cl-effect-1 li.active a:focus::before,
+.cl-effect-1 li.active a:focus::after {
+  opacity: 0;
+}
+
+
+
+header[role="banner"] div.navbar {
+  padding-top: 12.5px;
+  min-height: 80px;
+}
+.navbar{
+  background: #F2F7FB;
+  border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+.navbar-brand {
+  margin-left:0;
+  padding:0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background:rgba(8, 100, 182, 0.15);
+  color:rgb(8,100,182);
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background:rgb(8,100,182); 
+}
+
+main[role="main"] {
+  margin-top: 77px;
+}
+
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third, 
+body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
+  margin: 0 0 2.5em 0;
+}
+
+footer[role="contentinfo"] {
+  margin-bottom: -1.5em;
+}
+
+/*footer[role="contentinfo"] {
+  font-family:'SteelfishRgRegular', serif;
+}
+
+footer[role="contentinfo"] strong {
+  font-family:'robotoslabbold', serif;
+}*/
+
+.oxygen-bg {background:#010101;
+border-collapse: collapse;
+    display: table;
+    width: 100%;
+}
+
+.footer-bg {
+  background:rgba(8,100,182,1);
+   padding:1em 1em 0;
+   color:#BFCBCF;
+}
+.footer-bg hr, hr {
+background-color:rgb(172,203,218);
+border:rgb(8,100,182) 1px solid;
+border-style: none none solid;
+color:#fff;
+}
+
+.footer-bg hr {
+margin:20px 0 5px;
+}
+.footer-bg a {
+color:#ffffff;
+}
+.footer-bg-2 {
+  background:rgba(231,101,87,.25);
+  color:#FFFFFF;
+  padding-top:1em;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+
+.body-content.blog, .body-content.markets, .body-content.solutions {
+  position: relative;
+  padding: 30px 2.5% 50px 2.5%;
+}
+
+.well {
+  border: 1px solid rgba(8,100,182,1);
+  background: rgba(8,100,182,.1);
+}
+
+.body-content.blog .well, .body-content.markets .well, .body-content.solutions .well{
+  margin-top: 2em;
+}
+
+.blog .breadcrumb, .markets .breadcrumb, .solutions .breadcrumb,  .about-us .breadcrumb {
+padding: 0;
+margin-bottom: 20px;
+list-style: none;
+background:none;
+}
+
+.blog .card {
+padding: 10px;
+margin-top: 10px;
+max-height: none;
+height: auto;
+}
+
+.blog .card h1,.blog .card h2,.blog .card h3,.blog .article h1,.blog .article h2,.blog .article h3 {
+  -wekit-hyphens:auto;
+    -moz-hyphens:auto;
+         hyphens:auto;
+}
+
+.display {
+display: block!important;
+}
+
+.card {display: block;
+height: 280px;
+padding: 10px;
+margin-top: 10px 20px;
+background: #fff;
+overflow: hidden;
+}
+
+.card .card-title {
+  font-size: 3.5rem;
+}
+
+.card .card-content {
+  padding-left: 10%;
+}
+
+a.next-ten {
+    display: block;
+    margin-top: 30px;
+    padding: 5% 0;
+    width: 100%;
+    background-color:#BEC4CA;
+    color:#fff;
+}
+.card:hover {
+  background-color:rgba(125,92,60,1);
+  color:#fff;
+  -webkit-transition:background-color .5s, color .5s;
+     -moz-transition:background-color .5s, color .5s;
+       -o-transition:background-color .5s, color .5s;
+      -ms-transition:background-color .5s, color .5s;
+          transition:background-color .5s,color .5s;
+}
+
+a.next-ten:hover {
+  background: #fff;
+  color:rgba(11,140,255,1);
+  -webkit-transition:background-color .5s, color .5s;
+     -moz-transition:background-color .5s, color .5s;
+       -o-transition:background-color .5s, color .5s;
+      -ms-transition:background-color .5s, color .5s;
+          transition:background-color .5s,color .5s;
+}
+
+.card:hover h2,.card:hover h4 {
+  color:#fff;
+  -webkit-transition:color .5s;
+     -moz-transition:color .5s;
+       -o-transition:color .5s;
+      -ms-transition:color .5s;
+          transition:color .5s;
+}
+
+.article {
+position: relative;
+background: #fff;
+padding: 10px;
+}
+
+.blog .article figure {
+  background: rgba(16,68,90,.25);
+}
+
+.blog .article figure figcaption {
+  text-align: center;
+  font-size: .75em;
+}
+
+#siderail {
+position: relative;
+top:0;
+}
+
+#blog-categories ul, #blog-top ul {
+  padding:0;
+}
+
+#blog-categories li, #blog-top li {
+  list-style:none;
+}
+
+.social-share {
+width: 276px;
+}
+.social-share ul {
+list-style: none;
+margin: 0!important;
+padding:0!important;
+}
+
+.social-share ul li {
+float: left;
+margin-bottom: 0!important;
+margin-right: .5em!important;
+}
+
+.social-share .twframe, .social-share .fbframe, .social-share .inframe  {
+margin-top: 4px!important;
+width: 90px!important;
+}
+
+#siderail li {
+  margin-bottom:.75em;
+}
+
+.label.marketing {
+  font-size:1em;
+}
+
+#thoughts div.row .recent-news {
+  background: rgba(125,92,60,.1);
+  padding:.75em;
+  margin: 0.75em 0;
+}
+
+#thoughts h2 {
+  text-transform: uppercase;
+}
+
+#thoughts .thoughts-thumbnail img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 10px;
+}
+
+.maletes-maleta table,
+.altres-altre table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.maletes-maleta table,
+.altres-altre table {
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 100%;
+}
+.maletes-maleta table,
+.altres-altre table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.maletes-maleta table caption + thead tr:first-child th,
+.altres-altre table caption + thead tr:first-child th,
+.maletes-maleta table colgroup + thead tr:first-child th,
+.altres-altre table colgroup + thead tr:first-child th,
+.maletes-maleta table thead:first-child tr:first-child th,
+.altres-altre table thead:first-child tr:first-child th,
+.maletes-maleta table caption + thead tr:first-child td,
+.altres-altre table caption + thead tr:first-child td,
+.maletes-maleta table colgroup + thead tr:first-child td,
+.altres-altre table colgroup + thead tr:first-child td,
+.maletes-maleta table thead:first-child tr:first-child td,
+.altres-altre table thead:first-child tr:first-child td {
+    border-top: 0 none;
+}
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th {
+    border-bottom: 2px solid #DDDDDD;
+    vertical-align: bottom;
+}
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th,
+.maletes-maleta table tbody > tr > th,
+.altres-altre table tbody > tr > th,
+.maletes-maleta table tfoot > tr > th,
+.altres-altre table tfoot > tr > th,
+.maletes-maleta table thead > tr > td,
+.altres-altre table thead > tr > td,
+.maletes-maleta table tbody > tr > td,
+.altres-altre table tbody > tr > td,
+.maletes-maleta table tfoot > tr > td,
+.altres-altre table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+th {
+    text-align: left;
+}
+
+.maletes-maleta table > tbody > tr:nth-child(2n+1) > td,
+.altres-altre table > tbody > tr:nth-child(2n+1) > td,
+.maletes-maleta table > tbody > tr:nth-child(2n+1) > th,
+.altres-altre table > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F9F9F9;
+}
+.maletes-maleta table thead > tr > th,
+.altres-altre table thead > tr > th,
+.maletes-maleta table tbody > tr > th,
+.altres-altre table tbody > tr > th,
+.maletes-maleta table tfoot > tr > th,
+.altres-altre table tfoot > tr > th,
+.maletes-maleta table thead > tr > td,
+.altres-altre table thead > tr > td,
+.maletes-maleta table tbody > tr > td,
+.altres-altre table tbody > tr > td,
+.maletes-maleta table tfoot > tr > td,
+.altres-altre table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  body.bx-comunicacio,body.bx-infraestructura {
+      background: url(/assets/img/banner-barcelona-lg.jpg) repeat-x 20% 0;
+  }
+  body.bx-comunicacio [role="main"],body.bx-infraestructura [role="main"] {
+    padding-top: 25px;
+  }
+  .jumbotron {
+    margin-top: 30px;
+  }
+  .jumbotron.full-width {
+    margin-top: 0;
+  }
+  body.bx-comunicacio .jumbotron:first-child,body.bx-infraestructura .jumbotron:first-child {
+    background: rgba(172,203,218,.5);
+  }
+
+  /* Remove padding from wrapping element since we kick in the grid classes here */
+  .body-content {
+    padding: 0;
+    margin: 1em 0;
+  }
+  
+  .blog .card {
+    padding: 25px 30px;
+  }
+
+.article {
+    padding: 30px 40px;
+  }
+
+.navbar-nav-right {
+  float: right;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+ .label.marketing.sm {
+   font-size: 0.75em;
+    white-space: pre-wrap;
+} 
+}
+
+@media (min-width: 480px) {
+#myCarouselHomeVortex.carousel .item {
+  min-height: 300px;
+}
+}
+
+@media (min-width: 768px) {
+header[role="banner"] div.navbar {
+  padding-top: 25px;
+  height: 162px;
+  font-size: 1em;
+}
+main[role="main"] {
+  margin-top: 109px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background:none;
+  border-bottom:4px solid rgb(8,100,182);
+}
+  .card .card-title {
+  font-size: 6.5rem;
+}
+#thoughts div.row .recent-news {
+  margin: 0;
+}
+.vortex-icon {
+  margin-bottom: 1em;
+}
+#myCarouselHomeVortex .carousel-inner .item .container img {
+  display: block;
+}
+  #myCarouselHomeVortex.carousel .item {
+  height: 500px;
+}
+#thoughts div.row .recent-news {
+  min-height: 242px;
+}
+ .about-us #thoughts div.row .recent-news {
+  min-height: 120px;
+}
+body.bx-maletes div.body-content article p.pull-right, 
+body.bx-markets div.body-content article p.pull-right, 
+body.bx-altres div.body-content article p.pull-right, 
+body.bx-altres div.body-content article p.pull-right {
+  float: none!important;
+}
+.body-content.blog, .body-content.markets, .body-content.solutions {
+  padding-top: 0;
+}
+ body.bx-maletes.maletes-maleta main[role="main"] div.content-two-third,
+ body.bx-altres.altres-altre main[role="main"] div.content-two-third {
+  width: 75%;
+  float:right;
+}
+body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third,
+body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
+  width: 20%;
+  float:right;
+  position: fixed;
+  margin: 1em 0;
+}
+}
+
+@media screen and (min-width: 1024px) {
+ body.bx-comunicacio,body.bx-infraestructura {
+      background: url(/assets/img/banner-barcelona-lg.jpg) no-repeat 50% 8%;
+  }
+
+body.bx-altres div.body-content article p.pull-right, 
+body.bx-maletes div.body-content article p.pull-right, 
+body.bx-markets div.body-content article p.pull-right {
+  float: right!important;
+}
+body.bx-altres div.body-content article p.featured-img-url,
+body.bx-maletes div.body-content article p.featured-img-url {
+  margin-top: -165px;
+  margin-left: 10px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  body.bx-altres.altres-altre aside[role="complementary"].content-one-third,
+  body.bx-maletes.maletes-maleta aside[role="complementary"].content-one-third {
+  width: 15%;
+}
+
+}
