@@ -23,47 +23,47 @@
             </div>
             <div class="col-sm-1 col-lg-1">
               <p>
-                <small><a href="/"><strong>Home</strong></a></small>
+                <small>{% if page.lang == 'es' %}<a href="/es/"><strong>Home</strong></a>{% else if %}<a href="/"><strong>Home</strong></a>{% endif %}</small>
               </p>
             </div>
             <div class="col-sm-1 col-lg-1">
               <p>
-                <small><a href="{{ site.base_url }}/maletes/"><strong>Maletes</strong></a>
-                  <br/><a href="{{ site.base_url }}/maletes/alumini/standard.html">Alumini Standard</a>
-                  <br/><a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>
-                  <br/><a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>
-                  <br/><a href="{{ site.base_url }}/maletes/piloto/">Piloto</a>
+                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/"><strong>Maletas</strong></a>{% else if %}<a href="{{ site.base_url }}/maletes/"><strong>Maletes</strong></a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/aluminio/standard.html">Aluminio Standard</a>{% else if %}<a href="{{ site.base_url }}/maletes/alumini/standard.html">Alumini Standard</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/plastico/">Plastico</a>{% else if %}<a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/maletas-d-herramientas/">Maletas de herramientas</a>{% else if %}<a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/piloto/">Piloto</a>{% else if %}<a href="{{ site.base_url }}/maletes/piloto/">Piloto</a>{% endif %}
                 </small>
               </p>
             </div>
             <div class="col-sm-1 col-lg-1">
               <p>
-                <small><a href="{{ site.base_url }}/fundes-textil.html"><strong>Fundes tèxtil</strong></a>
+                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/fundas-textil.html"><strong>Fundas téxtil</strong></a>{% else if %}<a href="{{ site.base_url }}/fundes-textil.html"><strong>Fundes tèxtil</strong></a>{% endif %}
                 </small>
               </p>
             </div>
             <div class="col-sm-1 col-lg-1">
               <p>
-                <small><a href="{{ site.base_url }}/altres/"><strong>Altres</strong></a>
-                  <br/><a href="{{ site.base_url }}/altres/estoigs/">Estoigs</a>
-                  <br/><a href="{{ site.base_url }}/altres/blisters/">Blisters</a>
-                  <br/><a href="{{ site.base_url }}/altres/escumes/">Escumes</a>
-                  <br/><a href="{{ site.base_url }}/altres/plafons/">Plafons</a>
-                  <br/><a href="{{ site.base_url }}/altres/polipropile-troquelat/">Polipropilè troquelat</a>
-                  <br/><a href="{{ site.base_url }}/altres/carros/">Carros</a>
+                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/"><strong>Otros</strong></a>{% else if %}<a href="{{ site.base_url }}/altres/"><strong>Altres</strong></a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/estuches/">Estoigs</a>{% else if %}<a href="{{ site.base_url }}/altres/estoigs/">Estoigs</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/blisters/">Blisters</a>{% else if %}<a href="{{ site.base_url }}/altres/blisters/">Blisters</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/espumas/">Espumas</a>{% else if %}<a href="{{ site.base_url }}/altres/escumes/">Escumes</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/plafones/">Plafones</a>{% else if %}<a href="{{ site.base_url }}/altres/plafons/">Plafons</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/polipropileno-troquelado/">Polipropileno troquelado</a>{% else if %}<a href="{{ site.base_url }}/altres/polipropile-troquelat/">Polipropilè troquelat</a>{% endif %}
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/carros/">Carros</a>{% else if %}<a href="{{ site.base_url }}/altres/carros/">Carros</a>{% endif %}
                 </small>
               </p>
             </div>
             <div class="col-sm-1 col-lg-1">
-              <p><small><a href="{{ site.base_url }}/contacte/"><strong>Contacte</strong></small></p>
+              <p><small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/contacto/"><strong>Contacto</strong></a>{% else if %}<a href="{{ site.base_url }}/contacte/"><strong>Contacte</strong></a>{% endif %}</small></p>
             </div>
             <div class="col-sm-1 col-lg-1">
-              <p><small><a href="{{ site.base_url }}/blog/"><strong>Novetats</strong></a></small></p>
+              <p><small><a href="{{ site.base_url }}/blog/"><strong>{% if page.lang == 'es' %}Novedades{% else if %}Novetats{% endif %}</strong></a></small></p>
             </div>
             <div class="col-sm-2 col-lg-2 col-sm-offset-1 col-lg-offset-1">
               <p>
                 <small>&copy; Box Fort 2013
-                  <br/><a href="{{ site.base_url }}/avis-legal.html">Avís Legal</a>
+                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/aviso-legal.html">Aviso Legal</a>{% else if %}<a href="{{ site.base_url }}/avis-legal.html">Avís Legal</a>{% endif %}
                 </small>
               </p>
             </div>

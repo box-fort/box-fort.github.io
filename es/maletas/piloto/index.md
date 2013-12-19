@@ -1,5 +1,6 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: piloto
 class: maletes-maleta
@@ -13,10 +14,10 @@ icon-url:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-piloto.jpg"></p>
 
-Interiors neutres o personalitzats amb escumes troquelades de diferents densitats i colors, termoconformats, buidats, accessoris porta eines, etc.
+Interiores neutros o personalizados con espumas troqueladas de diferentes densidades y colores, termoconformados, vaciados, accesorios porta herramientas, etc.
 
-Maletes més lleugeres, més fortes, més qualitat.
+Maletas más ligeras, más fuertes, más calidad.
 
-Mides interiors|
+Medidas interiores|
 --- |
 480 x380 x230|

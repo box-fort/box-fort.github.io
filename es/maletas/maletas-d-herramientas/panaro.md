@@ -1,5 +1,6 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: panaro
 class: maletes-maleta

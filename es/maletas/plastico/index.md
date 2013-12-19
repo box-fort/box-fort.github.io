@@ -1,16 +1,17 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: plastic
 class: maletes-maleta
-title: Maletes de plàstic
+title: Maletas de plástico
 subtitle:
 keywords: 
 featured-img-url:
 icon-url: 
 --- 
 
-El nou sector dels embalatges en modelat tèrmic s'ha desenvolupat notablement gràcies a la tecnologia avançada de les màquines que ho modelen. L'esforç que Plastica Panaro dedica al manteniment d'un parc de màquines d'avantguarda li permet obtenir una producció d'elevada qualitat i que s'adapta a la noves exigències dels clients.
+El nuevo sector de los embalajes en modelado térmico se ha desarrollado notablemente gracias a la tecnología avanzada de las máquinas que lo moldean. El esfuerzo que Plastica Panaro dedica al mantenimiento de un parque de máquinas de vanguardia le permite obtener una producción de elevada calidad y que se adapta a la nuevas exigencias de los clientes.
 
 <div class="row">
 

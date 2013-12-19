@@ -1,10 +1,11 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: estanques
 class: maletes-maleta
-title: Maletes de plàstic
-subtitle: Estanques
+title: Maletes de plastico
+subtitle: Estancas
 keywords: 
 featured-img-url:
 icon-url: 
@@ -17,7 +18,7 @@ icon-url:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"></p>
 
-Referencia|Mides interiors|Referencia|Mides interiors
+Referencia|Medidas interiores|Referencia|Medidas interiores
 --- | --- | --- | ---
 1908.BE|190 x 125 x 85|*5823.BE|580 x 440 x 220
 1913.BE|190 x 125 x 135|* 5833.BE|580 x 440 x 330
@@ -41,7 +42,7 @@ Colores: negro, naranja y verde. Medidas en mm
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-max-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-max-cases.jpg"></p>
 
-Referencia|Mides interiors
+Referencia|Medidas interiores
 --- | ---
 MAX300|300 x 225 x 132
 MAX430|426 x 290 x 159

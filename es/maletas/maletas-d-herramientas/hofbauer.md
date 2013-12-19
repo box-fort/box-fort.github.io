@@ -1,5 +1,6 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: hofbauer
 class: maletes-maleta

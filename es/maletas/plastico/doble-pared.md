@@ -1,10 +1,11 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: doble-paret
 class: maletes-maleta
-title: Maletes de plàstic
-subtitle: Doble paret
+title: Maletes de plástico
+subtitle: Doble pared
 keywords: 
 featured-img-url:
 icon-url: 
@@ -12,7 +13,7 @@ icon-url:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-quantum.jpg"></p>
 
-CITBAG|Mides interiors|QUANTUM|Mides interiors
+CITBAG|Medidas interiores|QUANTUM|Medidas interiores
 --- | --- | --- | ---
 SL 1020|403 x 287 x 76|T 1000|400 x 280 x 70
 SL 1010|436 x 322 x 75|T 1100|400 x 280 x 80
@@ -31,7 +32,7 @@ KS 1065|545 x 413 x 145
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1030-ak.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1000-dh.jpg"></p>
 
-DIMENSION|Mides interiors|MEGABAG|Mides interiors
+DIMENSION|Medidas interiores|MEGABAG|Medidas interiores
 --- | --- | --- | ---
 1030 AK|435 x 320 x 110|1000 DH|400 x 290 x 140
 1030|435 x 320 x 110|2000 DH|471 x 346 x 130
@@ -40,7 +41,7 @@ DIMENSION|Mides interiors|MEGABAG|Mides interiors
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-ultrabag-multibag.jpg"></p>
 
-MULTIBAG|Mides interiors|ULTRABAG|Mides interiors
+MULTIBAG|Medidas interiores|ULTRABAG|Medidas interiores
 --- | --- | --- | ---
 1|312 x 212 x 691|1|350 x 250 x 95
 2|312 x 212 x 94

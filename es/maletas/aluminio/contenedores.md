@@ -1,10 +1,11 @@
 ---
 layout: maletes
+lang: es
 slug: maletes
 box: contenidors
 class: maletes-maleta
-title: Maletes d'alumini
-subtitle: contenidors
+title: Maletes de aluminio
+subtitle: contenidores
 keywords: 
 featured-img-url:
 icon-url: 
@@ -12,10 +13,10 @@ icon-url:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-contenidors.jpg"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-maletes-alumini-contenidors.jpg"></p>
 
-La màxima protecció per a cada aplicació. Les caixes en alumini són embalatges segurs i lleugers per el transport. Permeten desar els objectes de forma ben ordenada i segura.
+La máxima protección para cada aplicación. Las cajas en aluminio son embalajes seguros y ligeros para el transporte. Permiten guardar los objetos de forma bien ordenada y segura.
 
 
-Referencia|Mides interiors|Referencia|Mides interiors
+Referencia|Medidas interiores|Referencia|Medidas exteriores
 --- | --- | --- |
 20029|400 x 300 x 245|30140|870 x 460 x 350
 20042|500 x 350 x 245|40028|352 x 255 x 245
