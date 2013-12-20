@@ -20,5 +20,5 @@ port:             4000
 # Prose
 prose:
   rooturl: '_posts'
-  siteurl: 'http://box-fort.github.io/'
+  siteurl: 'http://www.box-fort.com/'
   media: 'assets/img'
