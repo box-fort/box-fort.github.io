@@ -5,7 +5,7 @@ slug: maletes
 box: contenidors
 class: maletes-maleta
 title: Maletes de aluminio
-subtitle: contenidores
+subtitle: contenedores
 keywords: 
 featured-img-url:
 icon-url: 

@@ -4,7 +4,7 @@ lang: es
 slug: maletes
 box: flight-cases
 class: maletes-maleta
-title: Maletes de aluminio
+title: Maletas de aluminio
 subtitle: Flight cases
 keywords: 
 featured-img-url:

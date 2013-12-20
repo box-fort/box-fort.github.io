@@ -4,7 +4,7 @@ lang: es
 slug: altres
 box: escumes
 class: altres-altre
-title: Escumes
+title: Espumas
 subtitle:
 keywords: 
 featured-img-url:

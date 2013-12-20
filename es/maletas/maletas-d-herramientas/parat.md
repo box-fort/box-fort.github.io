@@ -4,7 +4,7 @@ lang: es
 slug: maletes
 box: parat
 class: maletes-maleta
-title: Maletes d'eines
+title: Maletas de herramientas
 subtitle: Parat
 keywords: 
 featured-img-url:

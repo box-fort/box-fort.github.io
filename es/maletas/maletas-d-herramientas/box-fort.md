@@ -4,7 +4,7 @@ lang: es
 slug: maletes
 box: box-fort
 class: maletes-maleta
-title: Maletes d'eines
+title: Maletas de herramientas
 subtitle: Box Fort
 keywords: 
 featured-img-url:
@@ -13,14 +13,14 @@ icon-url:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-boxmt-25225.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-box-fort-M145-d-ab.jpg"></p>
 
-Maletes eines|Mides interiors
+Maletes herramientas|Medidas interiores
 --- | ---
 MT 25225|460 x 330 x 160
 MT 25222|460 x 330 x 155
 MT 25221|460 x 330 x 155
 MT 25215 (Trolley)|455 x 340 x 185
 
-BoxFort|Mides interiors
+BoxFort|Medidas interiores
 --- | ---
 M95|450 x 330 x 95
 M120|450 x 330 x 120
