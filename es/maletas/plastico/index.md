@@ -9,6 +9,9 @@ subtitle:
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 --- 
 
 El nuevo sector de los embalajes en modelado térmico se ha desarrollado notablemente gracias a la tecnología avanzada de las máquinas que lo moldean. El esfuerzo que Plastica Panaro dedica al mantenimiento de un parque de máquinas de vanguardia le permite obtener una producción de elevada calidad y que se adapta a la nuevas exigencias de los clientes.

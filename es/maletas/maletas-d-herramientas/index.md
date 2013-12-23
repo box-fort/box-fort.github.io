@@ -9,6 +9,9 @@ subtitle:
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 --- 
 
 Gran variedad de maletas de herramientas en aluminio, ABS, piel, fibra de carbono, etc. Todas de gran calidad, equipadas con todo lo necesario para una buena distribución y conservación de sus herramientas.

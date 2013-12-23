@@ -9,6 +9,9 @@ subtitle: Flight cases
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 Contenedores fuertes y resistentes a todo tipo de trato. Dentro de un flight case bien fabricado, sus equipos viajarán con toda seguridad.

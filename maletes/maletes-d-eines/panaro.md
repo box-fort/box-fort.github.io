@@ -8,6 +8,9 @@ subtitle: Panaro
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-plastica-panaro-170-48-h-184-pu-d.jpg"></p>

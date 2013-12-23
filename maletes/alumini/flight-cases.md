@@ -8,6 +8,9 @@ subtitle: Flight cases
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 Contenidors forts i resistents a tot tipus de tracte. Dins un flight case ben fabricat, els seus equips viatjaran amb tota seguretat.

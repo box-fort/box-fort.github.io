@@ -8,6 +8,9 @@ subtitle: Standard
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 Com a tota la gama **Boxfort**, les noves maletes standar surten reforçades amb el nou sistema de cantonera integrada a l'angle en xamfrà. Les cantoneres de plàstic injectat de gran qualitat, s'integren amb el perfil de la maleta evitant zones buides que puguin enganxar-se en superfícies irregulars. Els perfils amb xamfrà li donen més resistència gracies al doble nervi interior. Els interiors, se serveixen en neutre (PVC), equipades per a eines, o personalitzades per a cada utilitat.

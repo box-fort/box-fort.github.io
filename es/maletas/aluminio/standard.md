@@ -9,6 +9,9 @@ subtitle: Standard
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 Como toda la gama ** Boxfort **, las nuevas maletas standar salen reforzadas con el nuevo sistema de cantonera integrada al ángulo en chaflán. Las cantoneras de plástico inyectado de gran calidad, se integran con el perfil de la maleta evitando zonas vacías que puedan engancharse en superficies irregulares. Los perfiles con chaflán le dan más resistencia gracias al doble nervio interior. Los interiores, se sirven en neutro (PVC), equipadas para herramientas, o personalizadas para cada utilidad.

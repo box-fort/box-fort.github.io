@@ -5,6 +5,9 @@ slug: 'avis-legal'
 title: 'Condiciones de uso y aviso legal'
 keywords: BOXFORT, avís, legal, condicions, ús
 published: true
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 #Condiciones de uso

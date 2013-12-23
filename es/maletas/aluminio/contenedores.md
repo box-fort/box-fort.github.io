@@ -9,6 +9,9 @@ subtitle: contenedores
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-contenidors.jpg"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-maletes-alumini-contenidors.jpg"></p>

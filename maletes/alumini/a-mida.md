@@ -8,6 +8,9 @@ subtitle: A mida
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 A **Boxfort** fabriquem maletes a mida personalitzant tant exteriors com interiors. 

@@ -9,6 +9,9 @@ subtitle: A medida
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 ---
 
 En ** Boxfort ** fabricamos maletas a medida personalizando tanto exteriores como interiores.

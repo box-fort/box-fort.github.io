@@ -8,6 +8,9 @@ subtitle: injecció
 keywords: 
 featured-img-url:
 icon-url:  
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 --- 
 
 <p> Galeria d'imatges: 

@@ -8,6 +8,9 @@ subtitle:
 keywords: 
 featured-img-url:
 icon-url: 
+sitemap:
+  priority: 0.7
+  changefreq: monthly
 --- 
 
 Gran varietat de maletes d'eines en alumini, ABS, pell, fibra de carboni, etc. Totes de gran qualitat, equipades amb tot el necessari per una bona distribució i conservació de les seves eines
