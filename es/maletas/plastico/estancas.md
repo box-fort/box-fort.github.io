@@ -4,7 +4,7 @@ lang: es
 slug: maletes
 box: estanques
 class: maletes-maleta
-title: Maletes de plastico
+title: Maletas de plastico
 subtitle: Estancas
 keywords: 
 featured-img-url:
