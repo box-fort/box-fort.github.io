@@ -1,6 +1,6 @@
-{% if page.class != 'blog-index' or page.class != 'blog-article' %}<script src="{{ site.base_url }}/assets/js/jquery.js"></script>{% endif %}
-<script src="{{ site.base_url }}/bootstrap/js/bootstrap.min.js"></script>
-<script src="http://airve.github.io/js/response/response.min.js"></script>
+{% if page.class != 'blog-index' or page.class != 'blog-article' %}<script src="{{ site.base_url }}/assets/js/jquery.js?{{site.time | date: '%Y%m%d%H%M%S'}}"></script>{% endif %}
+<script src="{{ site.base_url }}/bootstrap/js/bootstrap.min.js?{{site.time | date: '%Y%m%d%H%M%S'}}"></script>
+<script src="http://airve.github.io/js/response/response.min.js?{{site.time | date: '%Y%m%d%H%M%S'}}"></script>
 <script>
     $('.carousel-vortex-home').carousel()
 </script>
