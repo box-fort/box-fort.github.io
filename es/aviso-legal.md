@@ -3,7 +3,7 @@ layout: bloc-simple-md
 lang: 'es'
 slug: 'avis-legal'
 title: 'Condiciones de uso y aviso legal'
-keywords: BOXFORT, avís, legal, condicions, ús
+keywords: BOXFORT, aviso, legal, condiciones, uso
 published: true
 sitemap:
   priority: 0.7

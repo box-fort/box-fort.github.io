@@ -6,7 +6,7 @@ box: plastic
 class: maletes-maleta
 title: Maletas de plástico
 subtitle:
-keywords: 
+keywords: maletas, plástico, embalages, modelado, térmico, inyección, doble pared, estancas
 featured-img-url:
 icon-url: 
 sitemap:

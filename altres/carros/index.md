@@ -5,7 +5,7 @@ box: carros
 class: altres-altre
 title: Carros
 subtitle:
-keywords: 
+keywords: carros, telescópica, asa, plegar, desplegar
 featured-img-url:
 icon-url: 
 sitemap:

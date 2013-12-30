@@ -5,7 +5,7 @@ box: plafons
 class: altres-altre
 title: Plafons
 subtitle:
-keywords: 
+keywords: plafons, compratiments, accessoirs, portadocuments, eines, escumes, pretroquelades
 featured-img-url:
 icon-url: 
 sitemap:

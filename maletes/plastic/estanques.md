@@ -5,7 +5,7 @@ box: estanques
 class: maletes-maleta
 title: Maletes de plàstic
 subtitle: Estanques
-keywords: 
+keywords: maletes, estanques, plàstic, explorer, max
 featured-img-url:
 icon-url: 
 sitemap:

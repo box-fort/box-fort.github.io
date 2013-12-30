@@ -6,7 +6,7 @@ box: doble-paret
 class: maletes-maleta
 title: Maletes de plástico
 subtitle: Doble pared
-keywords: 
+keywords: maletas, doble pared, plástico, hofbauer
 featured-img-url:
 icon-url: 
 sitemap:

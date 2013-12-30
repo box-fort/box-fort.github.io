@@ -6,7 +6,7 @@ box: eines
 class: maletes-maleta
 title: Maletas de herramientas
 subtitle:
-keywords: 
+keywords: maletas, herramientas, aluminio, ABS, piel, carbono
 featured-img-url:
 icon-url: 
 sitemap:

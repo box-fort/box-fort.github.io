@@ -6,7 +6,7 @@ box: standard
 class: maletes-maleta
 title: Maletes de aluminio
 subtitle: Standard
-keywords: 
+keywords: maletas, standard, aluminio, reforzadas, calidad, doble nervio, rueda, trolley
 featured-img-url:
 icon-url: 
 sitemap:

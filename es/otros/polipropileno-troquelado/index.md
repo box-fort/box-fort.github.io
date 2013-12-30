@@ -6,7 +6,7 @@ box: polipropile-troquelat
 class: altres-altre
 title: Polipropileno troquelado
 subtitle:
-keywords: 
+keywords: poliprolileno troquelado, carpetas, solución, económica, maletas ligeras, estuches
 featured-img-url:
 icon-url: 
 sitemap:

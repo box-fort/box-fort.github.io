@@ -5,7 +5,7 @@ box: plastic
 class: maletes-maleta
 title: Maletes de plàstic
 subtitle:
-keywords: 
+keywords: maletes, plàstic, embalatges, modelat, tèrmic, injecció, doble paret, estanques
 featured-img-url:
 icon-url: 
 sitemap:

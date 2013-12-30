@@ -5,7 +5,7 @@ box: standard
 class: maletes-maleta
 title: Maletes d'alumini
 subtitle: Standard
-keywords: 
+keywords: maletes, standard, alumini, reforçades, qualitat, doble nervi, roda, trolley
 featured-img-url:
 icon-url: 
 sitemap:

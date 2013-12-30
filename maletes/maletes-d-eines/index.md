@@ -5,7 +5,7 @@ box: eines
 class: maletes-maleta
 title: Maletes d'eines
 subtitle:
-keywords: 
+keywords: maletes, eines, alumini, ABS, pell, carboni
 featured-img-url:
 icon-url: 
 sitemap:

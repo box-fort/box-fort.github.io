@@ -5,7 +5,7 @@ box: a-mida
 class: maletes-maleta
 title: Maletes d'alumini
 subtitle: A mida
-keywords: 
+keywords: maletes, a mida, alumini, experiència
 featured-img-url:
 icon-url: 
 sitemap:

@@ -6,7 +6,7 @@ box: plafons
 class: altres-altre
 title: Plafones
 subtitle:
-keywords: 
+keywords: plafones, compartimentos, accesorios, portadocumentos, portaherramientas, espumas, pretroqueladas
 featured-img-url:
 icon-url: 
 sitemap:

@@ -5,7 +5,7 @@ box: parat
 class: maletes-maleta
 title: Maletes d'eines
 subtitle: Parat
-keywords: 
+keywords: maletes, eines, parat
 featured-img-url:
 icon-url: 
 sitemap:

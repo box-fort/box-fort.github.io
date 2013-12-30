@@ -6,7 +6,7 @@ box: a-mida
 class: maletes-maleta
 title: Maletas de aluminio
 subtitle: A medida
-keywords: 
+keywords: maletas, a medida, aluminio, experiencia
 featured-img-url:
 icon-url: 
 sitemap:

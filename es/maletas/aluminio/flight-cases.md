@@ -6,7 +6,7 @@ box: flight-cases
 class: maletes-maleta
 title: Maletas de aluminio
 subtitle: Flight cases
-keywords: 
+keywords: maletes, flight cases, alumini, seguretat, forts, contenidors
 featured-img-url:
 icon-url: 
 sitemap:

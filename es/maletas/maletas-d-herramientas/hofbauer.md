@@ -6,7 +6,7 @@ box: hofbauer
 class: maletes-maleta
 title: Maletes de herramientas
 subtitle: Hofbauer
-keywords: 
+keywords: maletas, herramientas, hofbauer
 featured-img-url:
 icon-url: 
 sitemap:

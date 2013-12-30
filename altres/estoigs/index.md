@@ -5,7 +5,7 @@ box: estoigs
 class: altres-altre
 title: Estoigs
 subtitle:
-keywords: 
+keywords: estoigs, caixes, compartiments, transparent, polipropilè
 featured-img-url:
 icon-url: 
 sitemap:

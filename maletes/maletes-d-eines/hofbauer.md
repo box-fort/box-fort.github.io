@@ -5,7 +5,7 @@ box: hofbauer
 class: maletes-maleta
 title: Maletes d'eines
 subtitle: Hofbauer
-keywords: 
+keywords: maletes, eines, hofbauer
 featured-img-url:
 icon-url: 
 sitemap:

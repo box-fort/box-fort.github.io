@@ -5,7 +5,7 @@ box: escumes
 class: altres-altre
 title: Escumes
 subtitle:
-keywords: 
+keywords: escumes, polietilè, poliuretà, alta, baixa, densitat, troquelades
 featured-img-url:
 icon-url: 
 sitemap:

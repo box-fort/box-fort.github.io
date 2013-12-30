@@ -5,7 +5,7 @@ box: blisters
 class: altres-altre
 title: Blisters
 subtitle:
-keywords: 
+keywords: blisters, maletes, lleugeres, polipropilè, termoformat
 featured-img-url:
 icon-url: 
 sitemap:

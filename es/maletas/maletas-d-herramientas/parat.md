@@ -6,7 +6,7 @@ box: parat
 class: maletes-maleta
 title: Maletas de herramientas
 subtitle: Parat
-keywords: 
+keywords: maletas, herramientas, parat
 featured-img-url:
 icon-url: 
 sitemap:

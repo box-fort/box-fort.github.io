@@ -6,7 +6,7 @@ box: blisters
 class: altres-altre
 title: Blisters
 subtitle:
-keywords: 
+keywords: blisters, maletas, ligeras, polipropileno, termoformado
 featured-img-url:
 icon-url: 
 sitemap:

@@ -5,7 +5,7 @@ box: panaro
 class: maletes-maleta
 title: Maletes d'eines
 subtitle: Panaro
-keywords: 
+keywords: maletes, eines, panaro
 featured-img-url:
 icon-url: 
 sitemap:

@@ -6,7 +6,7 @@ box: panaro
 class: maletes-maleta
 title: Maletas de herramientas
 subtitle: Panaro
-keywords: 
+keywords: maletas, herramientas, panaro
 featured-img-url:
 icon-url: 
 sitemap:

@@ -5,7 +5,7 @@ box: piloto
 class: maletes-maleta
 title: Piloto
 subtitle:
-keywords: 
+keywords: maletes, piloto, personalitzats, termoconformats, buidats
 featured-img-url:
 icon-url: 
 sitemap:

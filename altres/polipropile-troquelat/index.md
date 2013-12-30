@@ -5,7 +5,7 @@ box: polipropile-troquelat
 class: altres-altre
 title: Polipropilè troquelat
 subtitle:
-keywords: 
+keywords: polipropilè troquelat, solució, econòmica, embalatge, carpetes, maletes lleugeres, estoigs
 featured-img-url:
 icon-url: 
 sitemap:

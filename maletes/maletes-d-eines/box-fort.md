@@ -5,7 +5,7 @@ box: box-fort
 class: maletes-maleta
 title: Maletes d'eines
 subtitle: Box Fort
-keywords: 
+keywords: maletes, eines, box fort
 featured-img-url:
 icon-url: 
 sitemap:

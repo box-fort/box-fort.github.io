@@ -6,7 +6,7 @@ box: piloto
 class: maletes-maleta
 title: Piloto
 subtitle:
-keywords: 
+keywords: maletas, piloto, personalitzados, termoconformados, vaciados
 featured-img-url:
 icon-url: 
 sitemap:

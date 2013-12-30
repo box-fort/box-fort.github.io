@@ -6,7 +6,7 @@ box: box-fort
 class: maletes-maleta
 title: Maletas de herramientas
 subtitle: Box Fort
-keywords: 
+keywords: maletas, herramientas, box fort
 featured-img-url:
 icon-url: 
 sitemap:

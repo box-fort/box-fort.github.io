@@ -5,7 +5,7 @@ box: contenidors
 class: maletes-maleta
 title: Maletes d'alumini
 subtitle: contenidors
-keywords: 
+keywords: maletes, contenidors, alumini, embalatges, segurs, lleugers
 featured-img-url:
 icon-url: 
 sitemap:

@@ -6,7 +6,7 @@ box: escumes
 class: altres-altre
 title: Espumas
 subtitle:
-keywords: 
+keywords: espumas, polietileno, poliuretano, alta, baja, densidad, troqueladas
 featured-img-url:
 icon-url: 
 sitemap:
