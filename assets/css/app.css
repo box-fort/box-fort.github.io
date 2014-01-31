@@ -356,9 +356,11 @@ h1,h2,h3,.navbar-default .navbar-nav > li > a {
   position: absolute;
   top: 0;
 }
-.navbar-header > p.lang > a.active {
+p.lang > small > a.active {
   font-weight: bold;
   cursor: default;
+}
+.navbar-header > p.lang > small > a.active {
   color: #333333;
 }
 h2 small{

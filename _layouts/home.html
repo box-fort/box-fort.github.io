@@ -66,6 +66,15 @@
                   <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/aviso-legal.html">Aviso Legal</a>{% else if %}<a href="{{ site.base_url }}/avis-legal.html">Avís Legal</a>{% endif %}
                 </small>
               </p>
+              <p class="lang">
+                <small>idioma: 
+                {% if page.lang != 'es' %}
+                  <a href="#" title="català" class="active">ca</a> <a href="{{ site.base_url }}/es/" title="español">es</a>
+                {% else if %}
+                  <a href="{{ site.base_url }}/" title="català">ca</a> <a href="#" title="español" class="active">es</a>
+                {% endif %}
+              </small>
+            </p>
             </div>
             <div class="col-sm-2 col-lg-2">
               <p class="text-right"><a href="#" title="Twitter" rel="external"><i class="fa fa-twitter fa-lg"></i></a> <a href="#" title="Linkedin" rel="external"><i class="fa fa-linkedin fa-lg"></i></a> <a href="mailto:bustia@box-fort.com" title="Correu-e" rel="external"><i class="fa fa-envelope fa-lg"></i></a></p>
