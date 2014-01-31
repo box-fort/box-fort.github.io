@@ -10,7 +10,7 @@ tags:
 meta: Polybutler i Polyno, maletes hobby
 excerpt: POLYBUTLER la maleta per a tot i per a tothom. POLYNO organitzador estàndard i universal per professional i hobby.
 author: box-fort
-keywords: box-fort, max, plastica, panaro, IP67, durables, extremamment, durables
+keywords: box-fort, polybutler, polyno, maletes, hobby, organitzador, estàndard, universal
 ---
 
 ##Polybutler i Polyno, maletes hobby

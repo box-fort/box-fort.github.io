@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html {% if page.lang == 'es' %}lang="es"{% else if %}lang="ca"{% endif %}>
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     {% include header-home.html %}
