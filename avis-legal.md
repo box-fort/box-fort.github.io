@@ -35,7 +35,7 @@ Aquí ha d'indicar quins poden adquirir a la seva pàgina i sota quines condicio
 
 Propietat intel·lectual i industrial
 
-Oxygen Area SL, com a desenvolupador de [box-fort.com](http://www.box-fort.com/) i contractat per [box-fort.com](http://www.box-fort.com/), cedeix els drets de propietat industrial i intel·lectual del disseny, estructures de navegació i bases de dades i els diferents elements en ella continguts, sempre que no siguin productes o serveis en lloguer, a [box-fort.com](http://www.box-fort.com/), a qui finalment correspon l'exercici exclusiu dels drets d'explotació dels mateixos en qualsevol forma i, en especial, els drets de reproducció, distribució, comunicació pública i transformació, d'acord amb la legislació espanyola i de la unió europea aplicable.
+[Oxygen Area SL](http://www.oxygen.cat/), com a desenvolupador de [box-fort.com](http://www.box-fort.com/) i contractat per [box-fort.com](http://www.box-fort.com/), cedeix els drets de propietat industrial i intel·lectual del disseny, estructures de navegació i bases de dades i els diferents elements en ella continguts, sempre que no siguin productes o serveis en lloguer, a [box-fort.com](http://www.box-fort.com/), a qui finalment correspon l'exercici exclusiu dels drets d'explotació dels mateixos en qualsevol forma i, en especial, els drets de reproducció, distribució, comunicació pública i transformació, d'acord amb la legislació espanyola i de la unió europea aplicable.
 
 ###Ús del servei i responsabilitats
 
