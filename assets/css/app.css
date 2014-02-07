@@ -346,6 +346,9 @@ h2.title-icon a:hover {
 body {
   font-family:Verdana, Geneva, sans-serif;;
 }
+.navbar-header a.navbar-brand img {
+  max-width: 50%;
+}
 
 h1,h2,h3,.navbar-default .navbar-nav > li > a {
   /*font-family:'SteelfishRgRegular', serif;*/
@@ -754,6 +757,9 @@ th {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 
+  .navbar-header a.navbar-brand img {
+  max-width: 100%;
+  }
   body.bx-comunicacio,body.bx-infraestructura {
       background: url(/assets/img/banner-barcelona-lg.jpg) repeat-x 20% 0;
   }
