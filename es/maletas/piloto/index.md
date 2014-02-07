@@ -5,7 +5,7 @@ slug: maletes
 box: piloto
 class: maletes-maleta
 title: Piloto
-subtitle:
+subtitle: más ligeras, más fuertes, más calidad
 keywords: maletas, piloto, personalitzados, termoconformados, vaciados
 featured-img-url:
 icon-url: 

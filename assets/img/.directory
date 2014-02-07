@@ -1,8 +1,7 @@
 [Dolphin]
-PreviewsShown=true
 SortOrder=1
 SortRole=date
-Timestamp=2013,11,25,18,42,44
+Timestamp=2014,2,7,10,34,51
 Version=3
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_date,Details_type,CustomizedDetails
