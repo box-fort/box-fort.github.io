@@ -4,6 +4,23 @@
 <script>
     $('.carousel-vortex-home').carousel()
 </script>
+<script src="{{ site.base_url }}/assets/js/waypoints.min.js?{{site.time | date: '%Y%m%d%H%M%S'}}"></script>
+<script>
+	jQuery(document).ready(function($) {
+	vc_waypoints();
+});
+	/* Waypoints magic
+---------------------------------------------------------- */
+if ( typeof window['vc_waypoints'] !== 'function' ) {
+  function vc_waypoints() {
+	if (typeof jQuery.fn.waypoint !== 'undefined') {
+	    jQuery('.ox_animate_when_almost_visible').waypoint(function() {
+			jQuery(this).addClass('ox_start_animation');
+		}, { offset: '85%' });
+	}
+  }
+}
+</script>
 <script>    
 Response.create({mode : 'src', prefix : 'src'});
 </script>
