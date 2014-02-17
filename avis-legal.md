@@ -1,6 +1,7 @@
 ---
 layout: bloc-simple-md
 slug: "avis-legal"
+lang: ca
 title: "Condicions d'ús i avís legal"
 keywords: BOXFORT, avís, legal, condicions, ús
 published: true
