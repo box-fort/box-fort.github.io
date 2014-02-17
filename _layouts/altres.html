@@ -13,24 +13,38 @@ slug: altres
         <li>
             {% if page.lang == 'es' %}
             <a href="{{ site.base_url }}/es/">Home</a>
-            {% else if %}
+            {% endif %}
+            {% if page.lang == 'ca' %}
             <a href="{{ site.base_url }}/">Home</a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+            <a href="{{ site.base_url }}/en/">Home</a>
             {% endif %}
         </li>
         <li>
             {% if page.lang == 'es' %}
             <a href="{{ site.base_url }}/es/otros">Otros</a>
-            {% else if %}
+            {% endif %}
+            {% if page.lang == 'ca' %}
             <a href="{{ site.base_url }}/altres">Altres</a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+            <a href="{{ site.base_url }}/en/others">Others</a>
             {% endif %}
         </li>
         {% if page.lang == 'es' %}
           {% if page.title != 'Otros' %}
           <li class="active">{% if page.title != 'Otros' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle == null %}{{page.title}}{% endif %}</li>
           {% endif %}
-        {% else if %}
+        {% endif %}
+        {% if page.lang == 'ca' %}
           {% if page.title != 'Altres' %}
           <li class="active">{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}</li>
+          {% endif %}
+        {% endif %}
+        {% if page.lang == 'en' %}
+          {% if page.title != 'Others' %}
+          <li class="active">{% if page.title != 'Others' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Others' and page.subtitle == null %}{{page.title}}{% endif %}</li>
           {% endif %}
         {% endif %}
       </ul>
@@ -39,8 +53,12 @@ slug: altres
         <h1>{% if page.icon-url %}<img src="{{site.baseurl}}/assets/img/{{page.icon-url}}"/>{% endif %} 
         {% if page.lang == 'es' %}
           {% if page.title == 'Otros' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Otros' and page.subtitle == null %}{{page.title}}{% endif %}
-        {% else if %}
+        {% endif %}
+        {% if page.lang == 'ca' %}
           {% if page.title == 'Altres' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Altres' and page.subtitle == null %}{{page.title}}{% endif %}
+        {% endif %}
+        {% if page.lang == 'en' %}
+          {% if page.title == 'Others' %}<strong>{{page.title}}</strong>{% endif %}{% if page.title != 'Others' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Others' and page.subtitle == null %}{{page.title}}{% endif %}
         {% endif %}
         </h1>
       </div>
@@ -64,7 +82,7 @@ slug: altres
 
   </div>
 
-  {% if page.title != 'Altres' and page.title != 'Otros' %}
+  {% if page.title != 'Altres' and page.title != 'Otros' and page.title != 'Others' %}
   <aside role="complementary" class="content-one-third">
 
   {% include nav-pills-tipus-d-altres.html %}

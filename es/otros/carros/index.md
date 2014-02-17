@@ -63,9 +63,9 @@ Descripción|Carretilla plegable multiuso 90 kgs XL
 - Medidas Plegada: 6,5x50x75 cms.
 - Sistema doble anclaje de las ruedas a la base.
 - Ruedas:
-- Diámetro 17,5 cm.
-- Grosor: 3 cm.
-- Base: 35 x48,5 cm.
+	- Diámetro 17,5 cm.
+	- Grosor: 3 cm.
+	- Base: 35 x48,5 cm.
 - Las ruedas se pliegan/despliegan al plegar/desplegar la base.
 
 &nbsp;|&nbsp;

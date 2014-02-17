@@ -16,8 +16,12 @@
             </small></p>
           {% if page.lang == 'es' %}
             <a class="navbar-brand" href="{{ site.base_url }}/es/">
-          {% else if %}
+          {% endif %}
+          {% if page.lang == 'ca' %}
             <a class="navbar-brand" href="{{ site.base_url }}/">
+          {% endif %}
+          {% if page.lang == 'en' %}
+            <a class="navbar-brand" href="{{ site.base_url }}/en/">
           {% endif %}
           <img src="{{ site.base_url }}/assets/img/box-fort-logo.png" />
           </a>

@@ -1,5 +1,6 @@
 ---
 layout: altres
+lang: ca
 slug: altres
 box: carros
 class: altres-altre
@@ -15,15 +16,15 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-carros-s10-superplegable.jpg"></p>
 
-- Carga: 90 Kgs.
-- Peso: 4,8 kgs.
-- Aluminio. Telescópica.
-- Altura: 108 cms.
-- Medidas Plegada: 6,5x48x81 cms.
-- Pala amplia 34x48,5 cms.
-- Mayor altura y pala
-- Práctico sistema de plegado del asa mediante botón.
-- Ruedas de goma: 17 cms diámetro provistas de cojinetes.
+- Càrrega: 90 kg 
+- Pes: 4,8 kg. 
+- Alumini. Telescòpica. 
+- Alçada: 108 cm. 
+- Mesures Plegada: 6,5 x48x81 cm. 
+- Pala àmplia 34x48, 5 cm. 
+- Major alçada i pala 
+- Pràctic sistema de plegat de la nansa mitjançant botó. 
+- Rodes de goma: 17 cms diàmetre proveïdes de coixinets.
 
 &nbsp;|&nbsp;
  --- | ---
@@ -34,15 +35,15 @@ Descripción|Carretilla plegable multiuso 90 kgs XL
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-carros-s11-superplegable.jpg"></p>
 
-- Carga: 90 Kgs.
-- Peso: 4,7 kgs.
-- Aluminio. Telescópica.
-- Altura: 101 cms.
-- Medidas Plegada: 6x48,5x71,5 cms.
-- Pala amplia 28x48,5 cms.
-- Muy fácil de plegar y desplegar.
-- Nuevo mecanismo de fijación de las ruedas.
-- Ruedas de goma de alta duración: 17 cms diámetro provistas de cojinetes.
+- Càrrega: 90 kg 
+- Pes: 4,7 kg. 
+- Alumini. Telescòpica. 
+- Alçada: 101 cm. 
+- Mesures Plegada: 6x48, 5x71, 5 cm. 
+- Pala àmplia 28x48, 5 cm. 
+- Molt fàcil de plegar i desplegar. 
+- Nou mecanisme de fixació de les rodes. 
+- Rodes de goma d'alta durada: 17 cms diàmetre proveïdes de coixinets.
 
 &nbsp;|&nbsp;
  --- | ---
@@ -53,19 +54,19 @@ Descripción|Carretilla plegable multiuso 90 kgs XL
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-carros-s125-superplegable.jpg"></p> 
 
-- Carga: 125 Kgs.
-- Peso: 6,8 kgs.
-- Aluminio.
-- Altura: 109 cms.
-- Asa ergonómica amplia y recubierta de plástico.
-- Sistema de 3 tubos cuadra- dos por lado encajados entre si mediante riel.
-- Medidas Plegada: 6,5x50x75 cms.
-- Sistema doble anclaje de las ruedas a la base.
-- Ruedas:
-- Diámetro 17,5 cm.
-- Grosor: 3 cm.
-- Base: 35 x48,5 cm.
-- Las ruedas se pliegan/despliegan al plegar/desplegar la base.
+- Càrrega: 125 Kgs 
+- Pes: 6,8 kg. 
+- Alumini. 
+- Alçada: 109 cm​​. 
+- Nansa ergonòmica àmplia i recoberta de plàstic. 
+- Sistema de 3 tubs quadrats per costat encaixats entre si mitjançant rail. 
+- Mesures Plegada: 6,5 x50x75 cm. 
+- Sistema doble ancoratge de les rodes a la base. 
+- Rodes: 
+	- Diàmetre 17,5 cm. 
+	- Gruix: 3 cm. 
+	- Base: 35 x48, 5 cm. 
+- Les rodes es pleguen / despleguen al plegar / desplegar la base.
 
 &nbsp;|&nbsp;
  --- | ---

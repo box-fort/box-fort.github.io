@@ -1,5 +1,6 @@
 ---
 layout: altres
+lang: ca
 slug: altres
 box: polipropile-troquelat
 class: altres-altre

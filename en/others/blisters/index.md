@@ -1,6 +1,6 @@
 ---
 layout: altres
-lang: es
+lang: en
 slug: altres
 box: blisters
 class: altres-altre
@@ -15,19 +15,19 @@ sitemap:
 --- 
 
 <p class="text-center">
-  <a href="#altres-blisters-polipropile" class="btn btn-primary"><i class="fa fa-picture-o"></i> Polipropileno</a>
-  <a href="#altres-blisters-termoformat" class="btn btn-primary"><i class="fa fa-picture-o"></i> Termoformado</a>
+  <a href="#altres-blisters-polipropile" class="btn btn-primary"><i class="fa fa-picture-o"></i> Polypropylene</a>
+  <a href="#altres-blisters-termoformat" class="btn btn-primary"><i class="fa fa-picture-o"></i> Head-formed</a>
 </p>
 
-En Boxfort podrá encontrar una amplia gama de productos en polipropileno troquelado, una solución económica de embalaje.
+In Boxfort you will find a wide range of products in stamped polypropylene an economical solution for packing. 
 
-Con este material, podemos fabricar todo tipo de blisters y maletas ligeras, que le facilitarán una buena presentación de sus productos.
+With this material we can make folders, lightweight suitcases, cases, etc.., Which provide a good presentation of your products.
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/04-thumbnail-box-fort-altres-blisters-polipropile-blister-polipropile.jpg"></p>
 
-##Polipropileno
+##Polypropylene
 
-Referencia|Medidas interiores
+Reference|Inner measures
 --- | ---
 ART. A1|48 x 38 x 15
 ART. A2|48 x 38 x 10
@@ -43,13 +43,13 @@ ART. F1|195 x 70 x 35
 ART. F2|245 x 70 x 35
 ART. F3|295 x 70 x 35
 ART. F4|315 x 55 x 22
-ART. D0/4|125 x 65 x 18<br/>4 compartimientos
+ART. D0/4|125 x 65 x 18<br/>4 compartment
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-altres-blisters-termoformat-PVC.jpg"></p>
 
-##Termoformado
+##Head-formed
 
-Referencia|Medidas interiores
+Reference|Inner measures
 --- | ---
 Art. 1|55x45x12
 Art. 2|55x45x20
@@ -82,12 +82,12 @@ Art. 30|90x65x40
 Art. 28/30|90x65x50
 Art. 29/30|90x65x60
 
-Referencia|Medidas interiores
+Reference|Inner measures
 --- | ---
 A 95|328 x 240 x 89
-B 20|328 x 240 x 20<br/>(sobre pedido)
+B 20|328 x 240 x 20<br/>(on request)
 B 40|328 x 239 x 39
-D 60|210 x 155 x 59<br/>(pedido mínimo)
+D 60|210 x 155 x 59<br/>(minimum order)
 D 85|210 x 155 x 85
 E 30|210 x 155 x 29
 F 60|159 x 110 x 59

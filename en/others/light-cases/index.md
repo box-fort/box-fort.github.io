@@ -1,12 +1,12 @@
 ---
 layout: altres
-lang: es
+lang: en
 slug: altres
 box: estoigs
 class: altres-altre
-title: Estuches
+title: Light cases
 subtitle:
-keywords: estuches, cajas, compartimentos, transparentee, polipropileno
+keywords: cases, boxes, compartments, transparent, polypropylene
 featured-img-url:
 icon-url: 
 sitemap:
@@ -17,7 +17,7 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-101-perline.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-180-43-blau.jpg"></p>
  
- Artículo| Medidas | Descripción | 
+ Item| Measures | Description | 
 --- | --- |
 101/ATN | 165x112x31 mm. | Caja con 6 compartimentos transparente
 101/BTN | 165x112x31 mm. | Caja con 5 compartimentos transparente
