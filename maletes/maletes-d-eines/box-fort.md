@@ -1,5 +1,6 @@
 ---
 layout: maletes
+lang: ca
 slug: maletes
 box: box-fort
 class: maletes-maleta
