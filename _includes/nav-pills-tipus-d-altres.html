@@ -1,50 +1,78 @@
 	{% if page.lang == 'es' %}
 	<h3>Otros</h3>
-	{% else if %}
+	{% endif %}
+      {% if page.lang == 'ca' %}
 	<h3>Altres</h3>
 	{% endif %}
+      {% if page.lang == 'en' %}
+      <h3>Others</h3>
+      {% endif %}
 
     <ul class="nav nav-pills nav-stacked">
       <li {% if page.box == 'estoigs' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/estuches/">Estuches</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/estoigs/">Estoigs</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/light-cases/">Light cases</a>
+                  {% endif %}
       </li>
       <li {% if page.box == 'blisters' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/blisters/">Blisters</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/blisters/">Blisters</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/blisters/">Blisters</a>
+                  {% endif %}
       </li>
       <li {% if page.box == 'escumes' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/espumas/">Espumas</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/escumes/">Escumes</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/foams/">Foams</a>
+                  {% endif %}
       </li>
       <li {% if page.box == 'plafons' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/plafones/">Plafones</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/plafons/">Plafons</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/panels/">Panels</a>
+                  {% endif %}
       </li>
       <li {% if page.box == 'polipropile-troquelat' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/polipropileno-troquelado/">Polipropileno troquelado</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/polipropile-troquelat/">Polipropilè troquelat</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/stamped-polypropylene/">Stamped polypropylene</a>
+                  {% endif %}
       </li>
       <li {% if page.box == 'carros' %}class="active"{% endif %}>
       		{% if page.lang == 'es' %}
       		<a href="{{ site.base_url }}/es/otros/carros/">Carros</a>
-      		{% else if %}
+      		{% endif %}
+                  {% if page.lang == 'ca' %}
       		<a href="{{ site.base_url }}/altres/carros/">Carros</a>
       		{% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/trolleys/">Trolleys</a>
+                  {% endif %}
       </li>
     </ul>
