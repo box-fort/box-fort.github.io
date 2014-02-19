@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: eines
 class: maletes-maleta
-title: Maletas de herramientas
+title: Cases for tools
 subtitle:
 keywords: maletas, herramientas, aluminio, ABS, piel, carbono
 featured-img-url:

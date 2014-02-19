@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: panaro
 class: maletes-maleta
-title: Maletas de herramientas
+title: Cases for tools
 subtitle: Panaro
 keywords: maletas, herramientas, panaro
 featured-img-url:

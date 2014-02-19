@@ -1,11 +1,11 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: contenidors
 class: maletes-maleta
-title: Maletes de aluminio
-subtitle: contenedores
+title: Aluminum cases
+subtitle: containers
 keywords: maletas, contenedores, aluminio, embalajes, seguros, ligeros
 featured-img-url:
 icon-url: 

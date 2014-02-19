@@ -13,18 +13,26 @@ slug: maletes
         <li>
             {% if page.lang == 'es' %}
             <a href="{{ site.base_url }}/es/">Home</a>
-            {% else if %}
+            {% endif %}
+            {% if page.lang == 'ca' %}
             <a href="{{ site.base_url }}/">Home</a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+            <a href="{{ site.base_url }}/en/">Home</a>
             {% endif %}
         </li>
         <li>
             {% if page.lang == 'es' %}
             <a href="{{ site.base_url }}/es/maletas">Maletas</a>
-            {% else if %}
+            {% endif %}
+            {% if page.lang == 'ca' %}
             <a href="{{ site.base_url }}/maletes">Maletes</a>
             {% endif %}
+            {% if page.lang == 'en' %}
+            <a href="{{ site.base_url }}/en/cases">Cases</a>
+            {% endif %}
         </li>
-        {% if page.title != 'Maletes' %}
+        {% if page.title != 'Maletes' and page.title != 'Maletas' and page.title != 'Cases' %}
         <li class="active">{% if page.title != 'Maletes' and page.subtitle != null %}{{page.title}}, <strong>{{page.subtitle}}</strong>{% endif %}{% if page.title != 'Maletes' and page.subtitle == null %}{{page.title}}{% endif %}</li>
         {% endif %}
       </ul>
@@ -61,7 +69,7 @@ slug: maletes
 
   </div>
 
-  {% if page.title != 'Maletes' and page.title != 'Maletas' %}
+  {% if page.title != 'Maletes' and page.title != 'Maletas' and page.title != 'Cases' %}
   <aside role="complementary" class="content-one-third">
 
   {% include nav-pills-tipus-de-maletes.html %}

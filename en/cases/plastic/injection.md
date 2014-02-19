@@ -1,11 +1,11 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: injeccio
 class: maletes-maleta
-title: Maletas de plástico
-subtitle: inyección
+title: Plastic cases
+subtitle: injection
 keywords: maletas, inyección, plástico, panaro, hofbauer, plaston
 featured-img-url:
 icon-url:  

@@ -1,11 +1,11 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: estanques
 class: maletes-maleta
-title: Maletas de plastico
-subtitle: Estancas
+title: Plastic cases
+subtitle: Waterproof
 keywords: maletas, estancas, plástico, explorer, max
 featured-img-url:
 icon-url: 

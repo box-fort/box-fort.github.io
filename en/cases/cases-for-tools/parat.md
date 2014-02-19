@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: parat
 class: maletes-maleta
-title: Maletas de herramientas
+title: Cases for tools
 subtitle: Parat
 keywords: maletas, herramientas, parat
 featured-img-url:

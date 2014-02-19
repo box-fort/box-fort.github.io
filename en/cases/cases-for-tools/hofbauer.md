@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: hofbauer
 class: maletes-maleta
-title: Maletes de herramientas
+title: Cases for tools
 subtitle: Hofbauer
 keywords: maletas, herramientas, hofbauer
 featured-img-url:

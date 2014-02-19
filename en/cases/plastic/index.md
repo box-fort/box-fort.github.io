@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: plastic
 class: maletes-maleta
-title: Maletas de plástico
+title: Plastic cases
 subtitle:
 keywords: maletas, plástico, embalages, modelado, térmico, inyección, doble pared, estancas
 featured-img-url:

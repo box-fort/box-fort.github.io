@@ -1,11 +1,11 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: piloto
 class: maletes-maleta
 title: Piloto
-subtitle: más ligeras, más fuertes, más calidad
+subtitle: lighter, stronger, higher quality
 keywords: maletas, piloto, personalitzados, termoconformados, vaciados
 featured-img-url:
 icon-url: 

@@ -1,12 +1,12 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: flight-cases
 class: maletes-maleta
-title: Maletas de aluminio
+title: Aluminum cases
 subtitle: Flight cases
-keywords: maletes, flight cases, alumini, seguretat, forts, contenidors
+keywords: cases, flight cases, aluminum, security, strong, containers
 featured-img-url:
 icon-url: 
 sitemap:
@@ -14,6 +14,6 @@ sitemap:
   changefreq: monthly
 ---
 
-Contenedores fuertes y resistentes a todo tipo de trato. Dentro de un flight case bien fabricado, sus equipos viajarán con toda seguridad.
+Strong and resistant containers for all purposes. A well-manufactured flight case ensures all equipment travels securely.
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-flight-cases.jpg"></p>

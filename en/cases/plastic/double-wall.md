@@ -1,11 +1,11 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: doble-paret
 class: maletes-maleta
-title: Maletes de plástico
-subtitle: Doble pared
+title: Plastic cases
+subtitle: Double wall
 keywords: maletas, doble pared, plástico, hofbauer
 featured-img-url:
 icon-url: 

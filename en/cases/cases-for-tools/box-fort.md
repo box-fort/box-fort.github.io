@@ -1,10 +1,10 @@
 ---
 layout: maletes
-lang: es
+lang: en
 slug: maletes
 box: box-fort
 class: maletes-maleta
-title: Maletas de herramientas
+title: Cases for tools
 subtitle: Box Fort
 keywords: maletas, herramientas, box fort
 featured-img-url:
