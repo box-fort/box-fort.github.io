@@ -6,7 +6,7 @@ box: piloto
 class: maletes-maleta
 title: Piloto
 subtitle: lighter, stronger, higher quality
-keywords: maletas, piloto, personalitzados, termoconformados, vaciados
+keywords: cases, piloto, custom, thermoformed
 featured-img-url:
 icon-url: 
 sitemap:
@@ -17,10 +17,10 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-piloto.jpg"></p>
 
-Interiores neutros o personalizados con espumas troqueladas de diferentes densidades y colores, termoconformados, vaciados, accesorios porta herramientas, etc.
+A multi-functional, convenient and practical case.
 
-Maletas más ligeras, más fuertes, más calidad.
+Lighter, stronger, higher quality
 
-Medidas interiores|
+Inner measures|
 --- |
 480 x380 x230|

@@ -36,7 +36,8 @@ Aquí debe indicar cuáles pueden adquirir en su página y bajo qué condiciones
 ##Propiedad intelectual e industrial
 
 [Oxygen Area SL](http://www.oxygen.cat/), como desarrollador de [box-fort.com](http://www.box-fort.com/) y contratado por [box-fort.com](http://www.box-fort.com/), cede los derechos de propiedad industrial e intelectual del diseño, estructuras de navegación y bases de datos y los distintos elementos en ella contenidos, siempre que no sean productos o servicios de alquiler, en [box-fort.com](http://www.box-fort.com/), a quien finalmente corresponde el ejercicio exclusivo de los derechos de explotación de los mismos en cualquier forma y, en especial, los derechos de reproducción, distribución, comunicación pública y transformación, de acuerdo con la legislación española y de la unión europea aplicable.
-Uso del servicio y responsabilidades
+
+##Uso del servicio y responsabilidades
 
 [box-fort.com](http://www.box-fort.com/) no garantiza la disponibilidad permanente de los servicios, quedando exonerado por cualquier tipo de responsabilidad por posibles daños y perjuicios causados ​​por la no disponibilidad del servicio por causas de fuerza mayor o errores en las redes telemáticas de transferencia de datos, ajenos a su voluntad. Box-fort.com se reserva el derecho de suspender el acceso a su página web, sin previo aviso, de forma discrecional y temporal, por razones técnicas o de cualquier otra índole, pudiendo asimismo modificar unilateralmente tanto las condiciones de acceso, como la totalidad o parte de los contenidos en ella incluidos.
 

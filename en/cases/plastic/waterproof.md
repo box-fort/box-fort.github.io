@@ -6,7 +6,7 @@ box: estanques
 class: maletes-maleta
 title: Plastic cases
 subtitle: Waterproof
-keywords: maletas, estancas, plástico, explorer, max
+keywords: cases, waterproof, plastic, explorer, max
 featured-img-url:
 icon-url: 
 sitemap:
@@ -14,14 +14,14 @@ sitemap:
   changefreq: monthly
 --- 
 
-<p> Galeria d'imatges: 
+<p> Photo gallery: 
   <a href="#estanques-explorer" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-icon-explorer-cases.jpg"> Explorer cases</a>
   <a href="#estanques-max" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-icon-max-cases.jpg"> Max cases</a>
 </p>
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"></p>
 
-Referencia|Medidas interiores|Referencia|Medidas interiores
+Reference|Inner measures|Reference|Inner measures
 --- | --- | --- | ---
 1908.BE|190 x 125 x 85|*5823.BE|580 x 440 x 220
 1913.BE|190 x 125 x 135|* 5833.BE|580 x 440 x 330
@@ -39,13 +39,13 @@ Referencia|Medidas interiores|Referencia|Medidas interiores
 5822.BE|580 x 440 x 220|MUB.78|780 x 410 x 330
 3317.W.BE|330 x 350 x 170
 
-* Con ruedas. ** Con ruedas y 2 cierres digitales.
+* With wheels. ** With wheels and 2 digital locks.
 
-Colores: negro, naranja y verde. Medidas en mm
+Colors: black, orange and green. Measures in mm
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-max-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-max-cases.jpg"></p>
 
-Referencia|Medidas interiores
+Reference|Inner measures
 --- | ---
 MAX300|300 x 225 x 132
 MAX430|426 x 290 x 159

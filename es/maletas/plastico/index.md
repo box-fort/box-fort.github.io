@@ -26,7 +26,7 @@ El nuevo sector de los embalajes en modelado térmico se ha desarrollado notable
 
 	<div class="col-sm-4 col-md-4">
 
-		<p class="text-center"><a href="{{ site.base_url }}/maletes/es/plastico/doble-pared.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"><br/>Doble pared</a></p>
+		<p class="text-center"><a href="{{ site.base_url }}/es/maletes/plastico/doble-pared.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"><br/>Doble pared</a></p>
 
 	</div>
 

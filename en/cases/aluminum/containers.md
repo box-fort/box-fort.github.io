@@ -6,7 +6,7 @@ box: contenidors
 class: maletes-maleta
 title: Aluminum cases
 subtitle: containers
-keywords: maletas, contenedores, aluminio, embalajes, seguros, ligeros
+keywords: cases, containers, aluminum, packaging, secure, light
 featured-img-url:
 icon-url: 
 sitemap:
@@ -16,10 +16,10 @@ sitemap:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-contenidors.jpg"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-maletes-alumini-contenidors.jpg"></p>
 
-La máxima protección para cada aplicación. Las cajas en aluminio son embalajes seguros y ligeros para el transporte. Permiten guardar los objetos de forma bien ordenada y segura.
+The highest level of protection for each application. Aluminium boxes offer secure packaging and are lightweight for transport. They enable objects to be stored in an ordered and secure manner.
 
 
-Referencia|Medidas interiores|Referencia|Medidas exteriores
+Reference|Inner measures|Reference|Inner measures
 --- | --- | --- |
 20029|400 x 300 x 245|30140|870 x 460 x 350
 20042|500 x 350 x 245|40028|352 x 255 x 245

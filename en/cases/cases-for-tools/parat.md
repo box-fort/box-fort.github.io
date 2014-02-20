@@ -6,7 +6,7 @@ box: parat
 class: maletes-maleta
 title: Cases for tools
 subtitle: Parat
-keywords: maletas, herramientas, parat
+keywords: cases, tools, parat
 featured-img-url:
 icon-url: 
 sitemap:
@@ -16,7 +16,7 @@ sitemap:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-parat-481-500-171.jpg"></p>
 
-PARAT|Mides interiors	
+PARAT|Inner measures	
 --- | ---
 SILVER|465 x 170 x 310	
 NEW CLASSIC|420 x 160 x 250	

@@ -14,7 +14,7 @@ sitemap:
   changefreq: monthly
 --- 
 
-<p> Galeria de imágenes: 
+<p>Photo gallery: 
   <a href="#injeccio-plastica-panaro" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plastica-panaro.jpg"> Plastica Panaro</a>
   <a href="#injeccio-hofbauer" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-hofbauer.jpg"> Hofbauer</a>
   <a href="#injeccio-plaston" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plaston.jpg"> Plaston</a>
@@ -22,7 +22,7 @@ sitemap:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-60H144-34x30-cm.jpg"></p>
 
-PROCASE|Medidas interiores|ADVANCED|Medidas interiores
+PROCASE|Inner measures|ADVANCED|Inner measures
 --- | --- | --- |
 170/34H96|324 x 251 x 87|170/25|235 x 185 x 43
 170/34H128|320 x 247 x 118,5|170/26H44|248 x 178 x 39
@@ -37,7 +37,7 @@ PROCASE|Medidas interiores|ADVANCED|Medidas interiores
 170/60H184|575 x 355 x 172|170/51N|510 x 370 x 129
 170/60H224|575 x 355 x 212
 
-CLASSIC|Medidas interiores|K SERIES|Medidas interiores
+CLASSIC|Inner measures|K SERIES|Inner measures
 --- | --- |--- | ---
 170/16|155 x 115 x 34|K27|244 x 174 x 41
 170/24P|233 x 173 x 42|K45|320 x 216 x 74
@@ -49,7 +49,7 @@ CLASSIC|Medidas interiores|K SERIES|Medidas interiores
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-minibag.jpg"></p>
 
-MAXIBAG|Medidas interiores|MINIBAG|Medidas interiores|XTRABAG|Medidas interiores
+MAXIBAG|Inner measures|MINIBAG|Inner measures|XTRABAG|Inner measures
 --- | --- | --- | --- | --- | ---
 0,3-67|246 x 173 x 67|1|222 x 145 x 40|100 PP|240 x 188 x  44
 0,4-79|262 x 184 x 79|2|258 x 178 x 45|200 PP|296 x 230 x  76
@@ -80,7 +80,7 @@ MAXIBAG|Medidas interiores|MINIBAG|Medidas interiores|XTRABAG|Medidas interiores
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plaston.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plaston-typ-17.jpg"></p>
 
-Referencia|Medidas interiores
+Reference|Inner measures
 --- | ---
 TYP17|207 x 134 x 36
 TYP31|363 x 329 x 64

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html {% if page.lang == 'es' %}lang="es"{% else if %}lang="ca"{% endif %}>
+<html {% if page.lang == 'es' %}lang="es"{% endif %}{% if page.lang == 'ca' %}lang="ca"{% endif %}{% if page.lang == 'en' %}lang="en"{% endif %}>
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     {% include header.html %}
@@ -10,85 +10,10 @@
 
     
     {% include nav-main.html %}
-
     
     {{ content }}
 
-    <footer role="contentinfo">
-      <div class="footer-bg">
-        <div class="container ox_animate_when_almost_visible ox_bottom-to-top">
-          <div class="row">
-            <div class="col-sm-1 col-lg-1">
-              <p><img src="{{ site.base_url }}/assets/img/box-fort-logo-footer.png" /></p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p>
-                <small>{% if page.lang == 'es' %}<a href="/es/"><strong>Home</strong></a>{% else if %}<a href="/"><strong>Home</strong></a>{% endif %}</small>
-              </p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p>
-                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/"><strong>Maletas</strong></a>{% else if %}<a href="{{ site.base_url }}/maletes/"><strong>Maletes</strong></a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/aluminio/standard.html">Aluminio Standard</a>{% else if %}<a href="{{ site.base_url }}/maletes/alumini/standard.html">Alumini Standard</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/plastico/">Plastico</a>{% else if %}<a href="{{ site.base_url }}/maletes/plastic/">Plàstic</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/maletas-d-herramientas/">Maletas de herramientas</a>{% else if %}<a href="{{ site.base_url }}/maletes/maletes-d-eines/">Maletes d'eines</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/maletas/piloto/">Piloto</a>{% else if %}<a href="{{ site.base_url }}/maletes/piloto/">Piloto</a>{% endif %}
-                </small>
-              </p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p>
-                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/fundas-textil.html"><strong>Fundas téxtil</strong></a>{% else if %}<a href="{{ site.base_url }}/fundes-textil.html"><strong>Fundes tèxtil</strong></a>{% endif %}
-                </small>
-              </p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p>
-                <small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/"><strong>Otros</strong></a>{% else if %}<a href="{{ site.base_url }}/altres/"><strong>Altres</strong></a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/estuches/">Estoigs</a>{% else if %}<a href="{{ site.base_url }}/altres/estoigs/">Estoigs</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/blisters/">Blisters</a>{% else if %}<a href="{{ site.base_url }}/altres/blisters/">Blisters</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/espumas/">Espumas</a>{% else if %}<a href="{{ site.base_url }}/altres/escumes/">Escumes</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/plafones/">Plafones</a>{% else if %}<a href="{{ site.base_url }}/altres/plafons/">Plafons</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/polipropileno-troquelado/">Polipropileno troquelado</a>{% else if %}<a href="{{ site.base_url }}/altres/polipropile-troquelat/">Polipropilè troquelat</a>{% endif %}
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/otros/carros/">Carros</a>{% else if %}<a href="{{ site.base_url }}/altres/carros/">Carros</a>{% endif %}
-                </small>
-              </p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p><small>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/contacto/"><strong>Contacto</strong></a>{% else if %}<a href="{{ site.base_url }}/contacte/"><strong>Contacte</strong></a>{% endif %}</small></p>
-            </div>
-            <div class="col-sm-1 col-lg-1">
-              <p><small><a href="{{ site.base_url }}/blog/"><strong>{% if page.lang == 'es' %}Novedades{% else if %}Novetats{% endif %}</strong></a></small></p>
-            </div>
-            <div class="col-sm-2 col-lg-2 col-sm-offset-1 col-lg-offset-1">
-              <p>
-                <small>&copy; Box Fort 2013
-                  <br/>{% if page.lang == 'es' %}<a href="{{ site.base_url }}/es/aviso-legal.html">Aviso Legal</a>{% else if %}<a href="{{ site.base_url }}/avis-legal.html">Avís Legal</a>{% endif %}
-                </small>
-              </p>
-              <p class="lang">
-                <small>idioma: 
-                {% if page.lang != 'es' %}
-                  <a href="#" title="català" class="active">ca</a> <a href="{{ site.base_url }}/es/" title="español">es</a>
-                {% else if %}
-                  <a href="{{ site.base_url }}/" title="català">ca</a> <a href="#" title="español" class="active">es</a>
-                {% endif %}
-              </small>
-            </p>
-            </div>
-            <div class="col-sm-2 col-lg-2">
-              <p class="text-right"><a href="#" title="Twitter" rel="external"><i class="fa fa-twitter fa-lg"></i></a> <a href="#" title="Linkedin" rel="external"><i class="fa fa-linkedin fa-lg"></i></a> <a href="mailto:bustia@box-fort.com" title="Correu-e" rel="external"><i class="fa fa-envelope fa-lg"></i></a></p>
-            </div>
-          </div>
-        </div>
-          <address class="text-center">
-            <small>
-            Carrer del Camp, 79 08290, Cerdanyola del Vallès - Barcelona <a href="tel:0034933543453"><span class="fa fa-phone"></span> 0034 936 918 305</a> <a href="mailto:info@vortex.es"><span class="fa fa-envelope"></span> bustia@box-fort.com</a> <a href="https://maps.google.cat/maps?q=Carrer+del+Camp,+79,+Cerdanyola+del+Vall%C3%A8s,+Espanya&hl=ca&ie=UTF8&sll=37.0625,-95.677068&sspn=64.624909,107.138672&oq=Carrer+del+Camp,+79&hnear=Carrer+del+Camp,+79,+08290+Cerdanyola+del+Vall%C3%A8s,+Barcelona,+Espanya&t=m&z=17"><span class="fa fa-map-marker"></span> Map</a>
-            </small>
-        </address>
-      </div>
-    </footer>
-
+    {% include contentinfo.html %}    
 
     {% include footer.html %}
 

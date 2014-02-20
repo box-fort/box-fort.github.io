@@ -6,7 +6,7 @@ box: hofbauer
 class: maletes-maleta
 title: Cases for tools
 subtitle: Hofbauer
-keywords: maletas, herramientas, hofbauer
+keywords: cases, tools, hofbauer
 featured-img-url:
 icon-url: 
 sitemap:
@@ -16,7 +16,7 @@ sitemap:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-hofbauer-megabag-tc.jpg"></p>
 
-HOFBAUER|Medidas interiores
+HOFBAUER|Inner measures
 --- | ---
 MEGABAG TC1000|400 x 290 x 140
 MEGABAG TC2000|471 x 346 x 130
