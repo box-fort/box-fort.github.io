@@ -220,6 +220,79 @@
           </li>
         </ul>
       </li>
+      {% if page.lang == 'ca' %}
+      <li {% if page.box == 'nex-estanques' or page.box == 'explorer' or page.box == 'max' %}class="active"{% endif %}>
+        {% if page.lang == 'es' %}
+          <a href="{{ site.base_url }}/es/maletas/estancas/">Estancas</a>
+        {% endif %}
+        {% if page.lang == 'ca' %}
+          <a href="{{ site.base_url }}/maletes/estanques/">Estanques</a>
+        {% endif %}
+        {% if page.lang == 'en' %}
+          <a href="{{ site.base_url }}/en/cases/waterproof/">Waterproof</a>
+        {% endif %}
+        <ul>
+          <li>
+            {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/maletas/estancas/max.html">
+                {% if page.box == 'max' %}
+                  <strong><em>MAX</em></strong>
+                {% else %}
+                  MAX
+                {% endif %}
+              </a>
+            {% endif %}
+            {% if page.lang == 'ca' %}
+              <a href="{{ site.base_url }}/maletes/estanques/max.html">
+                {% if page.box == 'max' %}
+                  <strong><em>MAX</em></strong>
+                {% else %}
+                  MAX
+                {% endif %}
+              </a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+              <a href="{{ site.base_url }}/en/cases/waterproof/max.html">
+                {% if page.box == 'max' %}
+                  <strong><em>MAX</em></strong>
+                {% else %}
+                  MAX
+                {% endif %}
+              </a>
+            {% endif %}
+          </li>
+          <li>
+            {% if page.lang == 'es' %}
+              <a href="{{ site.base_url }}/es/maletas/estancas/exploer.html">
+                {% if page.box == 'explorer' %}
+                  <strong><em>Explorer</em></strong>
+                {% else %}
+                  Explorer
+                {% endif %}
+              </a>
+            {% endif %}
+            {% if page.lang == 'ca' %}
+              <a href="{{ site.base_url }}/maletes/estanques/explorer.html">
+                {% if page.box == 'explorer' %}
+                  <strong><em>Explorer</em></strong>
+                {% else %}
+                  Explorer
+                {% endif %}
+              </a>
+            {% endif %}
+            {% if page.lang == 'en' %}
+              <a href="{{ site.base_url }}/en/cases/waterproof/explorer.html">
+                {% if page.box == 'explorer' %}
+                  <strong><em>Explorer</em></strong>
+                {% else %}
+                  Explorer
+                {% endif %}
+              </a>
+            {% endif %}
+          </li>
+        </ul>
+      </li>
+      {% endif %}
       <li {% if page.box == 'eines' or page.box == 'box-fort' or page.box == 'panaro' or page.box == 'hofbauer' or page.box == 'parat' %}class="active"{% endif %}>
         {% if page.lang == 'es' %}
           <a href="{{ site.base_url }}/es/maletas/maletas-d-herramientas/">Maletas de herramientas</a>
@@ -349,14 +422,4 @@
           </li>
         </ul>
       </li>
-      <li {% if page.box == 'piloto' %}class="active"{% endif %}>
-        {% if page.lang == 'es' %}
-          <a href="{{ site.base_url }}/es/maletas/piloto/">Piloto</a>
-        {% endif %}
-        {% if page.lang == 'ca' %}
-          <a href="{{ site.base_url }}/maletes/piloto/">Piloto</a>
-        {% endif %}
-        {% if page.lang == 'en' %}
-          <a href="{{ site.base_url }}/en/cases/piloto/">Piloto</a>
-        {% endif %}
     </ul>
