@@ -18,7 +18,10 @@ sitemap:
   <a href="#injeccio-plastica-panaro" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plastica-panaro.jpg"> Plastica Panaro</a>
   <a href="#injeccio-hofbauer" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-hofbauer.jpg"> Hofbauer</a>
   <a href="#injeccio-plaston" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-plaston.jpg"> Plaston</a>
+  <a href="#injeccio-wag" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-wag.jpg"> Wag</a>
 </p>
+
+<hr/>
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-60H144-34x30-cm.jpg"></p>
 
@@ -58,7 +61,7 @@ CLASSIC|Mides interiors
 170/24PH75|233 x 173 x 72
 170/31|314 x 232 x 57
 170/36|360 x 268 x 73
-170/40|396 x 286 x 95 		  	 
+170/40|396 x 286 x 95 |  	 
 170/42|420 x 305 x 105
 
 K SERIES|Mides interiors
@@ -128,3 +131,123 @@ TYP146|610 x 410 x 140
 TYP156|610 x 410 x 200
 Polybutler|470 x 350 x 180
 Polyno|350 x 290 x 180
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-wag.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-t-2002.jpg"></p>
+
+TEKNO|Mides interiors
+--- | ---
+T 2002|226X136X42
+T 2003S|244x161x42
+T 2003M|244x161x54
+T 2003|244x161x66
+T 2004|261x175x77
+T 2007|326x222x77
+T 2008|326x222x116
+T 2009|326x222x156
+T 2009S|326x222x186
+T 2011|382x237x100
+T 2017|437x295x100
+T 2018|437x295x116
+T 2019|437x295x132
+Colors standard: negre, gris clar, blau i transparent.|
+
+HEAVY|Mides interiors
+--- | ---
+H 4001|275x195x70
+H 4002|275x195x100
+H 4003|275x195x130
+H 4010|360x228x90
+H 4012|360x228x135
+H 4014|360x228x180
+H 4028|465x325x110
+H 4032|465x325x160
+H 4036|465x325x210
+H 4040|528x368x130
+H 4044|528x368x190
+H 4048|528x368x250
+H 4054|622x442x220
+Colors standard: negre, blau fosc, gris clar i antracita.|
+
+JAZZ|Mides interiors
+--- | ---
+J 5002|220X150X45
+J 5003|220X150X60
+J 5004|220X150X75
+J 5005|285X200X50
+J 5006|285X200X70
+J 5007|285X200X90
+J 5011|350X245X70
+J 5012|350X245X85
+J 5013|350X245X100
+J 5017|420X300X90
+J 5018|420X300X120
+J 5019|420X300X150
+J 5032|490X340X110
+J 5033|490X340X130
+J 5034|490X340X150
+Colors standard: negre, blau fosc, gris clar i antracita.|
+
+SALSA|Mides interiors
+--- | ---
+S 1430|168X130X26
+S 1440|168X130X36
+S 1450|168X130X46
+S 1630|234X168X26
+S 1650|234X168X46
+S 1670|234X168X66
+S 1830|310X230X26
+S 1850|310X230X46
+S 1870|310X230X66
+Colors standard: negre, gris clar, blau fosc i transparent.|
+
+SWING|Mides interiors
+--- | ---
+SW 3112|93X60X25
+SW 3114|93X60X29
+SW 3116|93X60X33
+SW 3224|112X88X33
+SW 3436|112X167X38
+SW 3648|112X225X51
+
+MAMBO|Mides interiors
+--- | ---
+M 946 amb suport per a 19 broques|110x150x32
+M 946 sense suport broques|110x150x32
+M 947 amb suport per a 25 broques|110x175x52
+M 947 sense suport broques|110x175x52
+Colors standard: negre, gris clar, blau fosc i antracita.|
+
+BEAT|Mides interiors
+--- | ---
+B 6341|75X100X25
+B 6342|75X100X50
+B 6343|75X100X75
+B 6361|75X150X25
+B 6362|75X150X50
+B 6363|75X150X75
+B 6391|75X225X25
+B 6392|75X225X50
+B 6393|75X225X75
+B 6321|75X300X25
+B 6322|75X300X50
+B 6323|75X300X75
+B 6331|75X325X25
+B 6332|75X325X50
+B 6333|75X325X75
+B 6641|150X100X25
+B 6642|150X100X50
+B 6643|150X100X75
+B 6661|150X150X25
+B 6662|150X150X50
+B 6663|150X150X75
+B 6691|150X225X25
+B 6692|150X225X50
+B 6693|150X225X75
+B 6694|150X225X12
+B 6621|150X300X25
+B 6622|150X300X50
+B 6623|150X300X75
+B 6631|150X325X25
+B 6632|150X325X50
+B 6633|150X325X75
+Colors standard: negre, blau fosc i transparent.|
