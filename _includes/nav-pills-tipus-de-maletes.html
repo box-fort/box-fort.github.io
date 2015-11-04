@@ -189,38 +189,8 @@
               </a>
             {% endif %}
           </li>
-          <li>
-            {% if page.lang == 'es' %}
-              <a href="{{ site.base_url }}/es/maletas/plastico/estancas.html">
-                {% if page.box == 'estanques' %}
-                  <strong><em>Estancas</em></strong>
-                {% else %}
-                  Estancas
-                {% endif %}
-              </a>
-            {% endif %}
-            {% if page.lang == 'ca' %}
-              <a href="{{ site.base_url }}/maletes/plastic/estanques.html">
-                {% if page.box == 'estanques' %}
-                  <strong><em>Estanques</em></strong>
-                {% else %}
-                  Estanques
-                {% endif %}
-              </a>
-            {% endif %}
-            {% if page.lang == 'en' %}
-              <a href="{{ site.base_url }}/en/cases/plastic/waterproof.html">
-                {% if page.box == 'estanques' %}
-                  <strong><em>Waterproof</em></strong>
-                {% else %}
-                  Waterproof
-                {% endif %}
-              </a>
-            {% endif %}
-          </li>
         </ul>
       </li>
-      {% if page.lang == 'ca' %}
       <li {% if page.box == 'nex-estanques' or page.box == 'explorer' or page.box == 'max' %}class="active"{% endif %}>
         {% if page.lang == 'es' %}
           <a href="{{ site.base_url }}/es/maletas/estancas/">Estancas</a>
@@ -292,7 +262,6 @@
           </li>
         </ul>
       </li>
-      {% endif %}
       <li {% if page.box == 'eines' or page.box == 'box-fort' or page.box == 'panaro' or page.box == 'hofbauer' or page.box == 'parat' %}class="active"{% endif %}>
         {% if page.lang == 'es' %}
           <a href="{{ site.base_url }}/es/maletas/maletas-d-herramientas/">Maletas de herramientas</a>

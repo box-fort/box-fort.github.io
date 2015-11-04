@@ -48,6 +48,9 @@ sitemap:
 195 | 276x188x45 mm. | Blue/transparent box with 1-20 movable dividers
 196 | 276x188x75 mm. | Blue/transparent box with 1-15 movable dividers
 197 | 276x188x75 mm. | Blue/transparent box with 1-9 movable dividers
+198/20 | 276x186x27 mm. | Case with movable dividers
+199/72 | 206x147x27 | Case with movable dividers
 200/C | 387x105x40 mm. | Transparent polypropylene box
 200/CA | 387x105x40 mm. | Transparent Polypropylene box with 8 MP + 8 dividers
 200/L | 310x105x40 mm. | Empty transparent polypropylene box
+396/10 | | Case with movable dividers

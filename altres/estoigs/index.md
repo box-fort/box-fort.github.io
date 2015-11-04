@@ -48,6 +48,9 @@ sitemap:
 195 | 276x188x45 mm. | Caixa blau/transparent amb 1-20 separadors mòbils
 196 | 276x188x75 mm. | Caixa blau/transparent amb 1-15 separadors mòbils
 197 | 276x188x75 mm. | Caixa blau/transparent amb 1-9 separadors mòbils
+198/20 | 276x186x27 mm. | Caixa amb separadors mòbils
+199/72 | 206x147x27 | Caixa amb separadors mòbils
 200/C | 387x105x40 mm. | Caixa de polipropilè transparent
 200/CA | 387x105x40 mm. | Caixa de polipropilè transparent amb 8 M/P + 8 separadors
 200/L | 310x105x40 mm. | Caixa de polipropilè transparent buida
+396/10 | | Caixa amb separadors mòbils

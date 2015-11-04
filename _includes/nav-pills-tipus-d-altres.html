@@ -75,4 +75,15 @@
                   <a href="{{ site.base_url }}/en/others/trolleys/">Trolleys</a>
                   {% endif %}
       </li>
+      <li {% if page.box == 'piloto' %}class="active"{% endif %}>
+                  {% if page.lang == 'es' %}
+                  <a href="{{ site.base_url }}/es/otros/piloto/">Piloto</a>
+                  {% endif %}
+                  {% if page.lang == 'ca' %}
+                  <a href="{{ site.base_url }}/altres/piloto/">Piloto</a>
+                  {% endif %}
+                  {% if page.lang == 'en' %}
+                  <a href="{{ site.base_url }}/en/others/piloto/">Piloto</a>
+                  {% endif %}
+      </li>
     </ul>

@@ -30,10 +30,4 @@ El nuevo sector de los embalajes en modelado térmico se ha desarrollado notable
 
 	</div>
 
-	<div class="col-sm-4 col-md-4">
-
-		<p class="text-center"><a href="{{ site.base_url }}/es/maletes/plastico/estancas.html"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-explorer-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-explorer-cases-4820.jpg"><br/>Estancas</a></p>
-
-	</div>
-
 </div>

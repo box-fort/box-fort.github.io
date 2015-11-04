@@ -48,6 +48,9 @@ sitemap:
 195 | 276x188x45 mm. | Caja azuk/transparente con 1-20 separadores móviles
 196 | 276x188x75 mm. | Caja azul/transparente con 1-15 separadores móviles
 197 | 276x188x75 mm. | Caja azul/transparente con 1-9 separadores móviles
+198/20 | 276x186x27 mm. | Caja con separadores móviles
+199/72 | 206x147x27 | Caja con separadores móviles
 200/C | 387x105x40 mm. | Caja de polipropileno transparente
 200/CA | 387x105x40 mm. | Caja de polipropileno transparente con 8 M/P + 8 separadores
 200/L | 310x105x40 mm. | Caja de polipropileno transparente vacia
+396/10 | | Caja con separadores móviles

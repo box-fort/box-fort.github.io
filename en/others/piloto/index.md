@@ -1,9 +1,9 @@
 ---
-layout: maletes
+layout: altres
 lang: en
-slug: maletes
+slug: altres
 box: piloto
-class: maletes-maleta
+class: altres-altre
 title: Piloto
 subtitle: lighter, stronger, higher quality
 keywords: cases, piloto, custom, thermoformed

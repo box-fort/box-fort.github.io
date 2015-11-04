@@ -1,9 +1,9 @@
 ---
-layout: maletes
+layout: altres
 lang: ca
-slug: maletes
+slug: altres
 box: piloto
-class: maletes-maleta
+class: altres-altre
 title: Piloto
 subtitle: més lleugeres, més fortes, més qualitat
 keywords: maletes, piloto, personalitzats, termoconformats, buidats
