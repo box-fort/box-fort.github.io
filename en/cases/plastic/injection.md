@@ -21,28 +21,26 @@ sitemap:
   <a href="#injeccio-wag" class="btn btn-primary"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-icon-wag.jpg"> Wag</a>
 </p>
 
+<hr/>
+
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plastica-panaro.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-60H144-34x30-cm.jpg"></p>
 
 PROCASE|Inner measures
 --- | ---
-170/33|336 x 290 x 84
-170/33+GPB|336 x 290 x 84
 170/34H96|324 x 251 x 87
 170/34H128|320 x 247 x 118,5
 170/34H160|320 x 247 x 150
 170/43H122|406 x 290 x 110
 170/43H156|402 x 287 x 144,5
 170/43H190|402 x 287 x 179
-170/44H114|448 x 364 x 114
-170/44H+GPB|448 x 364 x 114
-170/44H148|448 x 364 x 148
-170/44H148+GPB|448 x 364 x 148
 170/48H132|460 x 325 x 120
 170/48H160|460 x 325 x 145
 170/48H184|460 x 325 x 170
 170/60H144|575 x 355 x 132
 170/60H184|575 x 355 x 172
 170/60H224|575 x 355 x 212
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-d-eines-plastica-panaro-170-44-h-184.jpg"></p>
 
 ADVANCED|Inner measures
 --- | ---
@@ -52,11 +50,19 @@ ADVANCED|Inner measures
 170/26H76|247 x 177 x 71
 170/28|272 x 215 x 73
 170/30N|312 x 250 x 115
+170/33|336 x 290 x 84
+170/33+GPB|336 x 290 x 84
 170/37|363 x 256 x 115
 TC 200|403 x 288 x 86
 170/38N|385 x 260 x 98
 170/39C-105|384 x 294 x 104
+170/44H114|448 x 364 x 114
+170/44H+GPB|448 x 364 x 114
+170/44H148|448 x 364 x 148
+170/44H148+GPB|448 x 364 x 148
 170/51N|510 x 370 x 129
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-36-vermella.jpg"></p>
 
 CLASSIC|Inner measures
 --- | ---
@@ -68,6 +74,8 @@ CLASSIC|Inner measures
 170/40|396 x 286 x 95 		  	 
 170/42|420 x 305 x 105
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-serie-K.jpg"></p>
+
 K SERIES|Inner measures
 --- | ---
 K27|244 x 174 x 41
@@ -75,7 +83,9 @@ K45|320 x 216 x 74
 K06|392 x 266 x 93
 K28|436 x 338 x 103
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-minibag.jpg"></p>
+---
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/03-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-maxibag.jpg"></p>
 
 MAXIBAG|Inner measures
 --- | ---
@@ -106,12 +116,16 @@ MAXIBAG|Inner measures
 3,5-197|524 x 370 x 197
 3,5-232|521 x 370 x 232
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-minibag.jpg"></p>
+
 MINIBAG|Inner measures
 --- | --- 
 1|222 x 145 x 40
 2|258 x 178 x 45
 3|319 x 225 x 49
 4|338 x 229 x 79
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-hofbauer-xtrabag.jpg"></p>
 
 XTRABAG|Inner measures
 --- | ---
@@ -120,6 +134,8 @@ XTRABAG|Inner measures
 300 PP|368 x 290 x  90
 400 ABS|450 x 360 x 132
 500 ABS|546 x 435 x 156
+
+---
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-plaston.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plaston-typ-17.jpg"></p>
 
@@ -135,6 +151,8 @@ TYP146|610 x 410 x 140
 TYP156|610 x 410 x 200
 Polybutler|470 x 350 x 180
 Polyno|350 x 290 x 180
+
+---
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-wag.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-t-2002.jpg"></p>
 
@@ -155,6 +173,8 @@ T 2018|437x295x116
 T 2019|437x295x132
 Standard colors: black, light gray, blue and transparent.|
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-h-4048.jpg"></p>
+
 HEAVY|Inner measures
 --- | ---
 H 4001|275x195x70
@@ -171,6 +191,8 @@ H 4044|528x368x190
 H 4048|528x368x250
 H 4054|622x442x220
 Standard colors: black, dark blue, light gray and anthracite.|
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-jazz-15-72.jpg"></p>
 
 JAZZ|Inner measures
 --- | ---
@@ -191,6 +213,8 @@ J 5033|490X340X130
 J 5034|490X340X150
 Standard colors: black, dark blue, light gray and anthracite.|
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-salsa-7102.jpg"></p>
+
 SALSA|Inner measures
 --- | ---
 S 1430|168X130X26
@@ -204,6 +228,8 @@ S 1850|310X230X46
 S 1870|310X230X66
 Standard colors: black, light gray, dark blue and transparent.|
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-swing-0813.jpg"></p>
+
 SWING|Inner measures
 --- | ---
 SW 3112|93X60X25
@@ -213,6 +239,8 @@ SW 3224|112X88X33
 SW 3436|112X167X38
 SW 3648|112X225X51
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-mambo-8782.jpg"></p>
+
 MAMBO|Inner measures
 --- | ---
 M 946 amb suport per a 19 broques|110x150x32
@@ -220,6 +248,8 @@ M 946 sense suport broques|110x150x32
 M 947 amb suport per a 25 broques|110x175x52
 M 947 sense suport broques|110x175x52
 Standard colors: black, light gray, dark blue and anthracite.|
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-beat-b6692.jpg"></p>
 
 BEAT|Inner measures
 --- | ---
