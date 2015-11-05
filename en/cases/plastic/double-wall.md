@@ -14,7 +14,7 @@ sitemap:
   changefreq: monthly
 --- 
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-quantum.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-logo-hofbauer.jpg"><br/><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-citbag.jpg"></p>
 
 CITBAG|Inner measures
 --- | --- 
@@ -33,6 +33,8 @@ KS 1045|495 x 359 x 155
 KS 1047|494 x 358 x 179 	
 KS 1065|545 x 413 x 145
 
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-quantum.jpg"></p>
+
 QUANTUM|Inner measures
 --- | ---
 T 1000|400 x 280 x 70
@@ -44,13 +46,15 @@ T 2200|455 x 320 x 170
 T 3000|492 x 339 x 121
 T 3100|492 x 339 x 161
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1030-ak.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1000-dh.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1030-ak.jpg"></p>
 
 DIMENSION|Inner measures
 --- | --- 
 1030 AK|435 x 320 x 110
 1030|435 x 320 x 110
 1032|435 x 320 x 144
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-doble-paret-hofbauer-1000-dh.jpg"></p>
 
 MEGABAG|Inner measures
 --- | ---
