@@ -1,6 +1,7 @@
 ---
 comments: true
 date: 2013-12-10 11:48:19
+lang: ca
 layout: blog
 slug: polybutler-polyno-maletes-hobby
 title: Polybutler i Polyno, maletes hobby
