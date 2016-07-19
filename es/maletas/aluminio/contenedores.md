@@ -4,11 +4,11 @@ lang: es
 slug: maletes
 box: contenidors
 class: maletes-maleta
-title: Maletes de aluminio
+title: Maletas de aluminio
 subtitle: contenedores
 keywords: maletas, contenedores, aluminio, embalajes, seguros, ligeros
 featured-img-url:
-icon-url: 
+icon-url:
 sitemap:
   priority: 0.7
   changefreq: monthly
@@ -18,7 +18,7 @@ sitemap:
 
 La máxima protección para cada aplicación. Las cajas en aluminio son embalajes seguros y ligeros para el transporte. Permiten guardar los objetos de forma bien ordenada y segura.
 
-Referencia|Medidas anteriores
+Referencia|Medidas interiores
 --- | ---
 20029|400 x 300 x 245
 20042|500 x 350 x 245
@@ -36,7 +36,7 @@ Referencia|Medidas anteriores
 30076|560 x 353 x 380
 30086|750 x 350 x 350
 
-Referencia|Medidas anteriores
+Referencia|Medidas interiores
 --- | ---
 30140|870 x 460 x 350
 40028|352 x 255 x 245
@@ -49,7 +49,7 @@ Referencia|Medidas anteriores
 31072|605 x 405 x 290
 
 33000|Set
---- | ---	
+--- | ---
 33058|550 x 360 x 300
 33086|620 x 420 x 330
 33118|680 x 480 x 360

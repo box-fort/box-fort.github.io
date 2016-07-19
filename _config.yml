@@ -1,7 +1,7 @@
 name:             'Box Fort'
 url:              'http://www.box-fort.com'
-markdown:         rdiscount
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 baseurl:
 permalink:        /:title
