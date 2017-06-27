@@ -25,14 +25,24 @@ Referencia|Medidas interiores
 2712.BE|276 x 200 x 120
 2717.BE|276 x 200 x 170
 3317.BE|330 x 234 x 170
+3317.W.BE|330 x 350 x 170
 3818.BE|380 x 270 x 180
+3816.BE|368 x 254 x 160
 4412.BE|440 x 345 x 125
 4419.BE|440 x 345 x 190
 4820.BE|480 x 370 x 205
 5117.BE|517 x 277 x 173
 *5122.BE|517 x 277 x 217
+5140.BKT02.AH|581 x 381 x 455 (con cajones vacíos)
+5140.BKT01.AH|581 x 381 x 455 (con cajones con espuma troquelada)
+5140.BKTE.AH|581 x 381 x 455 (preparada para cajones)
+5140.BE.AH|581 x 381 x 455 (totalmente vacía)
+5325.BE|538 x 405 x 250
+5326.BE|538 x 405 x 250 (con trolley)
 5822.BE|580 x 440 x 220
-3317.W.BE|330 x 350 x 170
+7726.BE|770 x 580 x 265
+7745.BE|770 x 580 x 450
+10826.BE|1080 x 620 x 260
 
 Referencia|Medidas interiores
 --- | ---
