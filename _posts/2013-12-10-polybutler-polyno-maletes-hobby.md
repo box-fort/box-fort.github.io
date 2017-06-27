@@ -14,7 +14,7 @@ author: box-fort
 keywords: box-fort, polybutler, polyno, maletes, hobby, organitzador, estàndard, universal
 ---
 
-##Polybutler i Polyno, maletes hobby
+## Polybutler i Polyno, maletes hobby
 
 
 **POLYBUTLER la maleta per a tot i per a tothom. Polybutler està fabricada en plàstic ABS altament resistent als impactes, canvis de temperatura i humitat, el que la converteix en una maleta de gran durabilitat. Polybutler amb el seu interior de calaixos extraïbles és ideal per a l'emmagatzematge d'eines i petites peces.**
@@ -25,7 +25,7 @@ keywords: box-fort, polybutler, polyno, maletes, hobby, organitzador, estàndard
 
 ------
 
-##*Polybutler y Polyno, maletas hobby*
+## *Polybutler y Polyno, maletas hobby*
 
 *POLYBUTLER la maleta para todo y para todos. Polybutler esta fabricada en plástico ABS altamente resistente a los impactos, cambios de temperatura y humedad, lo que la convierte en una maleta de gran durabilidad. Polybutler con su interior de cajones extraíbles es ideal para el almacenamiento de herramientas y pequeñas piezas.*
 
