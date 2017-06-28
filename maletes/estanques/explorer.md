@@ -40,22 +40,17 @@ Referencia|Mides interiors
 5325.BE|538 x 405 x 250
 5326.BE|538 x 405 x 250 (amb trolley)
 5822.BE|580 x 440 x 220
-7726.BE|770 x 580 x 265
-7745.BE|770 x 580 x 450
-10826.BE|1080 x 620 x 260
-
-
-
-Referencia|Mides interiors
---- | ---
 *5823.BE|580 x 440 x 220
 *5833.BE|580 x 440 x 330
 *7630.BE|765 x 485 x 305
 *7641.BE|765 x 485 x 415
+7726.BE|770 x 580 x 265
+7745.BE|770 x 580 x 450
 *9413.BE|939 x 352 x 137
 *11413.BE|1136 x 350 x 135
 *13513.BE|1350 x 350 x 135
 *13527.BE|1350 x 350 x 272
+10826.BE|1080 x 620 x 260
 *10840.BE|1080 x 620 x 400
 **11413.BE DL|1136 x 350 x 135
 **13513.BE DL|1350 x 350 x 135
@@ -63,6 +58,6 @@ Referencia|Mides interiors
 GUNCASE.BE|925 x 420 x 120
 MUB.78|780 x 410 x 330
 
-* Con ruedas. ** Con ruedas y 2 cierres digitales.
+* Amb rodes. ** Amb rodes i 2 tancaments digitals.
 
-Colores: negro, naranja y verde. Medidas en mm
+Colors: negre, taronja i verd. Mides en mm

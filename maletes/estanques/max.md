@@ -16,7 +16,7 @@ sitemap:
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-logo-max-cases.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-estanques-max-cases.jpg"></p>
 
-Referencia|Mides interiors
+Referència|Mides interiors
 --- | ---
 MAX001|157 x 82 x 41
 MAX001S Pick'n'Pluck|157 x 82 x 41
@@ -54,13 +54,16 @@ MAX505TR TROLLEY|500 x 350 x 194
 MAX505STR Pick 'n' Pluck|500 x 350 x 194
 MAX505CAMTR|500 x 350 x 194
 MAX505PUTR|500 x 350 x 194
+MAX505H280|500 x 350 x 280
+MAX505H280TR Trolley|500 x 350 x 280
+MAX505H280S Pick 'n' Pluck|500 x 350 x 280
 MAX520|520 x 290 x 200
 MAX520S Pick 'n' Pluck|520 x 290 x 200
-MAX520TR TROLLEY|520 x 290 x 200
+MAX520TR Trolley|520 x 290 x 200
 MAX520STR Pick 'n' Pluck|520 x 290 x 200
 MAX540H190|538 x 405 x 190
 MAX540H190S Pick 'n' Pluck|538 x 405 x 190
-MAX540H190TR TROLLEY|538 x 405 x 190
+MAX540H190TR Trolley|538 x 405 x 190
 MAX540H190STR Pick 'n' Pluck|538 x 405 x 190
 MAX540H245|538 x 405 x 245
 MAX540H245S Pick 'n' Pluck|538 x 405 x 245
