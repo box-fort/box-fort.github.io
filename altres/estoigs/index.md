@@ -17,15 +17,15 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-101-perline.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-180-43-blau.jpg"></p>
  
- Article| Mides | Descripció | 
+ Article| Mides interiors | Descripció | 
 --- | --- |
-101/ATN | 165x112x31 mm. | Caixa amb 6 compartiments transparent
-101/BTN | 165x112x31 mm. | Caixa amb 5 compartiments transparent
-101/CTN | 165x112x31 mm. | Caixa amb 15 compartiments transparent
-101/DTN | 165x112x31 mm. | Caixa amb 3 compartiments transparent
-101/ETN | 165x112x31 mm. | Caixa amb 13 compartiments transparent
-101/FTN | 165x112x31 mm. | Caixa amb 10 compartiments transparent
-101/VTN | 165x112x31 mm. | Caixa buida transparent
+101/ATN | 159x97x28 mm. | Caixa amb 6 compartiments transparent
+101/BTN | 159x97x28 mm. | Caixa amb 5 compartiments transparent
+101/CTN | 159x97x28 mm. | Caixa amb 15 compartiments transparent
+101/DTN | 159x97x28 mm. | Caixa amb 3 compartiments transparent
+101/ETN | 159x97x28 mm. | Caixa amb 13 compartiments transparent
+101/FTN | 159x97x28 mm. | Caixa amb 10 compartiments transparent
+101/VTN | 159x97x28 mm. | Caixa buida transparent
 102/VT | 84x58x19 mm. | Caixa buida transparent
 102/4T | 84x58x19 mm. | Caixa amb 4 compartiments transparent.
 102/6T | 84x58x19 mm. | Caixa amb 6 compartiments transparent
@@ -50,7 +50,7 @@ sitemap:
 197 | 276x188x75 mm. | Caixa blau/transparent amb 1-9 separadors mòbils
 198/20 | 276x186x27 mm. | Caixa amb separadors mòbils
 199/72 | 206x147x27 | Caixa amb separadors mòbils
-200/C | 387x105x40 mm. | Caixa de polipropilè transparent
-200/CA | 387x105x40 mm. | Caixa de polipropilè transparent amb 8 M/P + 8 separadors
-200/L | 310x105x40 mm. | Caixa de polipropilè transparent buida
-396/10 | | Caixa amb separadors mòbils
+200/C | 310x100x40 mm. | Caixa de polipropilè transparent
+200/CA | 310x100x40 mm. | Caixa de polipropilè transparent amb 8 M/P + 8 separadors
+200/L | 310x100x40 mm. | Caixa de polipropilè transparent buida
+396/10 | 276x186x59 mm. | Caixa amb separadors mòbils

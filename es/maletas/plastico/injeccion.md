@@ -45,34 +45,29 @@ PROCASE|Medidas interiores
 ADVANCED|Medidas interiores
 --- | ---
 170/25|235 x 185 x 43
-170/26H44|248 x 178 x 39
-170/26H60|247 x 177 x 55
-170/26H76|247 x 177 x 71
-170/28|272 x 215 x 73
-170/30N|312 x 250 x 115
-170/33|336 x 290 x 84
-170/33+GPB|336 x 290 x 84
-170/37|363 x 256 x 115
-TC 200|403 x 288 x 86
-170/38N|385 x 260 x 98
-170/39C-105|384 x 294 x 104
-170/44H114|448 x 364 x 114
-170/44H+GPB|448 x 364 x 114
-170/44H148|448 x 364 x 148
-170/44H148+GPB|448 x 364 x 148
-170/51N|510 x 370 x 129
+170/26H44|248 x 160 x 39
+170/26H60|247 x 159 x 55
+170/26H76|247 x 159 x 71
+170/28|272 x 190 x 73
+170/30N|312 x 225 x 115
+170/33|336 x 228 x 84
+170/37|363 x 244 x 115
+170/38N|385 x 235 x 98
+170/39C-105|384 x 238 x 104
+170/44H114|434 x 297 x 108
+170/44H148|434 x 297 x 142
+170/51N|510 x 335 x 129
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-170-36-vermella.jpg"></p>
 
 CLASSIC|Medidas interiores
 --- | ---
-170/16|155 x 115 x 34
-170/24P|233 x 173 x 42
-170/24PH75|233 x 173 x 72
-170/31|314 x 232 x 57
-170/36|360 x 268 x 73
-170/40|396 x 286 x 95 |  	 
-170/42|420 x 305 x 105
+170/16|155 x 108 x 34
+170/24P|233 x 161 x 42
+170/24PH75|233 x 161 x 72
+170/31|314 x 218 x 57
+170/36|360 x 255 x 73
+170/40|396 x 268 x 95
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/02-thumbnail-box-fort-maletes-plastic-injeccio-plastica-panaro-serie-K.jpg"></p>
 
@@ -189,7 +184,7 @@ H 4036|465x325x210
 H 4040|528x368x130
 H 4044|528x368x190
 H 4048|528x368x250
-H 4054|622x442x220
+H 4054|612x435x220
 Colores standard: negro, azul oscuro, gris claro y antracita.|
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-jazz-15-72.jpg"></p>

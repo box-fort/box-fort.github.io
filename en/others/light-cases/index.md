@@ -17,15 +17,15 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-101-perline.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-180-43-blau.jpg"></p>
  
- Item| Measures | Description | 
+ Item| Inner measures | Description | 
 --- | --- |
-101/ATN | 165x112x31 mm. | Transparent box with 6 compartments
-101/BTN | 165x112x31 mm. | Transparent box with 5 compartments
-101/CTN | 165x112x31 mm. | Transparent box with 15 compartments
-101/DTN | 165x112x31 mm. | Transparent box with 3 compartments
-101/ETN | 165x112x31 mm. | Transparent box with 13 compartments
-101/FTN | 165x112x31 mm. | Transparent box with 10 compartments
-101/VTN | 165x112x31 mm. | Transparent empty box
+101/ATN | 159x97x28 mm. | Transparent box with 6 compartments
+101/BTN | 159x97x28 mm. | Transparent box with 5 compartments
+101/CTN | 159x97x28 mm. | Transparent box with 15 compartments
+101/DTN | 159x97x28 mm. | Transparent box with 3 compartments
+101/ETN | 159x97x28 mm. | Transparent box with 13 compartments
+101/FTN | 159x97x28 mm. | Transparent box with 10 compartments
+101/VTN | 159x97x28 mm. | Transparent empty box
 102/VT | 84x58x19 mm. | Transparent empty box
 102/4T | 84x58x19 mm. | Transparent box with 4 compartments
 102/6T | 84x58x19 mm. | Transparent box with 6 compartments
@@ -50,7 +50,7 @@ sitemap:
 197 | 276x188x75 mm. | Blue/transparent box with 1-9 movable dividers
 198/20 | 276x186x27 mm. | Case with movable dividers
 199/72 | 206x147x27 | Case with movable dividers
-200/C | 387x105x40 mm. | Transparent polypropylene box
-200/CA | 387x105x40 mm. | Transparent Polypropylene box with 8 MP + 8 dividers
-200/L | 310x105x40 mm. | Empty transparent polypropylene box
-396/10 | | Case with movable dividers
+200/C | 310x100x40 mm. | Transparent polypropylene box
+200/CA | 310x100x40 mm. | Transparent Polypropylene box with 8 MP + 8 dividers
+200/L | 310x100x40 mm. | Empty transparent polypropylene box
+396/10 | 276x186x59 mm. | Case with movable dividers

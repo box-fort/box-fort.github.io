@@ -17,15 +17,15 @@ sitemap:
  	
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-101-perline.jpg"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-altres-estoigs-180-43-blau.jpg"></p>
  
- Artículo| Medidas | Descripción | 
+ Artículo| Medidas interiores | Descripción | 
 --- | --- |
-101/ATN | 165x112x31 mm. | Caja con 6 compartimentos transparente
-101/BTN | 165x112x31 mm. | Caja con 5 compartimentos transparente
-101/CTN | 165x112x31 mm. | Caja con 15 compartimentos transparente
-101/DTN | 165x112x31 mm. | Caja con 3 compartimentos transparente
-101/ETN | 165x112x31 mm. | Caja con 13 compartimentos transparente
-101/FTN | 165x112x31 mm. | Caja con 10 compartimentos transparente
-101/VTN | 165x112x31 mm. | Caja vacia transparente
+101/ATN | 159x97x28 mm. | Caja con 6 compartimentos transparente
+101/BTN | 159x97x28 mm. | Caja con 5 compartimentos transparente
+101/CTN | 159x97x28 mm. | Caja con 15 compartimentos transparente
+101/DTN | 159x97x28 mm. | Caja con 3 compartimentos transparente
+101/ETN | 159x97x28 mm. | Caja con 13 compartimentos transparente
+101/FTN | 159x97x28 mm. | Caja con 10 compartimentos transparente
+101/VTN | 159x97x28 mm. | Caja vacia transparente
 102/VT | 84x58x19 mm. | Caja vacia transparente
 102/4T | 84x58x19 mm. | Caja con 4 compartimentos transparente.
 102/6T | 84x58x19 mm. | Caja con 6 compartimentos transparente
@@ -50,7 +50,7 @@ sitemap:
 197 | 276x188x75 mm. | Caja azul/transparente con 1-9 separadores móviles
 198/20 | 276x186x27 mm. | Caja con separadores móviles
 199/72 | 206x147x27 | Caja con separadores móviles
-200/C | 387x105x40 mm. | Caja de polipropileno transparente
-200/CA | 387x105x40 mm. | Caja de polipropileno transparente con 8 M/P + 8 separadores
-200/L | 310x105x40 mm. | Caja de polipropileno transparente vacia
-396/10 | | Caja con separadores móviles
+200/C | 310x100x40 mm. | Caja de polipropileno transparente
+200/CA | 310x100x40 mm. | Caja de polipropileno transparente con 8 M/P + 8 separadores
+200/L | 310x100x40 mm. | Caja de polipropileno transparente vacia
+396/10 | 276x186x59 mm. | Caja con separadores móviles
