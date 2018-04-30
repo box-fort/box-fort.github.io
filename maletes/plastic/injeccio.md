@@ -208,21 +208,6 @@ J 5033|490X340X130
 J 5034|490X340X150
 Colors standard: negre, blau fosc, gris clar i antracita.|
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-salsa-7102.jpg"></p>
-
-SALSA|Mides interiors
---- | ---
-S 1430|168X130X26
-S 1440|168X130X36
-S 1450|168X130X46
-S 1630|234X168X26
-S 1650|234X168X46
-S 1670|234X168X66
-S 1830|310X230X26
-S 1850|310X230X46
-S 1870|310X230X66
-Colors standard: negre, gris clar, blau fosc i transparent.|
-
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-swing-0813.jpg"></p>
 
 SWING|Mides interiors
