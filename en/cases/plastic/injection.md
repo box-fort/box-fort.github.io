@@ -217,7 +217,7 @@ SW 3114|93X60X29
 SW 3116|93X60X33
 SW 3224|112X88X33
 SW 3436|112X167X38
-SW 3648|112X225X51
+SW 3920|226X313X15
 
 <p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-mambo-8782.jpg"></p>
 
@@ -265,3 +265,23 @@ B 6631|150X325X25
 B 6632|150X325X50
 B 6633|150X325X75
 Standard colors: black, dark blue and transparent.|
+
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-plastic-injeccio-wag-twist-9322.jpg"></p>
+
+TWIST|Inner measures
+--- | ---
+TWIST 9222 / A5|223x140x41
+TWIST 9224 / A5|223x140x61 (20,5/40,5)
+TWIST 9226 / A5|223x140x81
+TWIST 9272 / A5|272x189x51
+TWIST 9274 / A5|272x189x76 (25,5/50,5)
+TWIST 9276 / A5|272x189x101
+TWIST 9322 / A4|321x215x61
+TWIST 9324 / A4|321x215x91 (30,5/60,5)
+TWIST 9326 / A4|321x215x121
+TWIST 9372 / A4|370x231x91
+TWIST 9374 / A4|370x231x121 (45,5/75,5)
+TWIST 9376 / A4|370x231x151
+TWIST 9472 / A3|470x320x100
+TWIST 9474 / A3|470x320x141 (50/91)
+TWIST 9476 / A3|470x320x182
