@@ -753,6 +753,9 @@ th {
     padding: 8px;
     vertical-align: top;
 }
+.nav.nav-pills.nav-stacked, .row small {
+  text-transform: uppercase;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* - CSS Animations
