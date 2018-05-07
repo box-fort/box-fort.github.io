@@ -18,18 +18,18 @@ sitemap:
 
 PARAT|Mides interiors	
 --- | ---
-CARGO|
+**CARGO**|
 CARGO-King Size|470 x 210 x 
 CLASSIC - Benjamín|460 x 190 x 310
 CLASSIC King Size|470 x 210 x 360
-SILVER|
+**SILVER**|
 SILVER|465 x 170 x 310
-TOP-LINE|
+**TOP-LINE**|
 TOP-LINE/ PARALOCK|230 x 140 x 300
-BASIC|
+**BASIC**|
 BOSSA Enrotllable|750 x – x 330
 Motxilla Eines|320 x 170 x 425
-PARADOC|
+**PARADOC**|
 TRONX M. Pilot|435 x 210 x 315
 M. PILOT|425 x 180 x 335
 
