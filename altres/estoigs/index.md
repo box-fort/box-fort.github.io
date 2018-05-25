@@ -4,7 +4,7 @@ lang: ca
 slug: altres
 box: estoigs
 class: altres-altre
-title: Estoigs
+title: Estotjos
 subtitle:
 keywords: estoigs, caixes, compartiments, transparent, polipropilè
 featured-img-url:
