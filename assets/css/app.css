@@ -706,6 +706,7 @@ width: 90px!important;
 .maletes-maleta table thead:first-child tr:first-child td,
 .altres-altre table thead:first-child tr:first-child td {
     border-top: 0 none;
+    font-size: 16px;
 }
 .maletes-maleta table thead > tr > th,
 .altres-altre table thead > tr > th {

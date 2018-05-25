@@ -14,7 +14,7 @@ sitemap:
   changefreq: monthly
 ---
 
-Como toda la gama ** Boxfort **, las nuevas maletas standar salen reforzadas con el nuevo sistema de cantonera integrada al ángulo en chaflán. Las cantoneras de plástico inyectado de gran calidad, se integran con el perfil de la maleta evitando zonas vacías que puedan engancharse en superficies irregulares. Los perfiles con chaflán le dan más resistencia gracias al doble nervio interior. Los interiores, se sirven en neutro (PVC), equipadas para herramientas, o personalizadas para cada utilidad.
+Como toda la gama ** Boxfort **, las nuevas maletas estándar salen reforzadas con el nuevo sistema de cantonera integrada al ángulo en chaflán. Las cantoneras de plástico inyectado de gran calidad, se integran con el perfil de la maleta evitando zonas vacías que puedan engancharse en superficies irregulares. Los perfiles con chaflán le dan más resistencia gracias al doble nervio interior. Los interiores, se sirven en neutro (PVC), equipadas para herramientas, o personalizadas para cada utilidad.
 
 Trolley con diferentes opciones de rueda, integrada o de superficie de 40 mm. 80 mm. y 125 mm. para dar más estabilidad y mejor funcionamiento.
 Prácticamente todas las maletas Boxfort, pueden incorporar compartimentos para accesorios, porta documentos, paneles portaherramientas, espumas pre troqueladas, etc. Disponemos de diferentes materiales para la fabricación. Sirvan de ejemplo las imágenes que mostramos.

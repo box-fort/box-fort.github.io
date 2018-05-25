@@ -14,12 +14,12 @@ sitemap:
   changefreq: monthly
 ---
 
-Com a tota la gama **Boxfort**, les noves maletes standar surten reforçades amb el nou sistema de cantonera integrada a l'angle en xamfrà. Les cantoneres de plàstic injectat de gran qualitat, s'integren amb el perfil de la maleta evitant zones buides que puguin enganxar-se en superfícies irregulars. Els perfils amb xamfrà li donen més resistència gracies al doble nervi interior. Els interiors, se serveixen en neutre (PVC), equipades per a eines, o personalitzades per a cada utilitat.
+Com a tota la gama **Boxfort**, les noves maletes estàndard surten reforçades amb el nou sistema de cantonera integrada a l'angle en xamfrà. Les cantoneres de plàstic injectat de gran qualitat, s'integren amb el perfil de la maleta evitant zones buides que puguin enganxar-se en superfícies irregulars. Els perfils amb xamfrà li donen més resistència gracies al doble nervi interior. Els interiors, se serveixen en neutre (PVC), equipades per a eines, o personalitzades per a cada utilitat.
 
 Trolley amb diferents opcions de roda, integrada o de superfície de 40 mm. 80 mm. i 125 mm. per donar més estabilitat i millor funcionament.
 Pràcticament totes les maletes Boxfort, poden incorporar compartiments per a accessoris, porta documents, plafons porta eines, escumes pre troquelades, etc. Disposem de diferents materials per la fabricació. Serveixin d'exemple les imatges que mostrem. 
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-ma-75.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-ma-75.jpg"><br/>Maleta estàndard</p>
 
 Referencia | Mides interiors
 --- | ---
@@ -36,7 +36,7 @@ M 500*	| 500 x 360 x 170
 M 600*	| 600 x 400 x 200
 M 700*	| 700 x 500 x 250
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-b-1.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-b-1.jpg"><br/>Baguls</p>
 
 Referencia | Mides interiors
 --- | ---
@@ -55,13 +55,13 @@ B-6	| 650 x 400 x 400
 B6CR125	| 650 x 400 x 400
 B6CR40	| 650 x 400 x 400
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-mb-3-c.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-mb-3-c.jpg"><br/>Bagul 3 cossos</p>
 
 Referencia | Mides interiors
 --- | ---
 MB 3C | 340 x 230 x 560 (bagul 3 cossos)
 
-<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-fc-1000.jpg"></p>
+<p class="text-center"><img src="{{ site.base_url }}/assets/img/01-thumbnail-box-fort-maletes-alumini-standard-fc-1000.jpg"><br/>Baguls reforçats</p>
 
 Referencia | Mides interiors
 --- | ---
