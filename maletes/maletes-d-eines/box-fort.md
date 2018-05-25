@@ -5,7 +5,7 @@ slug: maletes
 box: box-fort
 class: maletes-maleta
 title: Maletes d'eines
-subtitle: Box Fort
+subtitle: BOXFORT
 keywords: maletes, eines, box fort
 featured-img-url:
 icon-url: 

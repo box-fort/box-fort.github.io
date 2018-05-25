@@ -1,4 +1,4 @@
-name:             'Box Fort'
+name:             'BOXFORT'
 url:              'http://www.box-fort.com'
 markdown:         kramdown
 highlighter:      rouge
@@ -8,8 +8,8 @@ permalink:        /:title
 
 authors:
  box-fort:
-  name: Box Fort
-  display_name: Box Fort
+  name: BOXFORT
+  display_name: BOXFORT
   email: bustia@box-fort.com
   web: http://www.box-fort.com/
 

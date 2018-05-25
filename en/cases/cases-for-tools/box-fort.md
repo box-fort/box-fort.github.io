@@ -5,7 +5,7 @@ slug: maletes
 box: box-fort
 class: maletes-maleta
 title: Cases for tools
-subtitle: Box Fort
+subtitle: BOXFORT
 keywords: cases, tools, box fort
 featured-img-url:
 icon-url: 
