@@ -359,6 +359,7 @@ h1,h2,h3,.navbar-default .navbar-nav > li > a {
 .navbar-header > p.lang  {
   position: absolute;
   top: 0;
+  text-transform: uppercase;
 }
 p.lang > small > a.active {
   font-weight: bold;
