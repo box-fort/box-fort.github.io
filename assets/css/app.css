@@ -354,6 +354,7 @@ h1,h2,h3,.navbar-default .navbar-nav > li > a {
   /*font-family:'SteelfishRgRegular', serif;*/
   color:rgb(8,100,182);
   text-transform: uppercase;
+  font-weight: 900;
 }
 .navbar-header > p.lang  {
   position: absolute;
@@ -362,6 +363,7 @@ h1,h2,h3,.navbar-default .navbar-nav > li > a {
 p.lang > small > a.active {
   font-weight: bold;
   cursor: default;
+  text-transform: uppercase;
 }
 .navbar-header > p.lang > small > a.active {
   color: #333333;
@@ -911,7 +913,7 @@ th {
 header[role="banner"] div.navbar {
   padding-top: 25px;
   height: 162px;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 main[role="main"] {
   margin-top: 109px;
@@ -961,6 +963,9 @@ body.bx-altres.altres-altre aside[role="complementary"].content-one-third {
   float:right;
   position: fixed;
   margin: 0;
+}
+.jumbotron h1 {
+  font-size: 53px;
 }
 }
 
